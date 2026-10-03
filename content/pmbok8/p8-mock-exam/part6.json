@@ -1,0 +1,134 @@
+[
+  {
+    "q": "A project manager is leading a project to open a new branch office. Halfway through, the company announces a merger and the project's priority is uncertain. What should the project manager do?",
+    "o": ["Seek guidance from the sponsor and governance body on the project's priority and continue managing risks", "Stop all work until the merger is complete", "Accelerate the project to finish before the merger", "Continue as if nothing changed"],
+    "e": "Major organizational changes can affect project justification. The project manager should seek governance direction while continuing to manage the project responsibly.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "A team member suggests that the project should use a public AI chatbot to analyze proprietary design documents. What should the project manager do FIRST?",
+    "o": ["Check organizational policies on data security and approved AI tools", "Approve it because it will save time", "Ban all AI use on the project", "Ask the team to vote"],
+    "e": "Before using AI with proprietary information, the project manager must ensure compliance with data security policies and use approved tools.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Hybrid", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A project's risk register lists a threat with a high probability and high impact. The response plan assigns a mitigation action to a team member who has since left the project. What should the project manager do?",
+    "o": ["Assign a new risk owner and confirm that the response is still appropriate", "Leave the risk unassigned until it occurs", "Remove the risk from the register", "Take ownership of every risk personally"],
+    "e": "Every risk response needs an active owner. The project manager should reassign ownership and review the response's validity.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "A stakeholder engagement assessment shows that several department heads are 'unaware' of the project, which will affect their processes next quarter. What should the project manager do?",
+    "o": ["Plan targeted communication to raise awareness and understand their needs", "Wait until the change is implemented", "Ask the sponsor to inform them in a single email", "Remove them from the stakeholder register"],
+    "e": "Unaware stakeholders who will be affected need to be informed early so they can prepare and contribute; engagement actions should move them to at least neutral or supportive.",
+    "eco": "People", "task": "I.4", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "The project manager notices that the team's cycle time has been increasing over the last month. What should the project manager do FIRST?",
+    "o": ["Analyze the workflow with the team to identify bottlenecks", "Add more team members", "Increase WIP limits", "Ask the team to work longer hours"],
+    "e": "Rising cycle time signals flow problems. Analysis (e.g., cumulative flow diagram) with the team helps identify bottlenecks before deciding on actions.",
+    "eco": "Process", "task": "II.9", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "A project is required to use a specific vendor because of a corporate agreement. The vendor's quality has been poor on other projects. What should the project manager do?",
+    "o": ["Plan additional quality controls and risk responses, and document concerns with procurement", "Refuse to use the vendor", "Use another vendor without approval", "Accept poor quality as unavoidable"],
+    "e": "Within constraints, the project manager manages risk by planning controls (inspections, acceptance criteria, contract terms) and communicating concerns through appropriate channels.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A hybrid project team says that the predictive part of the plan is constantly out of date because adaptive work changes the integration points. What should the project manager do?",
+    "o": ["Use rolling wave planning for the predictive part and synchronize plans at regular integration points", "Freeze the adaptive work to stabilize the plan", "Abandon the predictive plan entirely", "Update the plan only at the end of the project"],
+    "e": "Rolling wave planning and regular synchronization help keep predictive plans aligned with adaptive progress in hybrid projects.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid", "dom": "Schedule"
+  },
+  {
+    "q": "A team member keeps interrupting others during meetings, and the team is frustrated. What should the project manager do?",
+    "o": ["Give private, direct feedback about the behavior and its impact, and refer to the team's working agreements", "Ignore the behavior", "Exclude the team member from meetings", "Ask the team to confront the member in the next meeting"],
+    "e": "Private, specific feedback with reference to agreed norms is an effective and respectful way to address disruptive behavior.",
+    "eco": "People", "task": "I.2", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "The project is ahead of schedule, and the team has completed all planned features early. The customer asks for additional features at no cost. What should the project manager do?",
+    "o": ["Treat the request as a change, evaluating its impact and agreeing on terms", "Add the features at no cost to maintain goodwill", "Reject the request without discussion", "Let the team decide"],
+    "e": "Additional features are a scope change requiring evaluation and agreement on cost and schedule implications, per the contract and change process.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A newly appointed product owner wants to change the release goal significantly after two sprints. What should the project manager do?",
+    "o": ["Facilitate a discussion with the product owner, team and key stakeholders on the new goal's rationale and impacts", "Ignore the request because the release goal was set", "Accept the change without telling stakeholders", "Ask the sponsor to replace the product owner"],
+    "e": "Changes to release goals affect stakeholders and plans. Facilitating alignment ensures transparency and shared understanding.",
+    "eco": "People", "task": "I.5", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager is defining acceptance criteria for a building project. Who should be involved?",
+    "o": ["The customer and key stakeholders, together with the project team", "Only the project team", "Only the sponsor", "Only the contractor"],
+    "e": "Acceptance criteria should be agreed with the customer and stakeholders who will accept the deliverables, supported by the team's expertise.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A project team is co-located, but the client is remote and in a different time zone. Client feedback is slow and often arrives after decisions are made. What should the project manager do?",
+    "o": ["Agree with the client on a feedback cadence and channels, and schedule key reviews at overlapping hours", "Make decisions without client feedback", "Require the client to travel to the team's site", "Send all documents by email and wait"],
+    "e": "Explicit agreements on cadence, channels and timing help remote stakeholders participate effectively.",
+    "eco": "People", "task": "I.8", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "The project manager is asked to report the project's percent complete. Some work packages have started but are not finished. Which approach gives the MOST conservative measure?",
+    "o": ["The 0/100 rule, counting work only when complete", "The 50/50 rule", "Subjective team estimates", "Percent of budget spent"],
+    "e": "Under the 0/100 rule, no credit is earned until the work is finished, which is the most conservative method. Percent of budget spent is not a measure of progress.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "A project's sponsor wants to know the expected financial value of a decision between two vendors. Vendor A costs 200,000 with a 10% chance of 100,000 in rework. Vendor B costs 230,000 with a 2% chance of 50,000 in rework. Which vendor has the lower expected cost?",
+    "o": ["Vendor A, with an expected cost of 210,000", "Vendor B, with an expected cost of 231,000", "Both have the same expected cost", "Vendor B, with an expected cost of 210,000"],
+    "e": "Vendor A: 200,000 + 0.10 × 100,000 = 210,000. Vendor B: 230,000 + 0.02 × 50,000 = 231,000. Vendor A has the lower expected cost.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "A project team has strong technical skills but frequently misses dependencies with other teams. What should the project manager do?",
+    "o": ["Establish regular coordination with other teams and visualize dependencies", "Ask the team to work independently of other teams", "Escalate every dependency to the sponsor", "Add buffer to every activity"],
+    "e": "Dependency management through coordination meetings and shared visualization helps teams anticipate and address dependencies.",
+    "eco": "Process", "task": "II.8", "ap": "Hybrid", "dom": "Schedule"
+  },
+  {
+    "q": "The project manager notices that the team is reluctant to report bad news. What is the MOST likely cause, and what should be done?",
+    "o": ["A lack of psychological safety; the project manager should respond constructively to bad news and model openness", "Team members are lazy; impose penalties", "The reporting tool is complicated; buy a new tool", "Team members lack skills; send them to training"],
+    "e": "Fear of blame discourages transparency. Leaders build psychological safety by responding constructively and modeling openness.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "A project manager is closing a project. Some deliverables were accepted with minor open defects that the operations team agreed to fix. What should the project manager do?",
+    "o": ["Document the open items and transfer them formally to operations as part of handover", "Delay closure until all defects are fixed", "Ignore the open defects", "Fix the defects after closure without documentation"],
+    "e": "Formal handover includes documenting known issues and agreed ownership, ensuring transparency and continuity.",
+    "eco": "Process", "task": "II.10", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "The organization wants to adopt agile practices across its project portfolio. Several project managers are resistant. What should the change leader do FIRST?",
+    "o": ["Understand their concerns and involve them in designing the transition", "Mandate the change and set a deadline", "Replace resistant project managers", "Delay the transition indefinitely"],
+    "e": "Successful organizational change involves understanding resistance and involving people, building ownership of the new ways of working.",
+    "eco": "Business Environment", "task": "III.7", "ap": "Agile", "dom": "Governance"
+  },
+  {
+    "q": "The project manager is developing the project budget and needs to ensure that expenditures do not exceed the funding available each quarter. What should be done?",
+    "o": ["Reconcile the cost baseline with funding limits and adjust the schedule if needed", "Ignore funding limits since the total budget is approved", "Request additional funds for every quarter", "Spend the full budget early to reduce risk"],
+    "e": "Funding limit reconciliation aligns planned expenditures with funding constraints, which may require rescheduling work.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "During a sprint, the team discovers a critical security vulnerability in production. What should happen?",
+    "o": ["The team and product owner decide how to address it immediately, potentially adjusting the sprint", "Wait until the next sprint planning", "Ignore it until the end of the release", "Escalate it to the CCB and wait for approval"],
+    "e": "Critical issues may require immediate action. The product owner and team collaborate to adjust work, potentially changing the sprint scope, to address urgent risks.",
+    "eco": "Business Environment", "task": "III.4", "ap": "Agile", "dom": "Risk"
+  },
+  {
+    "q": "The project manager wants to ensure that all team members understand how their work contributes to the project's goals. What is the BEST approach?",
+    "o": ["Regularly link team work to the project vision and outcomes in planning and reviews", "Provide detailed task instructions only", "Send the charter once at the start", "Let team members figure it out"],
+    "e": "Connecting work to purpose increases motivation and alignment; regular reinforcement maintains a shared vision.",
+    "eco": "People", "task": "I.1", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project's work performance data shows that a contractor is ahead of schedule but has reported several safety incidents. What should the project manager do?",
+    "o": ["Address the safety incidents immediately with the contractor, even if it slows progress", "Ignore the incidents since the contractor is ahead of schedule", "Reward the contractor for being ahead", "Wait until the end of the contract"],
+    "e": "Safety takes priority over schedule. The project manager must ensure safety requirements are met and incidents addressed.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive", "dom": "Resources"
+  }
+]

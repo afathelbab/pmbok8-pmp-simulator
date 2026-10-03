@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which list correctly names the five processes in the Resources performance domain of the PMBOK Guide – Eighth Edition?",
+    "o": ["Plan Resource Management, Estimate Resources, Acquire Resources, Lead the Team, Monitor and Control Resourcing", "Plan Resources, Acquire Team, Develop Team, Manage Team, Control Resources", "Estimate Resources, Acquire Resources, Develop Team, Manage Team, Close Team", "Plan Resources, Estimate Resources, Lead the Team, Manage Conflicts, Release Resources"],
+    "e": "The Eighth Edition Resources domain consolidates team development and management into Lead the Team, alongside Plan Resource Management, Estimate Resources, Acquire Resources and Monitor and Control Resourcing.",
+    "eco": "Process", "task": "II.4", "ap": "Hybrid"
+  },
+  {
+    "q": "A newly formed team is arguing about technical approaches and roles. According to the Tuckman model, which stage is the team in?",
+    "o": ["Storming", "Forming", "Norming", "Performing"],
+    "e": "In storming, team members confront differences in ideas and working styles. Forming is the initial polite stage; norming is when agreements emerge; performing is high productivity; adjourning is closure.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "Two senior engineers disagree strongly about the system architecture. The decision is important and there is time to explore both views. Which conflict resolution approach is BEST?",
+    "o": ["Collaborate/problem solve", "Smooth/accommodate", "Force/direct", "Withdraw/avoid"],
+    "e": "Collaborating incorporates multiple viewpoints and leads to consensus and commitment. It is ideal when the issue is important and time allows.",
+    "eco": "People", "task": "I.2", "ap": "Hybrid"
+  },
+  {
+    "q": "A safety issue requires an immediate decision, and the team cannot agree. Which conflict resolution technique is MOST appropriate?",
+    "o": ["Force/direct", "Collaborate/problem solve", "Withdraw/avoid", "Smooth/accommodate"],
+    "e": "Forcing imposes a solution and is appropriate when an urgent decision is needed, especially for safety or emergencies, even though it can create a win-lose outcome.",
+    "eco": "People", "task": "I.2", "ap": "Predictive"
+  },
+  {
+    "q": "Two team members argue loudly in a meeting about who caused a defect. What should the project manager do FIRST?",
+    "o": ["Address the conflict privately with both members, focusing on the issue rather than blame", "Let them settle it themselves", "Escalate to their functional managers", "Remove both from the project"],
+    "e": "Conflicts should be addressed early, in private and collaboratively, focusing on facts and the problem rather than personalities.",
+    "eco": "People", "task": "I.2", "ap": "Hybrid"
+  },
+  {
+    "q": "Which leadership style emphasizes serving the team, removing obstacles and enabling growth, and is commonly associated with agile teams?",
+    "o": ["Servant leadership", "Autocratic leadership", "Transactional leadership", "Laissez-faire leadership"],
+    "e": "Servant leaders put the needs of the team first, focusing on removing impediments, facilitating collaboration and supporting growth, which aligns with empowered, self-organizing teams.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "A team member is new to the technology and unsure how to proceed. According to situational leadership, which style is MOST appropriate initially?",
+    "o": ["Directing (high task, low relationship)", "Delegating", "Supporting", "Laissez-faire"],
+    "e": "Situational leadership adapts style to the follower's competence and commitment. A new, low-competence member benefits from more direction; as competence grows, the leader moves to coaching, supporting and eventually delegating.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "According to Herzberg's two-factor theory, which of the following is a motivator rather than a hygiene factor?",
+    "o": ["Recognition for achievement", "Salary", "Working conditions", "Company policies"],
+    "e": "Hygiene factors (salary, conditions, policies, security) prevent dissatisfaction but do not motivate. Motivators (achievement, recognition, responsibility, growth) increase satisfaction and motivation.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "Which component of emotional intelligence involves recognizing and understanding the emotions of others?",
+    "o": ["Social awareness", "Self-management", "Self-awareness", "Relationship management"],
+    "e": "Emotional intelligence comprises self-awareness, self-management, social awareness (empathy, understanding others' emotions) and relationship management (influencing, managing conflict, teamwork).",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A project manager wants to clarify who is Responsible, Accountable, Consulted and Informed for each deliverable. Which tool should be used?",
+    "o": ["RACI chart", "Resource histogram", "Organizational breakdown structure", "Resource calendar"],
+    "e": "A RACI chart is a type of responsibility assignment matrix showing who is responsible, accountable, consulted and informed for each activity or deliverable. Only one person should be accountable for each item.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "A resource histogram shows that a database specialist is scheduled for 160% allocation in week 12. What should the project manager do?",
+    "o": ["Apply resource optimization such as smoothing or leveling, or seek additional resources", "Ignore the over-allocation since it is only one week", "Ask the specialist to work double shifts", "Remove the database work from scope"],
+    "e": "Over-allocations should be resolved through resource optimization (smoothing within float, leveling if needed) or by acquiring additional resources, considering impacts on the schedule.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "The project needs a specialist from another department, but the functional manager is reluctant to release her. What should the project manager do?",
+    "o": ["Negotiate with the functional manager, explaining the need, timing and benefits", "Ask the sponsor to order the functional manager to release her", "Hire an external contractor without consulting anyone", "Assign the work to someone less qualified"],
+    "e": "Negotiation is a key technique in Acquire Resources. The project manager should work collaboratively with functional managers to obtain the needed resources, escalating only if necessary.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "Which process in the Eighth Edition includes developing team competencies, managing team performance and resolving conflicts?",
+    "o": ["Lead the Team", "Acquire Resources", "Monitor and Control Resourcing", "Plan Resource Management"],
+    "e": "Lead the Team (Executing focus area) covers developing, motivating, coaching and managing the team, including conflict management, producing team performance assessments.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A distributed team has members in four time zones. Collaboration has declined. What should the project manager do to improve team performance?",
+    "o": ["Establish overlapping core hours, collaboration tools and agreed working norms", "Require all members to work the same local hours", "Reduce communication to email only", "Replace remote members with local staff"],
+    "e": "Virtual teams benefit from clear working agreements, overlapping availability, good collaboration technology and deliberate relationship-building.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "A high-performing team member's productivity has dropped sharply over the past month. What should the project manager do FIRST?",
+    "o": ["Talk privately with the team member to understand what is happening", "Issue a formal warning", "Reassign the member's work to others", "Report the issue to the functional manager"],
+    "e": "The first step is to understand the cause through a private, supportive conversation. The appropriate response (coaching, support, adjustment) depends on what is learned.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "Which type of power is based on a person's knowledge and skills?",
+    "o": ["Expert power", "Legitimate power", "Coercive power", "Referent power"],
+    "e": "Expert power comes from knowledge or skill. Legitimate (formal) power comes from position; coercive from the ability to punish; referent from respect or admiration.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "An agile team wants a quick way to gauge the level of agreement on a decision. Which technique is commonly used?",
+    "o": ["Fist of five", "Delphi technique", "Monte Carlo simulation", "Pareto chart"],
+    "e": "Fist of five (or roman voting) lets team members quickly show their level of support for a proposal, revealing concerns that need discussion before reaching consensus.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "Which document describes how team and physical resources will be estimated, acquired, managed and released?",
+    "o": ["Resource management plan", "Team charter", "Resource breakdown structure", "Staffing request form"],
+    "e": "The resource management plan, an output of Plan Resource Management, provides guidance on categorizing, allocating, managing and releasing project resources.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "A construction project needs steel delivered precisely when installation begins, to avoid on-site storage. Which approach should the project manager use for physical resources?",
+    "o": ["Just-in-time (JIT) delivery", "Resource leveling", "Fast tracking", "Make-or-buy analysis"],
+    "e": "Just-in-time management delivers materials exactly when needed, reducing inventory and storage costs, but requires reliable suppliers and coordination.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "A team member asks how career growth will be supported on the project. Which action BEST demonstrates leading the team?",
+    "o": ["Identify development opportunities and provide coaching or training aligned to project needs", "Tell the team member that career growth is the functional manager's job", "Promise a promotion at project end", "Assign the member only routine tasks to reduce risk"],
+    "e": "Developing team members' competencies through training, coaching and stretch assignments improves performance and motivation and is part of leading the team.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  }
+]

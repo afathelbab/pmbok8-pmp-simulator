@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Which process in the Governance performance domain formally authorizes the project and gives the project manager authority to apply resources?",
+    "o": ["Initiate Project or Phase", "Integrate and Align Project Plans", "Manage Project Execution", "Plan Sourcing Strategy"],
+    "e": "Initiate Project or Phase produces the project charter, which formally authorizes the project (or phase) and gives the project manager authority to apply organizational resources.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Predictive"
+  },
+  {
+    "q": "A sponsor asks the project manager to start work immediately because 'everyone knows what the project is about.' No charter exists. What should the project manager do FIRST?",
+    "o": ["Work with the sponsor to develop and approve a project charter", "Start executing work to show early progress", "Create the detailed project management plan", "Hold a kickoff meeting with the full team"],
+    "e": "Without a charter there is no formal authorization, no agreed objectives and no defined project manager authority. Initiate Project or Phase should be completed first; planning and kickoff follow.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Predictive"
+  },
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, the process 'Plan Sourcing Strategy' belongs to which performance domain?",
+    "o": ["Governance", "Resources", "Finance", "Risk"],
+    "e": "Plan Sourcing Strategy is a Planning-focus-area process in the Governance domain. Detailed procurement practices are covered in an appendix, reflecting that sourcing decisions are a governance concern.",
+    "eco": "Process", "task": "II.5", "ap": "Hybrid"
+  },
+  {
+    "q": "Which statement BEST describes project governance?",
+    "o": ["The framework, functions and processes that guide project management activities and decision-making", "The day-to-day assignment of tasks to team members", "The set of templates used by the PMO", "The legal contract between the buyer and the seller"],
+    "e": "Project governance is the framework, functions and processes that guide project activities to create a product, service or result and meet organizational, strategic and operational goals. It defines who decides what, and how.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "A self-organizing agile team delivers a mobile app with no steering committee. Which statement about governance on this project is MOST accurate?",
+    "o": ["Governance still exists; it is lightweight and largely self-governed through agreed roles, cadences and decision rights", "There is no governance because agile teams do not need oversight", "Governance must be added by creating a formal change control board", "The Scrum Master is the sole governance authority"],
+    "e": "Governance ranges from structured (steering committees, formal gates) to self-governing (team manages decisions within agreed boundaries). Agile projects still have governance: product ownership, definition of done, reviews and transparent metrics.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Agile"
+  },
+  {
+    "q": "A project manager is defining governance for a new project. Which three components are essential for an effective governance framework?",
+    "o": ["Target metrics aligned to strategy, clear signaling mechanisms, and defined decision-making authority", "A Gantt chart, a risk register, and a budget", "A sponsor, a vendor, and a PMO template", "Weekly status meetings, a RACI, and a lessons learned register"],
+    "e": "Effective governance needs measures that show whether the project is meeting strategic objectives, mechanisms that signal when thresholds are breached, and clarity on who has authority to make which decisions.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which process combines the subsidiary plans and baselines into a single, coherent project management plan?",
+    "o": ["Integrate and Align Project Plans", "Initiate Project or Phase", "Manage Project Execution", "Monitor and Control Project Performance"],
+    "e": "Integrate and Align Project Plans is the Governance planning process that consolidates and aligns subsidiary plans and baselines into the project management plan.",
+    "eco": "Process", "task": "II.1", "ap": "Predictive"
+  },
+  {
+    "q": "A team member suggests a small improvement to a deliverable that was not in the approved scope. The change would take two days. The project uses a predictive approach with a change control board. What should the project manager do?",
+    "o": ["Submit a change request and follow the change control process", "Approve the change because it is small", "Reject the change because it was not in the original scope", "Let the team member implement it during slack time"],
+    "e": "In a predictive environment, changes to approved scope are evaluated through Assess and Implement Changes. Even small changes can affect other areas and must be analyzed and approved per the change management plan; gold plating should be avoided.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive"
+  },
+  {
+    "q": "On an agile project, the customer requests a new feature mid-iteration. What is the MOST appropriate action?",
+    "o": ["The product owner adds it to the product backlog and prioritizes it for a future iteration", "The team adds it to the current iteration immediately", "The project manager submits it to the change control board", "The team rejects it because scope is frozen"],
+    "e": "In adaptive approaches, change is managed through the product backlog. The product owner evaluates and prioritizes new items; the iteration goal is normally protected so the team can complete committed work.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Agile"
+  },
+  {
+    "q": "A change request has been approved by the change control board. What should the project manager do NEXT?",
+    "o": ["Update the affected plans and baselines and implement the change", "Inform the sponsor that the change was approved", "Close the change request in the change log", "Re-baseline the entire project schedule from scratch"],
+    "e": "Once approved, the change is implemented and the affected components of the project management plan, baselines and documents are updated, then communicated to stakeholders. Re-baselining everything is not required.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive"
+  },
+  {
+    "q": "A project manager discovers that a team member implemented a change requested directly by a stakeholder, bypassing change control. What should the project manager do FIRST?",
+    "o": ["Assess the impact of the change and process it through change control", "Remove the change from the deliverable immediately", "Discipline the team member publicly", "Escalate the issue to the sponsor"],
+    "e": "The project manager should first understand the impact of the unapproved change on scope, schedule, cost, quality and risk, and then submit it through the integrated change control process. The team member should also be coached on the process.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive"
+  },
+  {
+    "q": "Which process in the Governance domain focuses on auditing processes to confirm that quality requirements and standards are being followed?",
+    "o": ["Manage Quality Assurance", "Validate Scope", "Monitor and Control Scope", "Manage Project Knowledge"],
+    "e": "Manage Quality Assurance (Executing focus area) uses audits and process analysis to verify that the project's processes are effective and that quality requirements will be met. Validate Scope is about formal acceptance of deliverables.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive"
+  },
+  {
+    "q": "What is the key difference between Manage Quality Assurance and Validate Scope?",
+    "o": ["Quality assurance improves the processes; Validate Scope obtains formal acceptance of deliverables", "Quality assurance is done by the customer; Validate Scope is done by the team", "Quality assurance happens only at closing; Validate Scope happens at initiation", "There is no difference; both inspect deliverables"],
+    "e": "Manage Quality Assurance focuses on the processes used to create deliverables, aiming to prevent defects and improve. Validate Scope focuses on the customer or sponsor formally accepting completed deliverables.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive"
+  },
+  {
+    "q": "A senior engineer is leaving the project next month. Much of the integration know-how exists only in her head. Which process should the project manager emphasize?",
+    "o": ["Manage Project Knowledge", "Acquire Resources", "Close Project or Phase", "Monitor Communications"],
+    "e": "Manage Project Knowledge uses existing knowledge and creates new knowledge, including transferring tacit knowledge through techniques such as pairing, workshops, storytelling and documentation, so it is not lost.",
+    "eco": "People", "task": "I.7", "ap": "Hybrid"
+  },
+  {
+    "q": "Which technique is MOST effective for transferring tacit knowledge between team members?",
+    "o": ["Pair work, mentoring and storytelling sessions", "Storing documents in a shared repository", "Emailing the lessons learned register", "Updating the project management plan"],
+    "e": "Tacit knowledge (experience, insight, know-how) is difficult to write down; it is best shared through interaction such as pairing, job shadowing, mentoring, communities of practice and storytelling. Repositories mainly serve explicit knowledge.",
+    "eco": "People", "task": "I.7", "ap": "Agile"
+  },
+  {
+    "q": "When should lessons learned be captured on a project?",
+    "o": ["Throughout the project, and consolidated at closing", "Only at the final project closure meeting", "Only after a major failure", "Only at phase gates in predictive projects"],
+    "e": "The lessons learned register is updated throughout the project so that knowledge can be applied while the project is still running. It is then archived as an organizational process asset at closing. Agile teams do this every iteration through retrospectives.",
+    "eco": "People", "task": "I.7", "ap": "Hybrid"
+  },
+  {
+    "q": "The sponsor wants a single process that compares actual performance with the plan across scope, schedule, cost and quality, and produces work performance reports. Which process is this?",
+    "o": ["Monitor and Control Project Performance", "Assess and Implement Changes", "Manage Project Execution", "Monitor Risks"],
+    "e": "Monitor and Control Project Performance tracks, reviews and reports overall progress against the plan's performance objectives, producing work performance reports and change requests when needed.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive"
+  },
+  {
+    "q": "Work performance data, work performance information and work performance reports differ in level of processing. Which is an example of work performance information?",
+    "o": ["The CPI of the project is 0.92, indicating cost overrun against plan", "Task 4.2 was completed on 12 March", "A dashboard sent to the steering committee", "The actual cost spent this week was 18,000"],
+    "e": "Data is raw observation (dates, costs spent). Information is data analyzed in context, e.g., compared with the plan (CPI = 0.92 means over budget). Reports are compiled representations such as dashboards or status reports.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive"
+  },
+  {
+    "q": "A steering committee has set a governance threshold: any forecast schedule slip greater than two weeks must be escalated. The project manager forecasts a 10-day slip. What should the project manager do?",
+    "o": ["Manage the variance within the team's authority and report it in the regular status update", "Escalate immediately to the steering committee", "Request a re-baseline of the schedule", "Ignore it until it reaches two weeks"],
+    "e": "Governance thresholds define decision authority. A slip within the threshold is managed by the project manager and reported transparently; escalation is required only when the threshold is breached or forecast to be breached.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Predictive"
+  },
+  {
+    "q": "A project manager needs to choose between an in-house team and an external firm for building a module. Which tool is MOST appropriate within Plan Sourcing Strategy?",
+    "o": ["Make-or-buy analysis", "Critical path method", "Earned value analysis", "Monte Carlo simulation"],
+    "e": "Make-or-buy analysis compares producing work internally with acquiring it externally, considering cost, capability, risk, control and strategic factors. It is a key technique for planning the sourcing strategy.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "_comment": "PMBOK Guide 8th Edition question bank. Each category folder holds part*.json arrays. Author with the CORRECT option first in `o`; the build script shuffles option order deterministically. See content/pmbok8/README.md.",
+  "categories": [
+    { "id": "p8-principles", "label": "PMBOK 8 · Principles, Value & Tailoring", "domain": "Principles & Foundations" },
+    { "id": "p8-governance", "label": "PMBOK 8 · Governance", "domain": "Governance" },
+    { "id": "p8-scope", "label": "PMBOK 8 · Scope", "domain": "Scope" },
+    { "id": "p8-schedule", "label": "PMBOK 8 · Schedule", "domain": "Schedule" },
+    { "id": "p8-finance", "label": "PMBOK 8 · Finance", "domain": "Finance" },
+    { "id": "p8-stakeholders", "label": "PMBOK 8 · Stakeholders", "domain": "Stakeholders" },
+    { "id": "p8-resources", "label": "PMBOK 8 · Resources", "domain": "Resources" },
+    { "id": "p8-risk", "label": "PMBOK 8 · Risk", "domain": "Risk" },
+    { "id": "p8-emerging", "label": "PMBOK 8 · AI, Sustainability, PMO & Procurement", "domain": "Appendices & Emerging Topics" },
+    { "id": "p8-mock-exam", "label": "PMBOK 8 · Full Mock Exam (2026 ECO)", "domain": null, "mock": true }
+  ]
+}

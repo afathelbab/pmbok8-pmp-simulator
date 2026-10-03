@@ -1,0 +1,274 @@
+{
+  "version": 2,
+  "generated": "2026-10-03T14:28:11.614Z",
+  "categories": [
+    {
+      "id": "p8-principles",
+      "label": "PMBOK 8 · Principles, Value & Tailoring",
+      "file": "/data/categories/p8-principles.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Business Environment": 12,
+        "Process": 19,
+        "People": 4
+      }
+    },
+    {
+      "id": "p8-governance",
+      "label": "PMBOK 8 · Governance",
+      "file": "/data/categories/p8-governance.json",
+      "questionCount": 40,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Business Environment": 26,
+        "Process": 11,
+        "People": 3
+      }
+    },
+    {
+      "id": "p8-scope",
+      "label": "PMBOK 8 · Scope",
+      "file": "/data/categories/p8-scope.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 32,
+        "People": 1,
+        "Business Environment": 2
+      }
+    },
+    {
+      "id": "p8-schedule",
+      "label": "PMBOK 8 · Schedule",
+      "file": "/data/categories/p8-schedule.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 33,
+        "People": 2
+      }
+    },
+    {
+      "id": "p8-finance",
+      "label": "PMBOK 8 · Finance",
+      "file": "/data/categories/p8-finance.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 28,
+        "Business Environment": 7
+      }
+    },
+    {
+      "id": "p8-stakeholders",
+      "label": "PMBOK 8 · Stakeholders",
+      "file": "/data/categories/p8-stakeholders.json",
+      "questionCount": 40,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "People": 40
+      }
+    },
+    {
+      "id": "p8-resources",
+      "label": "PMBOK 8 · Resources",
+      "file": "/data/categories/p8-resources.json",
+      "questionCount": 40,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 10,
+        "People": 29,
+        "Business Environment": 1
+      }
+    },
+    {
+      "id": "p8-risk",
+      "label": "PMBOK 8 · Risk",
+      "file": "/data/categories/p8-risk.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Business Environment": 35
+      }
+    },
+    {
+      "id": "p8-emerging",
+      "label": "PMBOK 8 · AI, Sustainability, PMO & Procurement",
+      "file": "/data/categories/p8-emerging.json",
+      "questionCount": 30,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 14,
+        "Business Environment": 14,
+        "People": 2
+      }
+    },
+    {
+      "id": "p8-mock-exam",
+      "label": "PMBOK 8 · Full Mock Exam (2026 ECO)",
+      "file": "/data/categories/p8-mock-exam.json",
+      "questionCount": 180,
+      "group": "pmbok8-mock",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "People": 58,
+        "Business Environment": 47,
+        "Process": 75
+      }
+    },
+    {
+      "id": "agile",
+      "label": "Agile",
+      "file": "/data/categories/agile.json",
+      "questionCount": 118,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "file": "/data/categories/communication.json",
+      "questionCount": 50,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "cost",
+      "label": "Cost",
+      "file": "/data/categories/cost.json",
+      "questionCount": 50,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "framework",
+      "label": "Framework",
+      "file": "/data/categories/framework.json",
+      "questionCount": 30,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "full-exam-1",
+      "label": "Full Exam 1",
+      "file": "/data/categories/full-exam-1.json",
+      "questionCount": 180,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "full-exam-2",
+      "label": "Full Exam 2",
+      "file": "/data/categories/full-exam-2.json",
+      "questionCount": 180,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "full-exam-3",
+      "label": "Full Exam 3",
+      "file": "/data/categories/full-exam-3.json",
+      "questionCount": 180,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "full-exam-4",
+      "label": "Full Exam 4",
+      "file": "/data/categories/full-exam-4.json",
+      "questionCount": 180,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "initiation",
+      "label": "Initiation",
+      "file": "/data/categories/initiation.json",
+      "questionCount": 60,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "integration",
+      "label": "Integration",
+      "file": "/data/categories/integration.json",
+      "questionCount": 49,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "new-questions",
+      "label": "New Questions",
+      "file": "/data/categories/new-questions.json",
+      "questionCount": 26,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "procurement",
+      "label": "Procurement",
+      "file": "/data/categories/procurement.json",
+      "questionCount": 50,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "quality",
+      "label": "Quality",
+      "file": "/data/categories/quality.json",
+      "questionCount": 49,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "resources",
+      "label": "Resources",
+      "file": "/data/categories/resources.json",
+      "questionCount": 49,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "risk",
+      "label": "Risk",
+      "file": "/data/categories/risk.json",
+      "questionCount": 50,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "schedule",
+      "label": "Schedule",
+      "file": "/data/categories/schedule.json",
+      "questionCount": 50,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "scope",
+      "label": "Scope",
+      "file": "/data/categories/scope.json",
+      "questionCount": 50,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    },
+    {
+      "id": "stakeholders",
+      "label": "Stakeholders",
+      "file": "/data/categories/stakeholders.json",
+      "questionCount": 60,
+      "group": "classic",
+      "edition": "PMBOK 6/7"
+    }
+  ]
+}

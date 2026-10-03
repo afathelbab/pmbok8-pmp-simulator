@@ -1,0 +1,110 @@
+[
+  {
+    "q": "How many processes does the Schedule performance domain contain in the PMBOK Guide – Eighth Edition?",
+    "o": ["Three: Plan Schedule Management, Develop Schedule, Monitor and Control Schedule", "Six: from Plan Schedule Management through Control Schedule", "Two: Develop Schedule and Control Schedule", "Five: Define, Sequence, Estimate, Develop and Control"],
+    "e": "The Eighth Edition consolidates schedule work into three processes: Plan Schedule Management, Develop Schedule, and Monitor and Control Schedule. Activity definition, sequencing and duration estimating are now techniques within Develop Schedule rather than separate processes.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "A network has three paths: A-B-E = 14 days, A-C-E = 17 days, A-D-E = 12 days. What is the project duration and the critical path?",
+    "o": ["17 days; A-C-E", "14 days; A-B-E", "12 days; A-D-E", "43 days; all paths combined"],
+    "e": "The critical path is the longest path through the network, which determines the shortest possible project duration: A-C-E at 17 days.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "Using the same network (A-B-E = 14, A-C-E = 17, A-D-E = 12 days), what is the total float of path A-D-E?",
+    "o": ["5 days", "3 days", "0 days", "12 days"],
+    "e": "Float on a path = critical path duration − path duration = 17 − 12 = 5 days.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "An activity has an early start of day 5, early finish of day 9, late start of day 8 and late finish of day 12. What is its total float?",
+    "o": ["3 days", "4 days", "7 days", "0 days"],
+    "e": "Total float = LS − ES = 8 − 5 = 3 days (or LF − EF = 12 − 9 = 3).",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "An activity has an optimistic estimate of 4 days, most likely 7 days and pessimistic 16 days. What is the beta (PERT) estimate?",
+    "o": ["8 days", "9 days", "7 days", "6 days"],
+    "e": "PERT (beta) = (O + 4M + P) / 6 = (4 + 28 + 16) / 6 = 48 / 6 = 8 days.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "Using the estimates O = 4, M = 7, P = 16 days, what is the triangular distribution estimate?",
+    "o": ["9 days", "8 days", "7 days", "10 days"],
+    "e": "Triangular estimate = (O + M + P) / 3 = (4 + 7 + 16) / 3 = 27 / 3 = 9 days.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "The project is behind schedule. The project manager decides to perform design and construction activities in parallel rather than in sequence. Which technique is this, and what is its main drawback?",
+    "o": ["Fast tracking; it increases risk and potential rework", "Crashing; it always increases cost", "Resource leveling; it extends the schedule", "Resource smoothing; it changes the critical path"],
+    "e": "Fast tracking overlaps activities normally done in sequence. It can shorten the schedule but increases risk of rework, because later work starts before earlier work is complete.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "To recover two weeks, the project manager can add resources to critical activities. Which activity should be crashed FIRST?",
+    "o": ["The critical-path activity with the lowest crash cost per unit of time", "The non-critical activity with the lowest crash cost", "The critical-path activity with the highest crash cost", "Any activity with the longest duration"],
+    "e": "Crashing should focus on critical-path activities, starting with those offering the greatest schedule compression for the least incremental cost. Crashing non-critical activities does not shorten the project.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "A key engineer is over-allocated on two critical activities in the same week. The project manager adjusts start dates to resolve the conflict, and the project end date moves out by four days. Which technique was used?",
+    "o": ["Resource leveling", "Resource smoothing", "Fast tracking", "Critical chain buffering"],
+    "e": "Resource leveling adjusts start and finish dates based on resource constraints and can change the critical path and end date. Resource smoothing adjusts only within available float, so it does not change the end date.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "Pouring a concrete foundation must be followed by a seven-day curing period before framing can begin. How should this be modeled?",
+    "o": ["A finish-to-start relationship with a 7-day lag", "A start-to-start relationship with a 7-day lead", "A finish-to-finish relationship with no lag", "A start-to-finish relationship with a 7-day lag"],
+    "e": "Framing can start only after the foundation is finished and has cured: a finish-to-start dependency with a 7-day lag (waiting time).",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "A dependency that is required by law or inherent in the nature of the work, such as needing walls before a roof, is called a:",
+    "o": ["Mandatory dependency", "Discretionary dependency", "External dependency", "Internal preferred dependency"],
+    "e": "Mandatory (hard logic) dependencies are contractually required or inherent in the work. Discretionary (soft/preferred) dependencies are based on best practice and can be changed, for example when fast tracking.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "An agile team has completed 32, 28, 30 and 30 story points in its last four sprints. 240 points remain in the release backlog. Approximately how many more sprints are needed?",
+    "o": ["8 sprints", "6 sprints", "10 sprints", "12 sprints"],
+    "e": "Average velocity = (32 + 28 + 30 + 30) / 4 = 30 points per sprint. Remaining sprints ≈ 240 / 30 = 8.",
+    "eco": "Process", "task": "II.8", "ap": "Agile"
+  },
+  {
+    "q": "A sponsor wants to compare one agile team's velocity of 40 with another team's velocity of 25 to decide which team is more productive. What should the project manager advise?",
+    "o": ["Velocity is team-specific and should not be compared across teams", "The team with velocity 40 is 60% more productive", "Both teams should be asked to reach a velocity of 40", "Velocity should be converted to hours for comparison"],
+    "e": "Story points are relative to each team's own estimating scale, so velocity is useful for a team's own forecasting but not for comparing productivity between teams.",
+    "eco": "Process", "task": "II.8", "ap": "Agile"
+  },
+  {
+    "q": "On an iteration burndown chart, the actual line is consistently above the ideal line. What does this indicate?",
+    "o": ["The team is behind the planned pace for the iteration", "The team is ahead of schedule", "Scope has been removed from the iteration", "The team's velocity has increased"],
+    "e": "A burndown shows remaining work. An actual line above the ideal line means more work remains than planned at that point, so the team is behind.",
+    "eco": "Process", "task": "II.9", "ap": "Agile"
+  },
+  {
+    "q": "A release burnup chart shows the 'completed' line rising steadily, while the 'total scope' line also rises every sprint. What is the MOST useful conclusion?",
+    "o": ["Scope is growing, which pushes out the forecast completion date", "The team's velocity is decreasing", "The release will finish earlier than planned", "The chart is incorrect because scope should be fixed"],
+    "e": "A burnup chart shows both completed work and total scope. A rising scope line makes scope growth visible, explaining why the forecast completion moves out even when the team is productive.",
+    "eco": "Process", "task": "II.9", "ap": "Agile"
+  },
+  {
+    "q": "A Kanban team wants to reduce the average time items take from start of work to completion. Which practice is MOST effective?",
+    "o": ["Limiting work in progress (WIP)", "Adding more columns to the board", "Starting more items in parallel", "Estimating every item in hours"],
+    "e": "By Little's Law, average cycle time = WIP / throughput. Limiting WIP reduces multitasking and queueing, shortening cycle time and improving flow.",
+    "eco": "Process", "task": "II.8", "ap": "Agile"
+  },
+  {
+    "q": "In Kanban, what is the difference between lead time and cycle time?",
+    "o": ["Lead time runs from the request to delivery; cycle time runs from the start of work to delivery", "Lead time is measured in story points; cycle time in hours", "Lead time applies to defects; cycle time to features", "They are the same metric with different names"],
+    "e": "Lead time is measured from the moment an item is requested (enters the backlog) until it is delivered. Cycle time starts when work actually begins. Lead time is therefore always greater than or equal to cycle time.",
+    "eco": "Process", "task": "II.8", "ap": "Agile"
+  },
+  {
+    "q": "A project manager plans near-term work in detail while keeping later work at a higher level until more information is available. This technique is called:",
+    "o": ["Rolling wave planning", "Fast tracking", "Critical chain method", "Resource smoothing"],
+    "e": "Rolling wave planning is an iterative planning technique in which near-term work is planned in detail and future work is planned at a higher level, a form of progressive elaboration.",
+    "eco": "Process", "task": "II.8", "ap": "Hybrid"
+  }
+]

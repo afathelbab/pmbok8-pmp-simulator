@@ -1,0 +1,92 @@
+[
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, where is detailed procurement guidance primarily located?",
+    "o": ["In an appendix dedicated to procurement", "In a standalone Procurement performance domain", "In the Finance domain's Estimate Costs process", "It has been removed entirely"],
+    "e": "Procurement is no longer a core knowledge area or domain; detailed procurement guidance is provided in an appendix, while sourcing decisions are addressed by Plan Sourcing Strategy in the Governance domain.",
+    "eco": "Process", "task": "II.5", "ap": "Hybrid"
+  },
+  {
+    "q": "A buyer has a clearly defined scope and wants to minimize cost risk. Which contract type is MOST appropriate?",
+    "o": ["Firm fixed price (FFP)", "Cost plus fixed fee (CPFF)", "Time and materials (T&M)", "Cost plus percentage of cost (CPPC)"],
+    "e": "With well-defined scope, a firm fixed-price contract places most cost risk on the seller. Cost-reimbursable contracts place more risk on the buyer; CPPC is the riskiest for the buyer.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which contract type places the MOST cost risk on the buyer?",
+    "o": ["Cost plus percentage of cost", "Firm fixed price", "Fixed price incentive fee", "Fixed price with economic price adjustment"],
+    "e": "Under CPPC, the seller's fee grows as costs grow, giving the seller no incentive to control costs; the buyer bears the highest risk. It is rarely used or prohibited in many organizations.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "A buyer needs staff augmentation quickly for work whose scope is not yet defined. Which contract type is MOST suitable?",
+    "o": ["Time and materials", "Firm fixed price", "Fixed price incentive fee", "Cost plus award fee for a fully defined scope"],
+    "e": "Time and materials contracts are hybrid arrangements often used for staff augmentation or when scope cannot be quickly defined; a not-to-exceed limit is commonly added to control cost.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "A customer wants to engage a vendor for an agile project in which scope will evolve. Which contracting approach BEST supports this?",
+    "o": ["A contract with fixed price per iteration or capacity, allowing scope to be reprioritized", "A single firm fixed-price contract for the full detailed scope", "A contract that forbids any scope change", "A cost-plus-percentage-of-cost contract"],
+    "e": "Agile-friendly contracts include fixed price per iteration or per increment, capacity-based contracts and graduated or 'money for nothing, change for free' clauses, which allow scope flexibility while controlling cost.",
+    "eco": "Process", "task": "II.5", "ap": "Agile"
+  },
+  {
+    "q": "In an agile contract, a 'change for free' clause typically allows the customer to:",
+    "o": ["Swap new features for unstarted features of equal size at no extra cost", "Add unlimited features without changing the price", "Cancel the contract without payment at any time", "Change the team members at no cost"],
+    "e": "'Change for free' permits trading unstarted backlog items for new items of equal effort without changing the contract price, supporting adaptive scope while controlling cost. 'Money for nothing' allows early termination when sufficient value is achieved, often with a fee.",
+    "eco": "Process", "task": "II.5", "ap": "Agile"
+  },
+  {
+    "q": "A seller asks the project manager for confidential information about a competitor's bid. What should the project manager do?",
+    "o": ["Refuse and follow the organization's procurement and ethics policies", "Share the information to speed up negotiations", "Share only the competitor's price", "Ask the sponsor whether to share it"],
+    "e": "Sharing competitors' confidential information violates procurement fairness and the PMI Code of Ethics (fairness and honesty). It must be refused.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive"
+  },
+  {
+    "q": "Which document is used to request proposals from sellers for complex work where the solution approach may vary?",
+    "o": ["Request for proposal (RFP)", "Request for quotation (RFQ)", "Request for information (RFI)", "Purchase order"],
+    "e": "An RFP requests detailed proposals including the technical approach. An RFQ asks mainly for price for well-defined items; an RFI gathers information about seller capabilities.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "A team uses objective criteria such as technical capability, cost and past performance with weights to select a vendor. What is this?",
+    "o": ["Source selection criteria with weighted scoring", "Make-or-buy analysis", "Bidder conference", "Claims administration"],
+    "e": "Source selection criteria, often weighted, are used to evaluate and rank seller proposals objectively.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "A vendor submits a claim stating that the buyer's late approvals caused additional costs. The parties cannot agree. What is the PREFERRED method of resolution?",
+    "o": ["Negotiation, followed by alternative dispute resolution if needed", "Immediate litigation", "Terminating the contract", "Ignoring the claim until project closure"],
+    "e": "Claims and disputes are preferably resolved through negotiation; if that fails, alternative dispute resolution (mediation, arbitration) is used before litigation.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "According to the Eighth Edition, how is the role of the PMO evolving?",
+    "o": ["From compliance enforcement toward strategic value creation and enabling delivery", "Toward controlling every project decision centrally", "Toward eliminating PMOs in agile organizations", "Toward focusing only on templates and reporting"],
+    "e": "The Eighth Edition's PMO guidance emphasizes PMOs as strategic partners that enable value delivery, build capability, support knowledge sharing and align initiatives with strategy, not merely enforce compliance.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which type of PMO provides templates, best practices and training, with a low degree of control over projects?",
+    "o": ["Supportive PMO", "Controlling PMO", "Directive PMO", "Value delivery office with full authority"],
+    "e": "Supportive PMOs act as consultative resources with low control. Controlling PMOs require compliance (moderate control); directive PMOs directly manage projects (high control).",
+    "eco": "Business Environment", "task": "III.1", "ap": "Predictive"
+  },
+  {
+    "q": "An organization transitioning to agile creates a 'value delivery office' (VDO). What is its main focus?",
+    "o": ["Coaching teams, building agile capability and supporting value delivery", "Approving every sprint backlog", "Assigning tasks to individual developers", "Enforcing a single predictive methodology"],
+    "e": "In agile environments, a VDO (or agile PMO) focuses on enabling teams through coaching, capability building, sharing practices and supporting portfolio-level value, rather than command-and-control.",
+    "eco": "Business Environment", "task": "III.7", "ap": "Agile"
+  },
+  {
+    "q": "A project manager uses an AI tool to generate a first draft of the risk register from historical project data. What is the BEST way to use the output?",
+    "o": ["As a starting point that the team reviews, validates and supplements", "As the final risk register without changes", "Discard it because AI cannot identify project risks", "Send it directly to the sponsor for approval"],
+    "e": "The Eighth Edition's AI appendix positions AI as an assistant that augments, not replaces, professional judgment. Outputs must be validated by the team for accuracy, context and completeness.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following is an appropriate application of AI in project management?",
+    "o": ["Analyzing historical data to improve estimates and forecast schedule risk", "Making final contract-award decisions with no human review", "Replacing stakeholder engagement with automated messages", "Approving change requests automatically without criteria"],
+    "e": "AI is well suited to pattern recognition and data analysis, such as predictive risk analysis, scheduling optimization and resource modeling. Decisions with ethical, contractual or relational implications require human oversight.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Hybrid"
+  }
+]

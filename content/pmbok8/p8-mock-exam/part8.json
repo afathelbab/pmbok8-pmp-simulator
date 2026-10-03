@@ -1,0 +1,140 @@
+[
+  {
+    "q": "A project manager is reviewing the risk register with the team. A risk's trigger condition has just occurred. What should happen NEXT?",
+    "o": ["The risk owner implements the planned response", "The team re-identifies all project risks", "The project manager closes the risk", "The sponsor is asked to approve a new risk management plan"],
+    "e": "When a trigger occurs, the risk owner executes the agreed response (Implement Risk Responses) and the results are monitored.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "A hybrid project's budget was based on a predictive estimate, but the software portion is now delivered by a fixed agile team. Finance asks how to track cost performance. What is the BEST approach?",
+    "o": ["Track team run-rate cost against value delivered, alongside earned value for the predictive work", "Use only earned value for the whole project", "Stop tracking cost for the agile portion", "Track only hours worked by each developer"],
+    "e": "Hybrid projects can combine metrics: EVM for predictive work and run-rate versus delivered value (e.g., burnup) for adaptive work.",
+    "eco": "Process", "task": "II.6", "ap": "Hybrid", "dom": "Finance"
+  },
+  {
+    "q": "A project is facing repeated delays because approvals take weeks. The governance structure requires three levels of sign-off for minor decisions. What should the project manager do?",
+    "o": ["Propose to the governance body that decision rights be tailored, with thresholds for minor decisions", "Ignore the approval process", "Accept the delays as unavoidable", "Ask the team to make decisions secretly"],
+    "e": "Governance should be proportionate. Proposing tailored decision rights and thresholds improves speed while maintaining control.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A team member suggests the team skip the sprint retrospective this time because everything went well. What should the agile project manager do?",
+    "o": ["Hold the retrospective anyway, focusing on what made the sprint successful and how to sustain it", "Skip it since there were no problems", "Replace it with a status meeting", "Hold it only with the product owner"],
+    "e": "Retrospectives are valuable even after successful sprints; understanding success helps sustain and spread good practices.",
+    "eco": "People", "task": "I.7", "ap": "Agile", "dom": "Governance"
+  },
+  {
+    "q": "The project manager needs to choose a contract type for a vendor developing an innovative product with uncertain scope. The buyer wants to motivate the vendor to control costs. Which contract is MOST appropriate?",
+    "o": ["Cost plus incentive fee", "Firm fixed price", "Cost plus percentage of cost", "Purchase order"],
+    "e": "With uncertain scope, a cost-reimbursable contract is suitable; an incentive fee motivates the seller to control costs by sharing savings or overruns.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A project manager is told that the team's test environment will be shared with another project for the next month. This will reduce testing capacity by half. What should the project manager do FIRST?",
+    "o": ["Assess the impact on the schedule and quality and coordinate a sharing plan with the other project", "Accept the reduced capacity without analysis", "Escalate to the sponsor immediately", "Skip some testing to stay on schedule"],
+    "e": "Assessing impact and coordinating with the other project is the first step; escalation follows if the conflict cannot be resolved.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "A team is debating whether a deliverable is complete. The product owner says it meets the acceptance criteria, but the tester says the definition of done is not met. What should happen?",
+    "o": ["The deliverable is not done until both the acceptance criteria and the definition of done are met", "The product owner's view prevails", "The tester's view prevails and the story is rejected permanently", "The project manager decides"],
+    "e": "Both acceptance criteria and the definition of done must be satisfied for work to be considered done.",
+    "eco": "Process", "task": "II.7", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager wants to improve stakeholder trust after a series of missed milestones. What is the BEST approach?",
+    "o": ["Communicate openly about causes and recovery plans and consistently deliver on short-term commitments", "Avoid stakeholders until performance improves", "Promise to recover all delays in the next month", "Blame external factors"],
+    "e": "Trust is rebuilt through transparency and reliability: honest communication and meeting commitments.",
+    "eco": "People", "task": "I.6", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "During a project, the cost of a key material increases by 20% because of market conditions. The contract with the supplier is fixed price with economic price adjustment. What should the project manager do?",
+    "o": ["Review the adjustment clause, assess the budget impact and update the forecast", "Refuse to pay the increase", "Terminate the contract", "Ignore the increase"],
+    "e": "FP-EPA contracts allow pre-agreed price adjustments. The project manager should verify the adjustment per the clause and update forecasts.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "A project's team members are spread across two organizations after a partnership. Each organization uses different tools and processes. What should the project manager do?",
+    "o": ["Agree on common ways of working, tools and communication norms for the joint team", "Let each organization keep its own tools and processes", "Use only the project manager's organization's tools", "Separate the work completely between organizations"],
+    "e": "A joint team needs shared ways of working to collaborate effectively; agreements reduce friction and miscommunication.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A team identifies a risk with low probability but catastrophic impact on safety. What should the team do?",
+    "o": ["Plan a response despite the low probability, because the impact exceeds the risk threshold", "Ignore it due to low probability", "Accept it passively", "Remove it from the register"],
+    "e": "Risks with very high impact, especially on safety, may exceed thresholds even at low probability and require proactive responses.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "A hybrid project uses a stage-gate process. At the second gate, the steering committee asks for evidence of value delivered so far. What should the project manager present?",
+    "o": ["Outcome metrics from released increments along with progress against the business case", "Only the number of documents produced", "Only the hours worked", "A list of meetings held"],
+    "e": "Gate reviews assess continued justification. Evidence of outcomes and progress against the business case supports the decision.",
+    "eco": "Process", "task": "II.3", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "The team is behind on a critical deliverable and asks the project manager to approve overtime for the next two months. What should the project manager consider?",
+    "o": ["The risk of burnout and quality issues, and alternatives such as reprioritizing or adding resources", "Approve overtime immediately", "Refuse overtime under any circumstances", "Let the team decide without discussion"],
+    "e": "Extended overtime can harm quality and wellbeing. The project manager should evaluate alternatives and sustainable options.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A team has completed a release. The product owner wants to measure the release's impact on customer satisfaction. Which tool is MOST appropriate?",
+    "o": ["Customer surveys such as Net Promoter Score (NPS)", "Burndown chart", "Earned value analysis", "Resource histogram"],
+    "e": "NPS and customer satisfaction surveys measure the impact of releases on customers, an outcome-focused metric.",
+    "eco": "Process", "task": "II.3", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager is developing a schedule for a project with many resource constraints. The critical path does not account for resource availability. Which technique should be used?",
+    "o": ["Critical chain method or resource leveling", "Fast tracking", "Analogous estimating", "Variance analysis"],
+    "e": "The critical chain method and resource leveling account for resource constraints, producing a realistic resource-feasible schedule.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive", "dom": "Schedule"
+  },
+  {
+    "q": "An agile team's product owner keeps changing priorities mid-sprint, disrupting the team. What should the agile project manager do?",
+    "o": ["Coach the product owner on protecting the sprint goal and using the backlog for new priorities", "Ask the team to accept all changes", "Escalate to the product owner's manager immediately", "Stop using sprints"],
+    "e": "Coaching the product owner on agile practices preserves focus while still allowing changes through the backlog.",
+    "eco": "People", "task": "I.2", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager is reviewing the procurement plan for a project that will use multiple vendors. What is the MOST important consideration for integration?",
+    "o": ["Clear interfaces, responsibilities and coordination mechanisms between vendors", "Choosing the cheapest vendor for every component", "Using a single contract type for all vendors", "Minimizing communication between vendors"],
+    "e": "Integrating multiple vendors requires clear interfaces, defined responsibilities and coordination to avoid gaps and conflicts.",
+    "eco": "Process", "task": "II.5", "ap": "Hybrid", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A project manager is analyzing a deviation in a work package and wants to identify its underlying cause. Which technique is MOST appropriate?",
+    "o": ["Root cause analysis, such as a fishbone diagram or 5 Whys", "Make-or-buy analysis", "Stakeholder mapping", "Monte Carlo simulation"],
+    "e": "Root cause analysis techniques identify the underlying causes of a variance or problem so corrective actions address them.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A new regulation requires accessibility features in all public-facing software. An agile team is mid-release. What should the product owner do?",
+    "o": ["Add accessibility requirements to the backlog with high priority and update the definition of done", "Ignore the regulation until the next release", "Ask the team to add accessibility features in their spare time", "Stop the release until all features are reworked"],
+    "e": "Compliance requirements should be integrated into the backlog and quality standards (definition of done) promptly.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager learns that two team members have a long-standing personal conflict that affects collaboration. What should the project manager do?",
+    "o": ["Address the impact on work with both members and agree on expectations for professional collaboration", "Ignore it since it is personal", "Assign them to different projects", "Ask HR to mediate immediately"],
+    "e": "The project manager should address the conflict's impact on the project, focusing on professional behavior and collaboration. HR may be involved if needed.",
+    "eco": "People", "task": "I.2", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "A project's forecast shows it will exceed the budget by 8%. The governance threshold for escalation is 5%. What should the project manager do?",
+    "o": ["Escalate to the governance body with the analysis and recommended actions", "Manage the overrun within the team", "Wait until the overrun reaches 10%", "Reduce scope to stay within budget without consulting anyone"],
+    "e": "Breaching a governance threshold requires escalation to the appropriate authority with analysis and options.",
+    "eco": "Process", "task": "II.6", "ap": "Hybrid", "dom": "Finance"
+  },
+  {
+    "q": "A project team's velocity has stabilized, and the release forecast shows the team will finish two sprints early. What should the product owner consider?",
+    "o": ["Adding valuable backlog items or releasing early, based on value and stakeholder input", "Reducing the team's velocity", "Ending the project immediately without discussion", "Adding all remaining backlog items regardless of value"],
+    "e": "The product owner should decide based on value—either delivering more value or releasing early—and engage stakeholders.",
+    "eco": "Process", "task": "II.3", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "During planning, a project manager wants to ensure the project's carbon footprint is minimized. Which action is MOST effective?",
+    "o": ["Set measurable sustainability objectives and integrate them into design, sourcing and logistics decisions", "Calculate emissions at project closure", "Ask each team member to reduce printing", "Purchase carbon offsets without changing the plan"],
+    "e": "Integrating measurable sustainability objectives into key decisions has the greatest effect on the project's footprint.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid", "dom": "Appendices & Emerging Topics"
+  }
+]

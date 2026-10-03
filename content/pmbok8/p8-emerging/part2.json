@@ -1,0 +1,92 @@
+[
+  {
+    "q": "A team member wants to paste confidential customer data into a public generative AI tool to summarize requirements. What should the project manager do?",
+    "o": ["Stop this and follow organizational data-protection and AI-use policies, using approved tools", "Allow it because it saves time", "Allow it if the data is deleted afterward", "Ask the customer after the data has been uploaded"],
+    "e": "Responsible AI use requires protecting confidential and personal data, complying with policies and regulations, and using approved tools. Convenience does not justify a data-protection breach.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Hybrid"
+  },
+  {
+    "q": "An AI scheduling assistant recommends a plan that consistently assigns fewer development opportunities to certain team members. What concern should the project manager address?",
+    "o": ["Potential bias in the AI model or its training data", "The plan's critical path length", "The tool's license cost", "The number of activities in the schedule"],
+    "e": "AI models can reproduce or amplify bias present in historical data. Project managers should monitor AI outputs for fairness and maintain accountability for people-related decisions.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "Which statement BEST describes accountability when AI tools are used in a project?",
+    "o": ["Humans remain accountable for decisions informed by AI outputs", "The AI vendor is accountable for all project decisions", "No one is accountable because decisions are automated", "The PMO is accountable for every AI recommendation"],
+    "e": "AI augments human capability, but accountability for project decisions remains with people, consistent with the 'be an accountable leader' principle.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Hybrid"
+  },
+  {
+    "q": "The organization wants to adopt AI tools across its projects. What should the project manager do to support this change?",
+    "o": ["Plan training, set usage guidelines and pilot the tools before wider rollout", "Mandate immediate use on all projects without guidance", "Ban AI tools entirely", "Let each team member decide independently with no guidelines"],
+    "e": "Introducing AI is an organizational change: piloting, training, governance guidelines and feedback loops support effective and responsible adoption.",
+    "eco": "Business Environment", "task": "III.7", "ap": "Hybrid"
+  },
+  {
+    "q": "Which three dimensions are commonly considered under the sustainability principle?",
+    "o": ["Environmental, social and economic", "Scope, schedule and cost", "People, process and business environment", "Plan, do and check"],
+    "e": "Sustainability considers environmental, social and economic impacts (sometimes called the triple bottom line) across the project and the life of its outputs.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid"
+  },
+  {
+    "q": "A construction project manager selects suppliers that use recycled materials and lower-emission transport, even though the cost is slightly higher. What principle does this reflect?",
+    "o": ["Integrate sustainability within all project areas", "Focus on value only in financial terms", "Embed quality into processes and deliverables", "Build an empowered culture"],
+    "e": "Integrating sustainability into sourcing decisions considers environmental impact alongside cost, supporting long-term value.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Predictive"
+  },
+  {
+    "q": "Which of the following is the BEST example of social sustainability in a project?",
+    "o": ["Hiring and training local workers and ensuring fair working conditions", "Reducing the project's energy consumption", "Negotiating lower prices with suppliers", "Reducing documentation"],
+    "e": "Social sustainability concerns people and communities: fair labor practices, health and safety, community engagement, inclusion and local capability building.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid"
+  },
+  {
+    "q": "A sponsor asks why sustainability metrics should be tracked when the project's financial targets are met. What is the BEST response?",
+    "o": ["Sustainability affects long-term value, regulatory compliance and reputation", "Sustainability is only relevant for environmental projects", "Sustainability metrics are required only at project closure", "Sustainability replaces financial targets"],
+    "e": "Sustainability considerations support long-term value creation, meet stakeholder and regulatory expectations (e.g., ESG reporting), and reduce reputational and operational risk.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid"
+  },
+  {
+    "q": "New ESG reporting regulations require the organization to disclose project emissions. What should the project manager do?",
+    "o": ["Identify the data needed, assign responsibility and integrate measurement into project controls", "Wait for the regulation to be enforced", "Estimate emissions at the end of the project", "Exclude emissions data because it is not part of scope"],
+    "e": "Planning compliance with new external requirements means integrating them into plans, data collection and reporting, with clear ownership.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive"
+  },
+  {
+    "q": "A project team holds a bidder conference before proposals are submitted. What is the PRIMARY purpose?",
+    "o": ["To ensure all prospective sellers have the same understanding of the procurement", "To select the winning seller", "To negotiate final prices", "To inspect the seller's facilities"],
+    "e": "Bidder conferences give all prospective sellers a clear, common understanding of the requirements, ensuring fairness and better proposals.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "During contract execution, the seller is consistently late with deliverables. What should the project manager do FIRST?",
+    "o": ["Review performance against the contract terms and discuss corrective action with the seller", "Terminate the contract immediately", "Withhold all payments without notice", "Ignore the delays as long as quality is acceptable"],
+    "e": "Contract administration involves monitoring seller performance against the agreement and working with the seller to correct issues, using contractual remedies if needed.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which of the following must happen before a procurement can be formally closed?",
+    "o": ["All deliverables accepted and contractual obligations, including payments and claims, settled", "The project's final report is published", "The vendor delivers a lessons-learned presentation", "The sponsor signs the project charter again"],
+    "e": "Procurement closure requires confirming that all work is complete and accepted, open claims are resolved, final payments are made and records are archived.",
+    "eco": "Process", "task": "II.10", "ap": "Predictive"
+  },
+  {
+    "q": "Which fixed-price contract type includes a provision to adjust the price for changes in conditions such as inflation over a multi-year period?",
+    "o": ["Fixed price with economic price adjustment (FP-EPA)", "Firm fixed price", "Fixed price incentive fee", "Cost plus fixed fee"],
+    "e": "FP-EPA contracts allow pre-defined final price adjustments for changing conditions (e.g., inflation, commodity prices), which is useful for long-term contracts.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive"
+  },
+  {
+    "q": "A PMO wants to improve how lessons are shared across projects. Which initiative BEST supports this goal?",
+    "o": ["Communities of practice and an accessible knowledge repository", "Mandatory 50-page lessons-learned reports", "A policy that only project managers can access lessons", "Removing retrospectives to save time"],
+    "e": "PMOs can foster knowledge transfer through communities of practice, accessible repositories and facilitated sharing sessions, supporting continuous improvement across the organization.",
+    "eco": "People", "task": "I.7", "ap": "Hybrid"
+  },
+  {
+    "q": "An organization outsources a module to a vendor using a hybrid approach. Which practice MOST improves collaboration and outcomes?",
+    "o": ["Include the vendor's team in joint planning, reviews and shared definitions of done", "Communicate only through formal contract letters", "Keep the vendor's team separate until final delivery", "Require the vendor to use a different methodology"],
+    "e": "Collaborative relationships with sellers, especially in adaptive or hybrid work, rely on shared ceremonies, transparency and common quality criteria rather than only arm's-length contract management.",
+    "eco": "Process", "task": "II.5", "ap": "Hybrid"
+  }
+]

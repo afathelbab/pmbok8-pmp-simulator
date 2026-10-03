@@ -1,0 +1,134 @@
+[
+  {
+    "q": "A hybrid program uses an annual budget cycle, but its product teams deliver every two weeks. Finance wants to know how funding will be controlled. What is the BEST approach?",
+    "o": ["Fund stable teams for the period and review value delivered and priorities at regular checkpoints", "Approve a detailed cost estimate for every feature at the start of the year", "Release no funds until all features are defined", "Let each team spend freely without review"],
+    "e": "Funding persistent teams with periodic value-based reviews aligns financial control with adaptive delivery, while retaining governance oversight.",
+    "eco": "Process", "task": "II.6", "ap": "Hybrid", "dom": "Finance"
+  },
+  {
+    "q": "A project manager discovers a risk that could affect another project in the same program. What should the project manager do?",
+    "o": ["Communicate the risk to the program manager so it can be managed at the appropriate level", "Ignore it since it belongs to another project", "Handle the risk alone without informing anyone", "Add it to the issue log"],
+    "e": "Risks that affect other components of a program should be escalated or communicated to the program level for coordinated management.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid", "dom": "Risk"
+  },
+  {
+    "q": "A project's team members are mostly contractors who are paid by the hour and show little engagement. What should the project manager do to improve engagement?",
+    "o": ["Involve contractors in planning and decisions, recognize contributions and connect their work to the project vision", "Accept low engagement as normal for contractors", "Replace contractors with employees", "Monitor contractors' hours more closely"],
+    "e": "Involvement, recognition and a clear purpose increase engagement regardless of employment type.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A project manager is using earned value management. At the end of month four, the CPI is 1.10 and the SPI is 0.80. What is the MOST likely interpretation?",
+    "o": ["Work is behind schedule, possibly because resources are not available, which also keeps spending low", "The project is ahead of schedule and over budget", "The project is performing perfectly", "The project should be cancelled"],
+    "e": "SPI < 1 means less work done than planned; CPI > 1 means the work done cost less than budgeted. A common cause is under-resourcing: less work and lower spending. The root cause should be confirmed.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "During a risk review, the team notes that a previously identified risk can no longer occur because the related work is complete. What should be done?",
+    "o": ["Close the risk in the register and release any associated contingency per the plan", "Keep the risk open in case it occurs later", "Transfer the risk to operations", "Delete the risk without documentation"],
+    "e": "Risks that can no longer occur should be closed, documented, and associated contingency released according to the risk management plan.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "The project manager realizes that the stakeholder register does not include the IT security team, whose approval will be required before launch. What should the project manager do?",
+    "o": ["Add the security team to the register, engage them immediately and plan their involvement", "Ask the security team to approve the system at the end", "Skip their approval because they were not in the original plan", "Escalate to the sponsor to waive the approval"],
+    "e": "Late identification of a key stakeholder creates risk. The project manager should add them, engage them early and integrate their requirements.",
+    "eco": "People", "task": "I.4", "ap": "Predictive", "dom": "Stakeholders"
+  },
+  {
+    "q": "A team is about to begin a project with high uncertainty in both requirements and technology. Which life cycle is MOST appropriate?",
+    "o": ["An adaptive (agile) life cycle with short iterations", "A predictive life cycle with a detailed upfront plan", "A waterfall life cycle with phase gates only", "No defined life cycle"],
+    "e": "High uncertainty favors adaptive life cycles with frequent feedback and the ability to change direction.",
+    "eco": "Process", "task": "II.1", "ap": "Agile", "dom": "Principles & Foundations"
+  },
+  {
+    "q": "During a project status meeting, a functional manager says that his department will not support the project because it was not consulted during planning. What should the project manager do?",
+    "o": ["Acknowledge the concern, meet with the manager to understand the department's needs, and incorporate them where possible", "Tell the manager that planning is complete", "Escalate to the sponsor immediately", "Proceed without the department's support"],
+    "e": "Engaging the stakeholder, understanding concerns and incorporating needs can restore support. Escalation is a later step.",
+    "eco": "People", "task": "I.4", "ap": "Predictive", "dom": "Stakeholders"
+  },
+  {
+    "q": "A team member suggests using a Monte Carlo simulation to estimate the probability of meeting the deadline. The project is large with many uncertain activities. What is the BEST response?",
+    "o": ["Support it as an appropriate quantitative technique for complex schedules", "Reject it as too complicated", "Use it only if the sponsor requests it", "Replace the critical path method with it entirely"],
+    "e": "Monte Carlo simulation is a valuable quantitative risk analysis technique for large, uncertain schedules, complementing CPM.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "A product owner wants to measure whether a new feature is delivering value after release. Which metric is MOST appropriate?",
+    "o": ["User adoption and the change in the targeted business outcome", "The number of story points completed", "The number of hours worked by the team", "The number of defects found during development"],
+    "e": "Value is measured by outcomes such as adoption, customer satisfaction or revenue impact, not by output metrics like story points.",
+    "eco": "Process", "task": "II.3", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project team finds that it cannot meet a quality requirement within the current budget. What should the project manager do?",
+    "o": ["Analyze options and present trade-offs to the sponsor for a decision", "Lower the quality requirement without consultation", "Ask the team to work unpaid overtime", "Use management reserve without approval"],
+    "e": "Competing constraints require informed trade-off decisions by the appropriate authority, supported by the project manager's analysis.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A team is struggling to estimate stories consistently. Some are estimated in hours, others in points. What should the project manager do?",
+    "o": ["Facilitate agreement on a common relative estimation approach with reference stories", "Ask the product owner to estimate all stories", "Stop estimating altogether", "Convert all estimates to days"],
+    "e": "Consistent relative estimation with reference stories (e.g., using planning poker) improves forecasting. The team that does the work should estimate.",
+    "eco": "Process", "task": "II.8", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "A project manager is told that a new corporate policy requires all projects to report carbon emissions quarterly. The project is half complete. What should the project manager do?",
+    "o": ["Assess the requirement, plan data collection, and update the communications and project plans", "Ignore the policy because the project started before it was issued", "Ask the PMO to collect the data without informing the team", "Report estimated numbers without measurement"],
+    "e": "New compliance requirements should be integrated into the project's plans, roles and reporting.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Hybrid", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A hybrid project's predictive phase is ending, and the next phase will be adaptive. What should the project manager do at the phase transition?",
+    "o": ["Conduct a phase review, capture lessons learned and prepare the team and stakeholders for the new way of working", "Start the adaptive phase immediately without review", "Close the project", "Keep using predictive tools in the adaptive phase"],
+    "e": "Phase transitions are governance points for review and lessons learned, and in hybrid projects an opportunity to prepare people for a different approach.",
+    "eco": "Business Environment", "task": "III.7", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A project manager has a team member who is technically strong but has poor communication skills that cause misunderstandings with clients. What should the project manager do?",
+    "o": ["Provide feedback and coaching, and support training in communication skills", "Prevent the team member from talking to clients", "Ignore it because technical skills are more important", "Replace the team member"],
+    "e": "Developing team members' competencies through feedback, coaching and training improves performance and supports career growth.",
+    "eco": "People", "task": "I.3", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "An agile release has a fixed date. Midway, it becomes clear that not all planned features will be completed. What should the product owner do?",
+    "o": ["Reprioritize to ensure the most valuable features are delivered by the date and communicate the change to stakeholders", "Extend the release date", "Ask the team to work overtime for the rest of the release", "Remove testing to save time"],
+    "e": "With a fixed date, scope is the flexible variable. The product owner protects value by prioritizing and communicating transparently.",
+    "eco": "People", "task": "I.6", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "During the execution of a construction project, a subcontractor proposes an alternative method that would save time but has not been used before by the company. What should the project manager do?",
+    "o": ["Evaluate the method's risks and benefits and process it through change control", "Approve it immediately to save time", "Reject it because it is new", "Let the subcontractor decide"],
+    "e": "New methods may offer benefits but also introduce risk. Evaluation and approval through change control ensure informed decisions.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "A project is behind schedule. The project manager considers adding two new developers to a critical-path activity that is already halfway complete. What should the project manager consider?",
+    "o": ["Onboarding time and communication overhead may reduce or delay the benefit", "Adding developers always shortens duration proportionally", "New developers never help", "Adding developers will reduce costs"],
+    "e": "Adding people to late work can increase coordination overhead and onboarding time (diminishing returns). The benefit should be evaluated realistically before crashing.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive", "dom": "Schedule"
+  },
+  {
+    "q": "A project manager is setting up governance for a hybrid project. Which artifact BEST documents decision rights, escalation paths and reporting cadence?",
+    "o": ["The governance section of the project management plan", "The product backlog", "The resource calendar", "The WBS dictionary"],
+    "e": "Decision rights, escalation thresholds and reporting cadence are governance elements documented in the project management plan (and charter).",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A team member asks the project manager for feedback on her performance. The project has no formal appraisal process. What should the project manager do?",
+    "o": ["Provide timely, specific and constructive feedback and agree on development goals", "Tell her to wait for the annual review", "Provide feedback only if she is underperforming", "Ask her peers to provide feedback instead"],
+    "e": "Regular, constructive feedback supports growth and engagement and is part of leading the team.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "The project manager is negotiating with a vendor. The vendor proposes a lower price in exchange for removing a warranty. What should the project manager do?",
+    "o": ["Evaluate the risk and life-cycle cost implications before deciding", "Accept the lower price", "Reject the proposal without analysis", "Ask the vendor to keep the warranty at the lower price"],
+    "e": "The decision should consider total cost and risk, including potential repair costs without warranty, not just the purchase price.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A new team member asks why the team holds a review at the end of every sprint. What is the BEST explanation?",
+    "o": ["To inspect the increment with stakeholders and adapt the backlog based on feedback", "To evaluate individual performance", "To plan the next sprint's tasks in detail", "To report status to management"],
+    "e": "The sprint review is an inspect-and-adapt event focused on the product increment and stakeholder feedback.",
+    "eco": "People", "task": "I.7", "ap": "Agile", "dom": "Scope"
+  }
+]

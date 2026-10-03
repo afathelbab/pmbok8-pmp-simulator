@@ -1,0 +1,134 @@
+[
+  {
+    "q": "An organization requires that all projects consider environmental impacts. The project manager is planning a data center upgrade. What is the BEST way to integrate sustainability?",
+    "o": ["Include energy efficiency and e-waste criteria in requirements, sourcing and acceptance criteria", "Add a sustainability statement to the final report", "Ask the vendor to handle sustainability", "Consider sustainability only if the budget allows"],
+    "e": "Integrating sustainability means embedding it into requirements, decisions and acceptance criteria from the start, not treating it as an afterthought.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "During iteration planning, the team questions the value of a story that the product owner ranked highest. What should happen?",
+    "o": ["The team and product owner discuss the story's value and clarify it; the product owner makes the final priority call", "The team removes the story from the iteration", "The project manager decides the priority", "The team builds the story without discussion"],
+    "e": "Collaboration between team and product owner improves understanding. The product owner remains accountable for ordering the backlog.",
+    "eco": "People", "task": "I.5", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager is reviewing a control chart for a manufacturing process. Seven consecutive data points fall above the mean but within control limits. What does this indicate?",
+    "o": ["The process may be out of control and should be investigated", "The process is in control, so no action is needed", "The control limits should be widened", "The specification limits have been violated"],
+    "e": "The rule of seven: seven consecutive points on one side of the mean indicate a non-random pattern, suggesting the process may be out of control and should be investigated.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "The project manager is preparing a resource plan. A specialist will be needed only for two weeks in month six. What is the BEST approach?",
+    "o": ["Identify the need early, reserve the specialist's availability and record it in the resource calendar", "Request the specialist only when month six arrives", "Hire the specialist full-time from the start", "Assign the work to a generalist without checking skills"],
+    "e": "Planning resource needs early and reserving availability avoids delays. Resource calendars document when resources are available.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "A team member proposes a change in how daily stand-ups are run to make them more effective. What should the project manager do?",
+    "o": ["Encourage the team to experiment with the change and review its effect in the retrospective", "Reject the change to maintain consistency", "Implement the change only if management approves", "Ask the team member to document the change formally first"],
+    "e": "Empowered teams continuously improve their processes. Experimenting and reviewing results supports learning and ownership.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Agile", "dom": "Governance"
+  },
+  {
+    "q": "A sponsor asks the project manager to shorten the project by one month. The schedule has no float on the critical path. Crashing would cost 50,000; fast tracking would increase risk of rework. What should the project manager do?",
+    "o": ["Present both options with their costs, risks and impacts so the sponsor can decide", "Crash the schedule immediately", "Fast-track without informing the sponsor of the risk", "Refuse because the schedule has no float"],
+    "e": "The project manager analyzes options and presents trade-offs transparently to support an informed decision by the sponsor.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive", "dom": "Schedule"
+  },
+  {
+    "q": "During execution, the project team discovers a defect in a component that has already been delivered to the customer. What should the project manager do FIRST?",
+    "o": ["Inform the customer, assess the impact and plan corrective action", "Fix the defect quietly in the next release", "Wait for the customer to discover the defect", "Blame the testing team"],
+    "e": "Honesty and transparency are required by the PMI Code of Ethics. The project manager should inform the customer, assess the impact and plan correction.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A stakeholder wants to know why the project uses both a Gantt chart and a Kanban board. What is the BEST explanation?",
+    "o": ["The project is hybrid: predictive work is planned with a schedule, while adaptive work is managed through flow", "The Gantt chart is for management and the Kanban board is for decoration", "The Kanban board replaces the Gantt chart for all work", "The project manager prefers both tools"],
+    "e": "Hybrid projects tailor tools to each type of work: schedules for predictable, dependent work, and flow-based boards for adaptive work.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid", "dom": "Schedule"
+  },
+  {
+    "q": "A team member's family emergency requires her to take leave for two weeks during a critical phase. What should the project manager do?",
+    "o": ["Support the team member, then adjust assignments and plans to cover her work", "Ask her to work remotely during her leave", "Deny the leave because of the critical phase", "Tell the team to work overtime without discussion"],
+    "e": "Caring leadership supports team members in difficult situations; the project manager then replans work and resources to manage the impact.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A project team has completed the project scope statement. Which of the following should be done NEXT in a predictive approach?",
+    "o": ["Develop the WBS by decomposing the scope", "Validate scope with the customer", "Close the project", "Develop the project charter"],
+    "e": "After defining scope, the next step is Develop Scope Structure, decomposing the scope into the WBS and WBS dictionary to form the scope baseline.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A program manager wants to know if an agile team is improving its predictability. Which metric is MOST useful?",
+    "o": ["Planned versus completed work trend over several iterations", "Number of hours worked per sprint", "Number of meetings held", "Lines of code written"],
+    "e": "Comparing planned and completed work (say/do ratio) over time indicates predictability. Hours worked and lines of code do not measure predictability or value.",
+    "eco": "Process", "task": "II.9", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "A vendor delivering a component under a fixed-price contract informs the project manager that it will be late because of a raw-material shortage. What should the project manager do FIRST?",
+    "o": ["Review the contract terms and assess the impact on the project schedule", "Terminate the contract for default", "Pay the vendor extra to deliver on time", "Ignore it since the vendor bears the risk in a fixed-price contract"],
+    "e": "The project manager should review contractual obligations (e.g., delay clauses, force majeure) and analyze the project impact before deciding on remedies or mitigation.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A project manager notices that the team is spending a lot of time producing documents that no one reads. What should the project manager do?",
+    "o": ["Review with stakeholders which documents add value and tailor documentation accordingly", "Continue producing all documents to ensure compliance", "Stop producing all documentation", "Ask the PMO to decide which documents to stop"],
+    "e": "Tailoring includes adjusting artifacts to what adds value, eliminating waste while meeting governance and compliance needs.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Hybrid", "dom": "Principles & Foundations"
+  },
+  {
+    "q": "A team has identified a risk that a key regulatory approval may be delayed. The team cannot influence the regulator. Which response is MOST appropriate?",
+    "o": ["Accept the risk actively by establishing a schedule contingency and monitoring triggers", "Avoid the risk by removing the need for approval", "Transfer the risk to the regulator", "Ignore the risk since it cannot be controlled"],
+    "e": "When the probability cannot be influenced, active acceptance with a contingency reserve and monitoring is appropriate. Avoidance is not possible if the approval is mandatory.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "An agile team has members with only one skill each, causing bottlenecks. What should the project manager encourage?",
+    "o": ["Cross-training and pairing to develop T-shaped skills", "Hiring more specialists for each bottleneck", "Assigning work strictly by specialty", "Reducing the team's scope"],
+    "e": "Developing T-shaped skills through cross-training and pairing increases flexibility and reduces bottlenecks.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "The project manager wants to engage a group of end users who will be affected by a new system but have little influence. Which strategy is MOST appropriate?",
+    "o": ["Keep them informed and involve them in user testing and feedback", "Ignore them because they have little influence", "Manage them closely like senior executives", "Ask their managers to communicate on behalf of the project"],
+    "e": "Low-power, high-interest stakeholders should be kept informed; involving end users in testing also improves product quality and adoption.",
+    "eco": "People", "task": "I.4", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "The project manager is about to finalize the project management plan. Which activity is MOST important before baselining?",
+    "o": ["Ensure that subsidiary plans are integrated, consistent and approved by the relevant stakeholders", "Distribute the plan to all team members", "Start executing to test the plan", "Ask the PMO to approve every individual task"],
+    "e": "Integrate and Align Project Plans ensures that subsidiary plans and baselines are consistent and approved before the plan is baselined.",
+    "eco": "Process", "task": "II.1", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "During a sprint, a developer realizes the story they are working on is much larger than estimated. What should they do?",
+    "o": ["Raise it with the team and product owner, and consider splitting the story", "Continue silently and extend the sprint", "Drop the story without telling anyone", "Ask the project manager to re-estimate all stories"],
+    "e": "Transparency allows the team and product owner to adapt, for example by splitting the story and delivering a valuable part within the sprint.",
+    "eco": "Process", "task": "II.2", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A company's PMO requires each project to use a standard template set. A small agile team finds the templates excessive. What should the project manager do?",
+    "o": ["Work with the PMO to tailor the templates to the team's context while meeting governance needs", "Ignore the PMO's requirements", "Use all templates regardless of value", "Ask the team to switch to a predictive approach"],
+    "e": "Tailoring governance artifacts in collaboration with the PMO balances compliance with efficiency.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Agile", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A senior engineer on the team is consistently negative about the project and influences others. What should the project manager do FIRST?",
+    "o": ["Talk with the engineer privately to understand the concerns and seek their input", "Remove the engineer from the project", "Ignore the behavior", "Report the engineer to HR"],
+    "e": "Understanding the concerns may reveal valid issues and turn a resistant expert into a contributor. Escalation is appropriate only if behavior does not improve.",
+    "eco": "People", "task": "I.2", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "The project manager is asked to estimate the cost of a project that is similar to a project completed last year, with the main difference being size. Which technique is MOST appropriate?",
+    "o": ["Analogous estimating adjusted for size, or parametric estimating if reliable data exists", "Bottom-up estimating of every activity immediately", "Monte Carlo simulation", "Reserve analysis"],
+    "e": "When a similar past project exists, analogous estimating (adjusted for known differences) or parametric estimating (if scalable parameters exist) is efficient and appropriate early on.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "During a sprint review, stakeholders are unhappy because the increment does not meet their expectations, although it satisfies the stories' acceptance criteria. What should the team do?",
+    "o": ["Treat the feedback as learning, update the backlog and improve collaboration on acceptance criteria", "Argue that the acceptance criteria were met", "Redo the sprint", "Stop holding sprint reviews"],
+    "e": "Reviews are designed to surface such gaps. The team should adapt the backlog and improve how acceptance criteria are defined with stakeholders.",
+    "eco": "People", "task": "I.6", "ap": "Agile", "dom": "Stakeholders"
+  }
+]

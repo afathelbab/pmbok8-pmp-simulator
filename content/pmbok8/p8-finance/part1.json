@@ -1,0 +1,110 @@
+[
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, which performance domain covers planning, estimating, budgeting and controlling costs to optimize value?",
+    "o": ["Finance", "Governance", "Resources", "Scope"],
+    "e": "The Finance performance domain includes Plan Financial Management, Estimate Costs, Develop Budget, and Monitor and Control Finances.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "Which process in the Finance domain produces the cost baseline?",
+    "o": ["Develop Budget", "Estimate Costs", "Plan Financial Management", "Monitor and Control Finances"],
+    "e": "Develop Budget aggregates the estimated costs of activities or work packages, plus contingency reserves, to establish an authorized, time-phased cost baseline.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "A project has activity cost estimates totaling 800,000, contingency reserves of 80,000 and a management reserve of 50,000. What is the cost baseline?",
+    "o": ["880,000", "930,000", "800,000", "850,000"],
+    "e": "Cost baseline = cost estimates + contingency reserves = 800,000 + 80,000 = 880,000. The project budget including management reserve would be 930,000.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "Using the same figures (estimates 800,000, contingency 80,000, management reserve 50,000), what is the total project budget?",
+    "o": ["930,000", "880,000", "850,000", "800,000"],
+    "e": "Project budget = cost baseline (880,000) + management reserve (50,000) = 930,000.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "What is the difference between contingency reserve and management reserve?",
+    "o": ["Contingency covers identified risks (known-unknowns) and is in the baseline; management reserve covers unknown-unknowns and is outside it", "Contingency is controlled by the sponsor; management reserve by the project manager", "Contingency is for schedule; management reserve is for cost", "There is no difference; both are part of the cost baseline"],
+    "e": "Contingency reserves address identified risks and are part of the cost baseline, used at the project manager's discretion per the plan. Management reserves address unforeseen work, are not part of the baseline and normally require management approval to use.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "An unforeseen event that was not in the risk register requires additional funding. Which reserve should be used, and what is needed?",
+    "o": ["Management reserve, with a change request approved by management", "Contingency reserve, at the project manager's discretion", "The team's personal estimate padding", "Profit margin from the contract"],
+    "e": "Unknown-unknowns are funded from management reserve. Its use typically requires management approval and a change to the cost baseline.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "EV = 45,000, AC = 50,000, PV = 40,000. What is the CPI?",
+    "o": ["0.90", "1.11", "1.125", "0.80"],
+    "e": "CPI = EV / AC = 45,000 / 50,000 = 0.90. The project is getting 0.90 of value for each unit spent, i.e., it is over budget.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "With EV = 45,000, AC = 50,000 and PV = 40,000, which statement is CORRECT?",
+    "o": ["The project is over budget and ahead of schedule", "The project is under budget and behind schedule", "The project is over budget and behind schedule", "The project is under budget and ahead of schedule"],
+    "e": "CV = EV − AC = −5,000 (over budget). SV = EV − PV = +5,000 (ahead of schedule).",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "BAC = 200,000 and CPI = 0.80. Assuming current cost performance continues, what is the EAC?",
+    "o": ["250,000", "160,000", "240,000", "200,000"],
+    "e": "EAC = BAC / CPI = 200,000 / 0.80 = 250,000.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "BAC = 200,000, EV = 80,000, AC = 100,000. The variance was caused by a one-time event and future work is expected at the budgeted rate. What is the EAC?",
+    "o": ["220,000", "250,000", "200,000", "180,000"],
+    "e": "For atypical variances, EAC = AC + (BAC − EV) = 100,000 + (200,000 − 80,000) = 220,000.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "BAC = 500,000 and the current EAC = 560,000. What is the variance at completion (VAC)?",
+    "o": ["−60,000", "+60,000", "1.12", "0.89"],
+    "e": "VAC = BAC − EAC = 500,000 − 560,000 = −60,000, meaning the project is expected to finish 60,000 over budget.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "BAC = 100,000, EV = 40,000, AC = 50,000. What CPI must be achieved on the remaining work to finish within BAC (TCPI based on BAC)?",
+    "o": ["1.20", "0.80", "1.25", "0.83"],
+    "e": "TCPI = (BAC − EV) / (BAC − AC) = (100,000 − 40,000) / (100,000 − 50,000) = 60,000 / 50,000 = 1.20.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "The sponsor asks for a rough order of magnitude (ROM) estimate during initiation. What accuracy range is typically associated with a ROM estimate?",
+    "o": ["−25% to +75%", "−5% to +10%", "−10% to +15%", "Exact, with no range"],
+    "e": "A rough order of magnitude estimate, prepared early with limited information, typically has a range of −25% to +75%. Definitive estimates later narrow to around −5% to +10%.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "A team estimates the cost of a new office fit-out using the cost per square meter from 20 similar projects. Which estimating technique is this?",
+    "o": ["Parametric estimating", "Analogous estimating", "Bottom-up estimating", "Three-point estimating"],
+    "e": "Parametric estimating uses a statistical relationship between historical data and variables (e.g., cost per square meter × area) to calculate an estimate.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "Early in a project with limited detail, the project manager uses the actual cost of a similar past project to estimate the new one. Which technique is this?",
+    "o": ["Analogous estimating", "Parametric estimating", "Bottom-up estimating", "Reserve analysis"],
+    "e": "Analogous (top-down) estimating uses values from a similar previous project. It is quick and inexpensive but less accurate; it suits early phases.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "Which estimating technique is generally the MOST accurate but also the most time-consuming?",
+    "o": ["Bottom-up estimating", "Analogous estimating", "Expert judgment alone", "Rough order of magnitude"],
+    "e": "Bottom-up estimating estimates each work package or activity in detail and rolls up the totals. It requires a detailed WBS and is time-consuming, but usually yields the most accurate estimate.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "The sponsor wants to know whether the organization will have enough cash available each quarter to pay for the project. What must the project manager reconcile?",
+    "o": ["Funding limit reconciliation between planned expenditures and available funding", "Variance at completion", "Earned schedule", "Benefit-cost ratio"],
+    "e": "Funding limit reconciliation compares the planned expenditure of funds with funding limits for each period; work may need to be rescheduled to smooth spending within the limits.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  },
+  {
+    "q": "A cost baseline drawn over time typically has which shape?",
+    "o": ["An S-curve", "A straight horizontal line", "A bell curve", "A step function that decreases over time"],
+    "e": "Cumulative planned spending over time usually forms an S-curve: slow at the start, faster in the middle, and slowing toward completion.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive"
+  }
+]

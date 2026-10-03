@@ -1,0 +1,104 @@
+[
+  {
+    "q": "Which technique, used in Develop Schedule, places buffers at the end of chains of dependent activities and manages the schedule by monitoring buffer consumption?",
+    "o": ["Critical chain method", "Critical path method", "Precedence diagramming method", "Monte Carlo analysis"],
+    "e": "The critical chain method accounts for resource constraints and uncertainty by aggregating safety into project and feeding buffers, then managing those buffers rather than individual activity float.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "An activity is on the critical path. What is its total float in a schedule with no imposed date constraints?",
+    "o": ["Zero", "Equal to its duration", "Equal to the project's free float", "Negative"],
+    "e": "Critical-path activities normally have zero total float. Negative float occurs only when an imposed date is earlier than the calculated finish.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "What is free float?",
+    "o": ["The time an activity can be delayed without delaying the early start of any successor", "The time an activity can be delayed without delaying the project end date", "The time between the project's start and its first milestone", "The total reserve added to the schedule for unknown risks"],
+    "e": "Free float is the delay possible without affecting any immediate successor's early start. Total float is the delay possible without delaying the project finish date or violating a schedule constraint.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "A project has an SPI of 0.85. What does this indicate?",
+    "o": ["Work is progressing at 85% of the planned rate; the project is behind schedule", "The project is 15% under budget", "The project is ahead of schedule by 15%", "85% of the project is complete"],
+    "e": "SPI = EV / PV. A value below 1.0 means less work has been accomplished than planned, i.e., the project is behind schedule.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive"
+  },
+  {
+    "q": "PV = 120,000 and EV = 108,000. What is the schedule variance (SV)?",
+    "o": ["−12,000", "+12,000", "0.90", "1.11"],
+    "e": "SV = EV − PV = 108,000 − 120,000 = −12,000. A negative SV means the project is behind schedule. SPI would be 0.90.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive"
+  },
+  {
+    "q": "In an agile project, the sprint length is fixed at two weeks and does not change even if work is incomplete. This practice is called:",
+    "o": ["Timeboxing", "Crashing", "Swarming", "Rolling wave planning"],
+    "e": "A timebox is a fixed period of time for an activity. Sprints, daily stand-ups and reviews are timeboxed to create a predictable cadence and to force prioritization.",
+    "eco": "Process", "task": "II.8", "ap": "Agile"
+  },
+  {
+    "q": "A project manager needs to show executives the major events of a 2-year program without detail. Which schedule presentation is MOST appropriate?",
+    "o": ["Milestone chart", "Detailed network diagram", "Activity list", "Resource histogram"],
+    "e": "Milestone charts show only key events and their dates, which suits executive-level communication. Network diagrams and activity lists provide detail for the team.",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "A team member's work depends on a permit to be issued by a government agency. This is an example of a(n):",
+    "o": ["External dependency", "Discretionary dependency", "Internal mandatory dependency", "Lead"],
+    "e": "External dependencies involve a relationship between project activities and non-project activities, usually outside the team's control, such as government permits or vendor deliveries.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "Which technique would BEST quantify the probability of completing the project by a target date, considering uncertainty in many activity durations?",
+    "o": ["Monte Carlo simulation", "Critical path method", "Bottom-up estimating", "Resource smoothing"],
+    "e": "Monte Carlo simulation runs many iterations using probability distributions for activity durations to produce a probability distribution of project completion dates.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "A team is asked to estimate a feature they have never built before. Which agile estimation technique helps reach consensus while exposing different assumptions?",
+    "o": ["Planning poker", "Parametric estimating", "Analogous estimating by the PM", "PERT"],
+    "e": "Planning poker uses simultaneous reveal of relative estimates; large differences prompt discussion of assumptions until the team converges, reducing anchoring.",
+    "eco": "Process", "task": "II.8", "ap": "Agile"
+  },
+  {
+    "q": "A hybrid project combines a fixed hardware delivery date with software iterations. Software releases depend on hardware prototypes. What should the project manager do to manage the schedule effectively?",
+    "o": ["Integrate key hardware milestones into the release roadmap and plan iterations around those dependencies", "Run the two schedules independently and reconcile them at the end", "Convert the hardware work to sprints", "Delay software work until the hardware is complete"],
+    "e": "In hybrid projects, schedules must be integrated: predictive milestones become constraints and dependencies visible in the adaptive roadmap and iteration planning.",
+    "eco": "Process", "task": "II.8", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following is the BEST description of the schedule baseline?",
+    "o": ["The approved version of the schedule model, changed only through formal change control", "The current schedule with all updates", "The schedule produced by the team before sponsor review", "The list of milestones in the project charter"],
+    "e": "The schedule baseline is the approved version of the schedule model with baseline start and finish dates. It is used for comparison with actual results and changed only via change control.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "A team member estimates an activity at 10 days but secretly adds 4 days of safety in case something goes wrong. What is this behavior called, and what is a better practice?",
+    "o": ["Padding; use transparent contingency reserves based on risk analysis", "Fast tracking; use crashing instead", "Gold plating; use acceptance criteria", "Rolling wave; plan everything in detail"],
+    "e": "Hidden padding distorts estimates and tends to be consumed (Parkinson's Law). Uncertainty should be handled transparently through contingency reserves sized from risk analysis.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "Which statement BEST describes the relationship between activity durations and resource availability?",
+    "o": ["Durations depend on the resources assigned and their availability, so schedule and resource planning must be integrated", "Durations are independent of resources", "Adding resources always reduces duration proportionally", "Resources are assigned only after the schedule is baselined"],
+    "e": "Duration estimates assume specific resources and availability. Adding resources does not always reduce duration proportionally (law of diminishing returns, communication overhead), so schedule and resource planning are integrated.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "During a daily stand-up, the team realizes that a story will not be finished by the end of the sprint. Several members have capacity. What is the BEST practice?",
+    "o": ["Swarm on the story so the team completes it together", "Extend the sprint by three days", "Start new stories to keep everyone busy", "Ask the product owner to remove it from the backlog"],
+    "e": "Swarming, where multiple team members collaborate on the highest-priority unfinished item, improves flow and the chance of meeting the sprint goal. Sprints are not extended.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "A project manager reviewing the schedule finds that several activities have negative total float. What does this indicate?",
+    "o": ["The schedule cannot meet an imposed date constraint without corrective action", "The activities are ahead of schedule", "The activities can be delayed freely", "The schedule has extra buffer"],
+    "e": "Negative float occurs when the calculated dates exceed an imposed constraint (e.g., a contractual finish date). Compression or other corrective actions are needed.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive"
+  },
+  {
+    "q": "In Monitor and Control Schedule, which output provides estimates of future schedule performance, such as an estimated completion date?",
+    "o": ["Schedule forecasts", "Schedule baseline", "Activity attributes", "Resource calendars"],
+    "e": "Schedule forecasts are estimates of future conditions based on performance to date, for example expected completion dates derived from SPI or velocity trends.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive"
+  }
+]

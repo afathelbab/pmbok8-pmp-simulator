@@ -1,0 +1,119 @@
+{
+  "welcome": {
+    "title": "Choose language",
+    "subtitle": "Select how you want to use this practice app.",
+    "english": "English",
+    "arabic": "Arabic",
+    "continue": "Continue"
+  },
+  "home": {
+    "title": "PMP practice simulator — PMBOK 8th Edition",
+    "lead": "Unofficial practice questions aligned to the PMBOK Guide – Eighth Edition and the July 2026 PMP exam content outline, plus the classic question bank. Not affiliated with PMI.",
+    "changeLanguage": "Language",
+    "domainPractice": "Domain practice",
+    "domainPracticeDesc": "Study one category at a time with immediate feedback.",
+    "timedExam": "Timed exam",
+    "timedExamDesc": "Timed quiz: mixed bank, PMBOK 8 ECO-weighted exam, or the 180-question PMBOK 8 mock — explanations after you submit."
+  },
+  "practice": {
+    "heading": "Practice by domain",
+    "loading": "Loading categories…",
+    "loadError": "Failed to load categories",
+    "shuffle": "Shuffle question order",
+    "randomizeNames": "Randomize scenario names",
+    "home": "Home",
+    "questionsCount": "{{count}} questions",
+    "group": {
+      "pmbok8": "PMBOK Guide – 8th Edition (new)",
+      "pmbok8-mock": "PMBOK 8 full mock exam",
+      "classic": "Classic bank (PMBOK 6th/7th-era questions)"
+    },
+    "groupDesc": {
+      "pmbok8": "Seven performance domains, principles and new topics (AI, sustainability, PMO, procurement). Each question is tagged to the 2026 ECO.",
+      "pmbok8-mock": "180 scenario questions weighted to the 2026 ECO: People 33%, Process 41%, Business Environment 26%; ~40% predictive, ~60% agile/hybrid.",
+      "classic": "The original question bank by knowledge area, kept for extra practice. Some references use earlier PMBOK editions."
+    }
+  },
+  "quiz": {
+    "loading": "Loading questions…",
+    "unknownCategory": "Unknown category",
+    "noQuestions": "No questions in this category.",
+    "back": "Back",
+    "backCategories": "Back to categories",
+    "questionProgress": "Question {{current}} of {{total}}",
+    "scoreRunning": "Score: {{correct}}/{{answered}} answered",
+    "next": "Next",
+    "finish": "Finish",
+    "categories": "Categories",
+    "correctShort": "Correct.",
+    "incorrectShort": "Incorrect."
+  },
+  "exam": {
+    "setupTitle": "Timed exam",
+    "setupIntro": "Choose a question source below. Duration defaults to the ratio of the July 2026 PMP exam: {{minutes}} minutes / {{questions}} questions — an informal study aid, not a PMI replica.",
+    "presets": "Quick presets (question count)",
+    "numQuestions": "Number of questions",
+    "timeMinutes": "Time limit (minutes)",
+    "randomizeNames": "Randomize scenario names (same setting as domain practice)",
+    "loading": "Loading…",
+    "loadFailed": "Failed to load manifest",
+    "start": "Start exam",
+    "preparing": "Preparing…",
+    "cancel": "Cancel",
+    "buildFailed": "Could not build exam session",
+    "timer": "Time left: {{time}}",
+    "questionProgress": "Question {{current}} of {{total}}",
+    "previous": "Previous",
+    "flagReview": "Flag for review",
+    "next": "Next",
+    "submit": "Submit exam",
+    "home": "Home",
+    "source": "Question source",
+    "sourceAll": "All questions (mixed)",
+    "sourceAllDesc": "Random sample across every category: PMBOK 8 bank plus the classic bank.",
+    "sourceEco": "PMBOK 8 — ECO-weighted",
+    "sourceEcoDesc": "PMBOK 8 questions only, sampled 33% People / 41% Process / 26% Business Environment.",
+    "sourceMock": "PMBOK 8 full mock exam",
+    "sourceMockDesc": "All {{count}} mock questions in random order (240 minutes by default)."
+  },
+  "results": {
+    "title": "Exam results",
+    "timeExpired": "Time expired — unanswered items count as incorrect.",
+    "score": "Score",
+    "informal": "Informal pass threshold for practice: {{pct}}% — {{status}} threshold (not an official exam prediction).",
+    "atOrAbove": "At or above",
+    "below": "Below",
+    "byDomain": "Performance by domain",
+    "domain": "Domain",
+    "correct": "Correct",
+    "total": "Total",
+    "review": "Review",
+    "reviewIntro": "Explanations are shown for all items you missed (and for any you did not answer).",
+    "perfect": "No incorrect answers on this attempt.",
+    "questionN": "Question {{n}}",
+    "domainLine": "Domain: {{name}}",
+    "yourAnswer": "Your answer: {{a}}. Correct: {{c}}",
+    "none": "(none)",
+    "newExam": "New exam",
+    "domainPractice": "Domain practice",
+    "home": "Home",
+    "byEco": "Performance by ECO domain (2026)",
+    "byEcoNote": "Only PMBOK 8 questions carry ECO tags; classic questions appear as untagged.",
+    "ecoDomain": "ECO domain",
+    "byApproach": "Performance by delivery approach",
+    "approach": "Approach",
+    "untagged": "Untagged (classic bank)"
+  },
+  "summary": {
+    "title": "Session complete",
+    "scoreLine": "{{label}}: {{correct}} / {{total}} correct ({{pct}}%)",
+    "reviewTitle": "Review incorrect ({{count}})",
+    "yourAnswer": "Your answer: {{a}}. Correct: {{c}}",
+    "perfect": "Perfect score on this run.",
+    "backCategories": "Back to categories",
+    "home": "Home"
+  },
+  "a11y": {
+    "explanation": "Explanation"
+  }
+}

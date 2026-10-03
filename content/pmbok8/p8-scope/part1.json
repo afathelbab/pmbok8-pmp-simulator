@@ -1,0 +1,110 @@
+[
+  {
+    "q": "Which process in the Scope performance domain uses techniques such as interviews, workshops, focus groups and prototypes to determine stakeholder needs?",
+    "o": ["Elicit and Analyze Requirements", "Define Scope", "Develop Scope Structure", "Plan Scope Management"],
+    "e": "Elicit and Analyze Requirements (Planning focus area) draws out, documents and analyzes stakeholder needs and requirements using elicitation techniques, producing requirements documentation.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "What is the name of the Eighth Edition process that decomposes the project scope into a hierarchical structure such as a WBS?",
+    "o": ["Develop Scope Structure", "Define Scope", "Create Backlog", "Decompose Deliverables"],
+    "e": "Develop Scope Structure decomposes scope into a work breakdown structure (or, in adaptive contexts, a backlog structure of epics, features and stories).",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "Which components make up the scope baseline in a predictive project?",
+    "o": ["Project scope statement, WBS and WBS dictionary", "Requirements documentation, WBS and schedule", "Project charter, scope statement and RTM", "Product backlog, release plan and definition of done"],
+    "e": "The scope baseline is the approved version of the scope statement, the WBS and its associated WBS dictionary. It can be changed only through formal change control.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "A stakeholder asks why a 'nice-to-have' report is not part of the project. Which document BEST shows what is explicitly excluded from scope?",
+    "o": ["Project scope statement", "Project charter", "Stakeholder register", "Communications management plan"],
+    "e": "The project scope statement describes the scope, major deliverables, assumptions, constraints and explicit exclusions. Stating exclusions helps manage stakeholder expectations.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "Which rule states that the WBS must include 100% of the work defined by the project scope, including project management work, and nothing more?",
+    "o": ["The 100 percent rule", "The 8/80 rule", "The rule of seven", "Pareto's 80/20 rule"],
+    "e": "The 100 percent rule requires the total of the work at the lowest levels to roll up to the higher levels so that nothing is left out and no extra work is included.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "What is the lowest level of the WBS at which cost and duration can be estimated and managed?",
+    "o": ["Work package", "Activity", "Control account", "Planning package"],
+    "e": "A work package is the lowest level of the WBS. Activities are derived from work packages for scheduling. Control accounts are management control points above work packages; planning packages are below control accounts but without detailed activities yet.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "A team cannot trace a test case back to any business requirement. Which tool would have helped prevent this?",
+    "o": ["Requirements traceability matrix", "Responsibility assignment matrix", "Stakeholder engagement assessment matrix", "Probability and impact matrix"],
+    "e": "The requirements traceability matrix links requirements to their origin and traces them through design, build, test and delivery, ensuring each requirement adds value and is validated.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "In an adaptive project, which artifact typically replaces the detailed WBS as the primary representation of scope?",
+    "o": ["The product backlog", "The iteration burndown chart", "The team charter", "The risk-adjusted backlog of defects only"],
+    "e": "In adaptive approaches the product backlog (epics, features, user stories) is the ordered list of work that represents product scope. It evolves as learning occurs.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "A user story reads: 'As a store manager, I want to see daily sales by product so that I can reorder stock.' What should be added so the team knows when the story is complete?",
+    "o": ["Acceptance criteria", "A WBS code", "A story point estimate", "A RACI assignment"],
+    "e": "Acceptance criteria define the conditions the story must satisfy to be accepted by the product owner. Story points estimate size but do not define completeness.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "Which of the following correctly describes the INVEST criteria for good user stories?",
+    "o": ["Independent, Negotiable, Valuable, Estimable, Small, Testable", "Iterative, Necessary, Visible, Effective, Simple, Timely", "Integrated, Negotiated, Verified, Estimated, Scoped, Tracked", "Important, New, Valuable, Easy, Sized, Testable"],
+    "e": "INVEST is a common checklist for well-formed user stories: Independent, Negotiable, Valuable, Estimable, Small and Testable.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "What is the difference between the definition of done (DoD) and acceptance criteria?",
+    "o": ["DoD applies to all items as a shared quality standard; acceptance criteria are specific to each item", "DoD is defined by the customer per story; acceptance criteria are defined by the team for all work", "DoD is used only in predictive projects", "They are the same and can be used interchangeably"],
+    "e": "The definition of done is a team-wide checklist every increment must meet (e.g., code reviewed, tested, documented). Acceptance criteria are specific conditions for a particular story or feature.",
+    "eco": "Process", "task": "II.7", "ap": "Agile"
+  },
+  {
+    "q": "A startup wants to test market demand quickly with the least effort. The product owner proposes releasing a version with only the core feature. This is known as:",
+    "o": ["A minimum viable product (MVP)", "A work package", "A baseline", "A proof of compliance"],
+    "e": "An MVP is the smallest version of the product that can be released to validate assumptions and gather feedback, maximizing learning with minimal investment.",
+    "eco": "Process", "task": "II.3", "ap": "Agile"
+  },
+  {
+    "q": "The difference between product scope and project scope is BEST described as:",
+    "o": ["Product scope is the features and functions of the result; project scope is the work needed to deliver it", "Product scope is managed by the sponsor; project scope by the customer", "Product scope is fixed; project scope always changes", "Product scope includes project management work; project scope does not"],
+    "e": "Product scope describes the features and functions characterizing the product, service or result. Project scope is the work performed to deliver it, including project management work.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "A team member adds extra features that the customer did not request, believing it will impress them. This is called:",
+    "o": ["Gold plating", "Scope creep", "Progressive elaboration", "Rolling wave planning"],
+    "e": "Gold plating is the team intentionally adding features beyond the agreed scope. Scope creep is uncontrolled expansion of scope, often driven by stakeholder requests, without adjustments to time, cost and resources.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "Small requirement changes requested by different stakeholders have been accepted informally over several months, and the project is now late. What is the MOST likely root cause?",
+    "o": ["Scope creep due to weak scope control", "Inaccurate activity duration estimates", "Poor team motivation", "A missing communications management plan"],
+    "e": "Uncontrolled acceptance of changes without assessing impacts or adjusting baselines is scope creep. Monitor and Control Scope and change control are intended to prevent it.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "Which process obtains the customer's or sponsor's formal acceptance of completed deliverables?",
+    "o": ["Validate Scope", "Monitor and Control Scope", "Manage Quality Assurance", "Close Project or Phase"],
+    "e": "Validate Scope formalizes acceptance of verified deliverables by the customer or sponsor, typically through inspection or a review, producing accepted deliverables.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "During a review, the customer rejects a deliverable because it does not meet one acceptance criterion. What should the project manager do?",
+    "o": ["Document the reason, raise a change request or corrective action as needed, and fix the deliverable", "Argue that the deliverable meets the overall intent", "Mark it accepted and fix it during the warranty period", "Escalate the rejection to the sponsor for override"],
+    "e": "Deliverables that are not accepted are documented with reasons; corrective action or defect repair (through change requests where required) is undertaken so the deliverable can be resubmitted.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive"
+  },
+  {
+    "q": "Which is the CORRECT sequence of deliverable states?",
+    "o": ["Deliverables → verified deliverables → accepted deliverables", "Accepted deliverables → verified deliverables → deliverables", "Verified deliverables → deliverables → accepted deliverables", "Deliverables → accepted deliverables → verified deliverables"],
+    "e": "Deliverables are produced during execution, checked internally for correctness (verified deliverables), then formally accepted by the customer through Validate Scope (accepted deliverables), before being transferred at closing.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive"
+  }
+]

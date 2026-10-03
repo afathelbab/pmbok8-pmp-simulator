@@ -1,0 +1,122 @@
+[
+  {
+    "q": "An agile team is mature, cross-functional and consistently meets its goals. Which leadership approach is MOST appropriate for the project manager?",
+    "o": ["Delegate decisions to the team and focus on removing impediments", "Assign tasks daily to each team member", "Review every technical decision before implementation", "Reduce the team's autonomy to ensure control"],
+    "e": "High-performing, self-organizing teams are best supported by delegation and servant leadership, with the leader focusing on the environment and impediments.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "A project manager notices that team members avoid admitting mistakes because they fear blame. What should be established?",
+    "o": ["Psychological safety, where people can raise problems without fear", "A stricter performance appraisal process", "A system of penalties for mistakes", "More detailed task assignments"],
+    "e": "Psychological safety enables team members to speak up, admit mistakes and propose ideas, which is essential for learning, quality and an empowered culture.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "A team member consistently produces excellent work. Which recognition approach is generally MOST effective?",
+    "o": ["Timely, specific recognition that reflects what the person values", "A generic thank-you email to the whole department at year end", "Recognition only if the project succeeds", "No recognition, to avoid jealousy"],
+    "e": "Recognition is most effective when it is timely, specific and meaningful to the individual. Rewards should reinforce desired behaviors.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "According to McGregor, a manager who believes team members are self-motivated and seek responsibility holds which view?",
+    "o": ["Theory Y", "Theory X", "Theory Z", "Hygiene theory"],
+    "e": "Theory Y assumes people are self-motivated and enjoy responsibility; Theory X assumes people dislike work and need close supervision.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A project manager wants to understand team members' motivation in terms of needs for achievement, power and affiliation. Which theory is this?",
+    "o": ["McClelland's theory of needs", "Maslow's hierarchy of needs", "Vroom's expectancy theory", "Herzberg's two-factor theory"],
+    "e": "McClelland's acquired needs theory states that people are motivated by needs for achievement, power and affiliation, in varying degrees.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A team member is assigned to the project because the sponsor promised her involvement in the proposal. This is an example of:",
+    "o": ["Pre-assignment", "Negotiation", "Virtual team acquisition", "Multi-criteria decision analysis"],
+    "e": "Pre-assignment occurs when team members are selected in advance, for example because they were promised in a proposal or have unique expertise.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "Which process compares planned versus actual use of physical resources and team allocations and takes corrective action as necessary?",
+    "o": ["Monitor and Control Resourcing", "Lead the Team", "Estimate Resources", "Monitor and Control Project Performance"],
+    "e": "Monitor and Control Resourcing ensures that physical and team resources are available as planned and used effectively, taking corrective action where needed.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "Which hierarchical representation organizes resources by category and type, such as labor, equipment and materials?",
+    "o": ["Resource breakdown structure", "Organizational breakdown structure", "Work breakdown structure", "Risk breakdown structure"],
+    "e": "A resource breakdown structure (RBS) is a hierarchical representation of resources by category and type, supporting estimation and acquisition.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "A team member refuses to follow the team's agreed coding standards and says they slow him down. What should the project manager do?",
+    "o": ["Discuss the concern with him, refer to the team charter, and involve the team in revisiting the standard if needed", "Allow him to ignore the standards because he is experienced", "Remove him from the team immediately", "Have the team vote to punish him"],
+    "e": "The team charter captures agreed norms. The project manager should address the behavior directly and respectfully, while being open to improving the agreement through the team.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "Which conflict resolution technique emphasizes areas of agreement and concedes position to maintain harmony?",
+    "o": ["Smooth/accommodate", "Compromise/reconcile", "Force/direct", "Collaborate/problem solve"],
+    "e": "Smoothing emphasizes areas of agreement rather than differences and concedes position to maintain relationships, often a temporary solution.",
+    "eco": "People", "task": "I.2", "ap": "Hybrid"
+  },
+  {
+    "q": "Two teams both need the same test lab in the same week. Neither can wait. The project manager proposes that each team uses the lab for half the week. Which conflict technique is this?",
+    "o": ["Compromise/reconcile", "Collaborate/problem solve", "Withdraw/avoid", "Force/direct"],
+    "e": "Compromise searches for solutions that bring some degree of satisfaction to all parties, often with each giving something up, resulting in a partial (lose-lose or partial win) outcome.",
+    "eco": "People", "task": "I.2", "ap": "Predictive"
+  },
+  {
+    "q": "A team member asks to be coached on presenting to executives. What is the difference between coaching and mentoring?",
+    "o": ["Coaching is typically focused on specific skills or performance; mentoring is a longer-term relationship focused on overall development", "Coaching is done by peers; mentoring only by HR", "Coaching is for underperformers; mentoring is for high performers", "They are the same activity"],
+    "e": "Coaching usually targets particular skills or performance improvements over a shorter time. Mentoring is a broader, longer-term relationship supporting career and personal development.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "An agile team is forming. What should the team do to establish how it will work together?",
+    "o": ["Create working agreements in a team charter", "Wait for the project manager to dictate rules", "Copy another team's charter without discussion", "Skip agreements because agile teams self-organize"],
+    "e": "Self-organizing teams co-create their working agreements (team charter), which build ownership and accountability for agreed behaviors.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "A team is in the norming stage. What behavior is typical?",
+    "o": ["Members adjust habits and behaviors to support the team and trust grows", "Members are polite and uncertain about roles", "Members confront each other's ideas strongly", "The team is completing work and preparing to disband"],
+    "e": "In norming, the team agrees on ways of working and trust develops. Forming is polite and uncertain; storming has conflict; adjourning occurs at completion.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A team has been working long hours for several sprints to meet aggressive targets, and burnout is visible. What should the project manager do?",
+    "o": ["Work with the team and product owner to restore a sustainable pace and adjust scope or expectations", "Encourage the team to continue until the release", "Offer overtime pay to motivate them", "Replace exhausted team members"],
+    "e": "Sustainable pace is an agile principle and important for quality and wellbeing. Workload should be adjusted through prioritization and expectation management.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "Which type of team member has deep expertise in one area and broad skills in others, supporting cross-functional collaboration?",
+    "o": ["T-shaped", "I-shaped", "Generalist only", "Siloed specialist"],
+    "e": "T-shaped people combine depth in one discipline with breadth across others, enabling them to help teammates and reduce bottlenecks.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "During planning, the project manager estimates the number and type of people, equipment and materials needed for each activity. Which process is this?",
+    "o": ["Estimate Resources", "Plan Resource Management", "Acquire Resources", "Develop Schedule"],
+    "e": "Estimate Resources determines the type and quantities of team and physical resources required, producing resource requirements and a basis of estimates.",
+    "eco": "Process", "task": "II.4", "ap": "Predictive"
+  },
+  {
+    "q": "A team member raises a concern that a colleague is regularly taking credit for others' work. What should the project manager do?",
+    "o": ["Investigate the facts and address the behavior privately with the colleague", "Ignore it, since credit does not affect deliverables", "Discuss it with the entire team in the next meeting", "Report it directly to HR without speaking to anyone"],
+    "e": "Fairness and respect are key to team trust. The project manager should gather facts and address the behavior directly and privately, involving HR only if needed.",
+    "eco": "People", "task": "I.2", "ap": "Hybrid"
+  },
+  {
+    "q": "Which output of Lead the Team provides a formal or informal evaluation of team effectiveness?",
+    "o": ["Team performance assessments", "Resource calendars", "Project team assignments", "Physical resource assignments"],
+    "e": "Team performance assessments evaluate the team's effectiveness, such as skill improvements, reduced turnover and better collaboration, and identify needed support.",
+    "eco": "People", "task": "I.3", "ap": "Predictive"
+  },
+  {
+    "q": "A project manager learns that a vendor's staff on site are not following the project's safety procedures. What should the project manager do?",
+    "o": ["Stop unsafe work, communicate the requirements to the vendor and ensure compliance", "Ignore it, because the vendor is responsible for its own staff", "Wait until the end of the contract to raise the issue", "Fire the vendor immediately"],
+    "e": "Safety is non-negotiable. Unsafe work should be stopped, requirements reinforced with the vendor per the contract, and compliance monitored.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive"
+  }
+]

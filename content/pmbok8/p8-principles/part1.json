@@ -1,0 +1,110 @@
+[
+  {
+    "q": "The PMBOK Guide – Eighth Edition consolidates the project management principles. How many principles does it define?",
+    "o": ["Six", "Twelve", "Eight", "Ten"],
+    "e": "The Eighth Edition reduces the twelve principles of the Seventh Edition to six: adopt a holistic view, focus on value, embed quality into processes and deliverables, be an accountable leader, integrate sustainability within all project areas, and build an empowered culture.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which principle is NEW in the PMBOK Guide – Eighth Edition compared with the Seventh Edition?",
+    "o": ["Integrate sustainability within all project areas", "Focus on value", "Be a diligent, respectful, and caring steward", "Navigate complexity"],
+    "e": "Sustainability (environmental, social and economic) is introduced as a standalone principle in the Eighth Edition. Focus on value carries over; stewardship and complexity were Seventh Edition principles that have been consolidated into the six new ones.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid"
+  },
+  {
+    "q": "How many performance domains are described in the PMBOK Guide – Eighth Edition?",
+    "o": ["Seven", "Eight", "Ten", "Five"],
+    "e": "The Eighth Edition defines seven performance domains: Governance, Scope, Schedule, Finance, Stakeholders, Resources, and Risk. Ten was the number of Knowledge Areas in the Sixth Edition; eight was the number of performance domains in the Seventh Edition; five is the number of focus areas.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid"
+  },
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, what replaced the term 'process groups' used in earlier editions?",
+    "o": ["Focus areas", "Performance domains", "Value streams", "Delivery cadences"],
+    "e": "The five former process groups (Initiating, Planning, Executing, Monitoring and Controlling, Closing) are presented as focus areas. Performance domains are a different dimension (Governance, Scope, Schedule, Finance, Stakeholders, Resources, Risk).",
+    "eco": "Process", "task": "II.1", "ap": "Predictive"
+  },
+  {
+    "q": "A PMP candidate asks how many processes are described in the PMBOK Guide – Eighth Edition. What is the correct answer?",
+    "o": ["40", "49", "47", "35"],
+    "e": "The Eighth Edition describes 40 adaptable, non-prescriptive processes organized across the seven performance domains and five focus areas. The Sixth Edition had 49 processes; the Fifth Edition had 47.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which performance domain is the only one whose processes span all five focus areas, from Initiating through Closing?",
+    "o": ["Governance", "Scope", "Stakeholders", "Risk"],
+    "e": "Governance contains Initiate Project or Phase (Initiating), Integrate and Align Project Plans and Plan Sourcing Strategy (Planning), Manage Project Execution, Manage Quality Assurance and Manage Project Knowledge (Executing), Monitor and Control Project Performance and Assess and Implement Changes (Monitoring and Controlling), and Close Project or Phase (Closing).",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "A team delivered every feature in the approved scope on time and on budget, but six months later the sponsor reports that the expected business outcome has not materialized. Which principle was MOST likely under-emphasized?",
+    "o": ["Focus on value", "Embed quality into processes and deliverables", "Be an accountable leader", "Build an empowered culture"],
+    "e": "Delivering outputs is not the same as delivering value. The focus-on-value principle asks the team to continually evaluate whether the work is producing the intended outcomes and benefits, and to adjust when it is not.",
+    "eco": "Process", "task": "II.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A project manager is evaluating a proposed change to a data platform. Instead of looking only at the project's own schedule, she studies how the change affects upstream systems, other projects in the program, and the operations team that will support the platform. Which principle is she applying?",
+    "o": ["Adopt a holistic view", "Focus on value", "Integrate sustainability within all project areas", "Build an empowered culture"],
+    "e": "Adopting a holistic view means applying systems thinking: understanding that the project is part of a larger system of programs, portfolios, operations and the external environment, and that changes in one part affect others.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid"
+  },
+  {
+    "q": "During a sprint review a tester finds that defects are routinely discovered only at the end of each release. The project manager proposes adding automated tests and a definition of done that each increment must satisfy. Which principle does this BEST reflect?",
+    "o": ["Embed quality into processes and deliverables", "Adopt a holistic view", "Focus on value", "Be an accountable leader"],
+    "e": "Quality should be built into the way work is done and into each deliverable, not inspected in at the end. Automated tests and a definition of done embed quality in the process and prevent defects from accumulating.",
+    "eco": "Process", "task": "II.7", "ap": "Agile"
+  },
+  {
+    "q": "A critical vendor delivery slips because of a contract clause the project manager approved without review. Rather than blaming procurement, the project manager informs the sponsor, owns the error, and presents a recovery plan. Which principle is being demonstrated?",
+    "o": ["Be an accountable leader", "Build an empowered culture", "Adopt a holistic view", "Focus on value"],
+    "e": "Accountable leadership involves integrity, transparency and ownership of outcomes, including mistakes, while guiding others toward a solution.",
+    "eco": "People", "task": "I.3", "ap": "Predictive"
+  },
+  {
+    "q": "A project manager notices that team members wait for her approval before making even minor technical decisions. What should she do FIRST to align with the 'build an empowered culture' principle?",
+    "o": ["Agree with the team on decision boundaries and delegate decisions within them", "Approve the decisions faster by checking messages more frequently", "Escalate to the functional manager that the team lacks initiative", "Document all technical decisions in a RACI and require sign-off"],
+    "e": "An empowered culture is built by giving the team clear authority boundaries and trusting them to decide within those boundaries. Faster approvals or more sign-off keep the bottleneck in place; escalation does not address the root cause.",
+    "eco": "People", "task": "I.3", "ap": "Agile"
+  },
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, tailoring is treated as:",
+    "o": ["A dedicated section guiding how to adapt the approach, processes and artifacts to the context", "One of the six project management principles", "An optional appendix used only for agile projects", "A process within the Governance performance domain"],
+    "e": "In the Seventh Edition, tailoring was a principle ('Tailor based on context'). In the Eighth Edition it is treated as its own section of guidance on how to adapt approach, governance, processes, methods and artifacts to the project context. It applies to all approaches, not only agile.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid"
+  },
+  {
+    "q": "A project manager is starting a regulated medical-device software project. Requirements for safety features are fixed by regulation, while user-interface features are expected to evolve with user feedback. Which development approach is MOST appropriate?",
+    "o": ["A hybrid approach: predictive for regulated safety components, adaptive for the user interface", "A fully predictive approach for every component to satisfy auditors", "A fully adaptive approach, since software is best delivered iteratively", "Postpone the approach decision until requirements are complete"],
+    "e": "Tailoring the development approach to the characteristics of each component is a core idea of the Eighth Edition. Stable, regulated requirements suit predictive planning, while evolving requirements benefit from adaptive iterations. A hybrid approach combines both.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which statement BEST describes the role of the 40 processes in the PMBOK Guide – Eighth Edition?",
+    "o": ["They are non-prescriptive; teams select and adapt them to the context", "They must all be performed, in sequence, on every project", "They apply only to predictive projects; agile projects use the principles instead", "They are mandatory for PMI certification holders"],
+    "e": "The Eighth Edition describes its processes as adaptable and non-prescriptive. They describe commonly used activities; the project team tailors which ones to apply, how rigorously, and in what order, regardless of approach.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which list correctly names the five focus areas in the PMBOK Guide – Eighth Edition?",
+    "o": ["Initiating, Planning, Executing, Monitoring and Controlling, Closing", "Governance, Scope, Schedule, Finance, Risk", "Discover, Define, Develop, Deliver, Close", "Value, Quality, Leadership, Sustainability, Culture"],
+    "e": "The five focus areas mirror the former process groups: Initiating, Planning, Executing, Monitoring and Controlling, and Closing. The second option lists performance domains; the last one paraphrases principles.",
+    "eco": "Process", "task": "II.1", "ap": "Predictive"
+  },
+  {
+    "q": "A sponsor asks why the new PMBOK edition combines principles with processes. Which explanation is MOST accurate?",
+    "o": ["It bridges the principle-based Seventh Edition with practical, adaptable process guidance", "It returns to the fully prescriptive model of the Sixth Edition", "It replaces principles with a fixed methodology for certification", "It removes processes and focuses only on agile values"],
+    "e": "The Eighth Edition is positioned as a bridge: it keeps the principles and performance-domain thinking of the Seventh Edition but reintroduces structured, adaptable processes that practitioners can tailor.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following is a performance domain in the PMBOK Guide – Eighth Edition but was NOT a performance domain in the Seventh Edition?",
+    "o": ["Finance", "Stakeholders", "Team", "Uncertainty"],
+    "e": "The Eighth Edition domains are Governance, Scope, Schedule, Finance, Stakeholders, Resources and Risk. Finance (with Governance, Scope, Schedule, Resources and Risk) is new as a domain name. Stakeholders existed in both editions; Team and Uncertainty were Seventh Edition domains.",
+    "eco": "Process", "task": "II.6", "ap": "Hybrid"
+  },
+  {
+    "q": "A project is delivering a new hospital wing. The project manager evaluates construction choices not only on cost and time but on energy use over the building's life, local employment, and long-term maintenance burden. Which principle is being applied?",
+    "o": ["Integrate sustainability within all project areas", "Focus on value", "Adopt a holistic view", "Embed quality into processes and deliverables"],
+    "e": "The sustainability principle asks teams to consider environmental, social and economic impacts throughout the project and the life of its outputs, not just immediate project constraints.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Predictive"
+  }
+]

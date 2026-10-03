@@ -1,0 +1,104 @@
+[
+  {
+    "q": "A decision tree shows Option A: invest 100,000 with a 60% chance of earning 300,000 and a 40% chance of earning 50,000. What is the expected net value of Option A?",
+    "o": ["100,000", "200,000", "180,000", "130,000"],
+    "e": "EMV of outcomes = 0.6 × 300,000 + 0.4 × 50,000 = 180,000 + 20,000 = 200,000. Net value = 200,000 − 100,000 investment = 100,000.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which document records identified risks, their owners, analysis results and planned responses?",
+    "o": ["Risk register", "Risk management plan", "Issue log", "Risk report"],
+    "e": "The risk register captures details of individual risks: description, category, owner, probability, impact, priority, response and status. The risk report summarizes overall project risk and individual risks.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which document defines risk categories, roles, budgeting, timing, and definitions of probability and impact for the project?",
+    "o": ["Risk management plan", "Risk register", "Risk report", "Assumption log"],
+    "e": "The risk management plan, output of Plan Risk Management, describes how risk management activities will be structured and performed, including methodology, roles, funding, timing, risk categories (RBS), stakeholder risk appetite and probability-impact definitions.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "What is overall project risk?",
+    "o": ["The effect of uncertainty on the project as a whole, from all sources", "The sum of the EMVs of the top five risks", "The single highest-rated risk in the register", "The risk associated with the project's critical path only"],
+    "e": "Overall project risk is the effect of uncertainty on the project as a whole, arising from all sources including individual risks and other uncertainty. It represents the exposure of stakeholders to variation in outcomes.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid"
+  },
+  {
+    "q": "A warning sign indicates that a risk is about to occur. What is this called?",
+    "o": ["A risk trigger", "A residual risk", "A workaround", "A risk threshold"],
+    "e": "Triggers (risk symptoms) are events or conditions indicating that a risk is about to occur or has occurred. They are recorded in the risk register so owners can act.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Who should own a risk response?",
+    "o": ["The person best placed to manage the risk, as assigned in the risk register", "Always the project manager", "Always the sponsor", "The person who identified the risk"],
+    "e": "Each risk should have a risk owner who is best able to manage the response. The project manager remains responsible for the overall risk process.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which technique compares the project's risk register against historical data and organizational knowledge to identify risks?",
+    "o": ["Checklists derived from lessons learned", "Monte Carlo simulation", "Tornado diagram", "Earned value analysis"],
+    "e": "Checklists based on historical information and lessons learned from similar projects help identify risks. They should not be the only source because they may not be exhaustive.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "The project manager reviews the assumptions in the charter and finds one that is unlikely to hold. What should be done?",
+    "o": ["Treat it as a potential risk and add it to the risk register", "Ignore it because it was approved in the charter", "Remove it from the assumption log", "Escalate it as an issue immediately"],
+    "e": "Assumption and constraint analysis explores the validity of assumptions; inaccurate or unstable assumptions are sources of project risk.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A risk audit is conducted during the project. What is its PRIMARY purpose?",
+    "o": ["To evaluate the effectiveness of the risk management process", "To identify new opportunities only", "To calculate the project's EMV", "To approve risk owners"],
+    "e": "Risk audits examine the effectiveness of the risk management process and responses, and are part of monitoring risks.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A project team decides not to take any action on a low-priority threat but agrees to establish a contingency reserve if it occurs. Which strategy is this?",
+    "o": ["Active acceptance", "Passive acceptance", "Mitigation", "Transfer"],
+    "e": "Active acceptance establishes a contingency reserve (time, money or resources) to handle the risk if it occurs. Passive acceptance involves no proactive action other than periodic review.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A team partners with another company in a joint venture to capture a market opportunity neither could achieve alone. Which opportunity strategy is this?",
+    "o": ["Share", "Exploit", "Enhance", "Transfer"],
+    "e": "Sharing allocates ownership of an opportunity to a third party best able to capture its benefit, such as through partnerships or joint ventures.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A risk breakdown structure (RBS) is BEST described as:",
+    "o": ["A hierarchical representation of potential sources of risk", "A list of risk owners", "A chart showing risk trends", "A decomposition of the project's deliverables"],
+    "e": "The RBS organizes risk categories and sub-categories (e.g., technical, management, commercial, external), helping identify risks systematically.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "The team uses an AI-based model to forecast risk likelihood from historical project data. What is the project manager's MOST important responsibility?",
+    "o": ["Validate the model's outputs with expert judgment and understand its data limitations", "Accept the AI outputs because they are data-driven", "Replace the risk register with the AI dashboard", "Use only AI-identified risks"],
+    "e": "AI can support risk analysis, but outputs depend on data quality and model assumptions. The project manager should apply judgment, check for bias and remain accountable for decisions.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid"
+  },
+  {
+    "q": "During daily stand-ups, a team member repeatedly mentions a dependency on another team that may slip. What should the project manager do?",
+    "o": ["Record and analyze it as a risk, assign an owner and coordinate with the other team", "Wait until the dependency actually slips", "Ask the team member to stop raising it", "Remove the dependent story from the backlog"],
+    "e": "Dependencies on other teams are common sources of risk. They should be made visible, analyzed and actively managed, for example through coordination meetings and a shared dependency board.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Agile"
+  },
+  {
+    "q": "Which statement BEST describes how risk management is performed in the Eighth Edition's Risk domain?",
+    "o": ["Iteratively throughout the project, addressing both threats and opportunities at individual and overall levels", "Once during planning, focusing on threats only", "Only when issues occur", "Only by the PMO"],
+    "e": "Risk management is iterative, covering individual risks and overall project risk, both threats and opportunities, from planning through monitoring.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid"
+  },
+  {
+    "q": "A risk owner reports that a risk's probability has increased significantly. Which process should be performed?",
+    "o": ["Monitor Risks, re-analyzing the risk and updating responses as needed", "Plan Risk Management again from scratch", "Close Project or Phase", "Validate Scope"],
+    "e": "Monitor Risks tracks identified risks, evaluates response effectiveness, identifies new risks and updates the analysis and responses as conditions change.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which analysis helps a team understand the strengths, weaknesses, opportunities and threats related to a project?",
+    "o": ["SWOT analysis", "Root cause analysis", "Pareto analysis", "Trend analysis"],
+    "e": "SWOT analysis examines the project from the perspective of internal strengths and weaknesses and external opportunities and threats, helping identify risks.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  }
+]

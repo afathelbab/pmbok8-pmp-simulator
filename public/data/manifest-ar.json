@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "generated": "2026-05-02T10:32:39.357Z",
+  "categories": [
+    {
+      "id": "agile",
+      "label": "رشيق",
+      "file": "/data/ar/categories/agile.json",
+      "questionCount": 118
+    },
+    {
+      "id": "communication",
+      "label": "تواصل",
+      "file": "/data/ar/categories/communication.json",
+      "questionCount": 50
+    },
+    {
+      "id": "cost",
+      "label": "يكلف",
+      "file": "/data/ar/categories/cost.json",
+      "questionCount": 50
+    },
+    {
+      "id": "framework",
+      "label": "نطاق",
+      "file": "/data/ar/categories/framework.json",
+      "questionCount": 30
+    },
+    {
+      "id": "full-exam-1",
+      "label": "الامتحان الكامل 1",
+      "file": "/data/ar/categories/full-exam-1.json",
+      "questionCount": 180
+    },
+    {
+      "id": "full-exam-2",
+      "label": "الامتحان الكامل 2",
+      "file": "/data/ar/categories/full-exam-2.json",
+      "questionCount": 180
+    },
+    {
+      "id": "full-exam-3",
+      "label": "الامتحان الكامل 3",
+      "file": "/data/ar/categories/full-exam-3.json",
+      "questionCount": 180
+    },
+    {
+      "id": "full-exam-4",
+      "label": "الامتحان الكامل 4",
+      "file": "/data/ar/categories/full-exam-4.json",
+      "questionCount": 180
+    },
+    {
+      "id": "initiation",
+      "label": "البدء",
+      "file": "/data/ar/categories/initiation.json",
+      "questionCount": 60
+    },
+    {
+      "id": "integration",
+      "label": "اندماج",
+      "file": "/data/ar/categories/integration.json",
+      "questionCount": 49
+    },
+    {
+      "id": "new-questions",
+      "label": "أسئلة جديدة",
+      "file": "/data/ar/categories/new-questions.json",
+      "questionCount": 26
+    },
+    {
+      "id": "procurement",
+      "label": "شراء",
+      "file": "/data/ar/categories/procurement.json",
+      "questionCount": 50
+    },
+    {
+      "id": "quality",
+      "label": "جودة",
+      "file": "/data/ar/categories/quality.json",
+      "questionCount": 49
+    },
+    {
+      "id": "resources",
+      "label": "موارد",
+      "file": "/data/ar/categories/resources.json",
+      "questionCount": 49
+    },
+    {
+      "id": "risk",
+      "label": "مخاطرة",
+      "file": "/data/ar/categories/risk.json",
+      "questionCount": 50
+    },
+    {
+      "id": "schedule",
+      "label": "جدول",
+      "file": "/data/ar/categories/schedule.json",
+      "questionCount": 50
+    },
+    {
+      "id": "scope",
+      "label": "نِطَاق",
+      "file": "/data/ar/categories/scope.json",
+      "questionCount": 50
+    },
+    {
+      "id": "stakeholders",
+      "label": "المالكون",
+      "file": "/data/ar/categories/stakeholders.json",
+      "questionCount": 60
+    }
+  ],
+  "locale": "ar",
+  "translatedNote": "Machine-translated from English; verify wording for high-stakes study."
+}

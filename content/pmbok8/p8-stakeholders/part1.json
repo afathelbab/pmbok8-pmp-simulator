@@ -1,0 +1,122 @@
+[
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, communications management processes are part of which performance domain?",
+    "o": ["Stakeholders", "Governance", "Resources", "Scope"],
+    "e": "The Stakeholders domain contains seven processes, including Plan Communications Management, Manage Communications and Monitor Communications, alongside the stakeholder engagement processes.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "Which process is performed FIRST to determine who is affected by the project and to document relevant information about them?",
+    "o": ["Identify Stakeholders", "Plan Stakeholder Engagement", "Plan Communications Management", "Manage Stakeholder Engagement"],
+    "e": "Identify Stakeholders produces the stakeholder register. It should be performed early (and repeated as needed), because engagement and communications planning depend on it.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "A stakeholder with high power but low interest in the project should generally be:",
+    "o": ["Kept satisfied", "Managed closely", "Kept informed", "Monitored with minimum effort"],
+    "e": "On a power/interest grid, high-power/low-interest stakeholders are kept satisfied; high-power/high-interest are managed closely; low-power/high-interest are kept informed; low-power/low-interest are monitored.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "In a stakeholder engagement assessment matrix, the head of operations is currently 'Resistant' and the desired level is 'Supportive.' What should the project manager do?",
+    "o": ["Plan targeted engagement actions to understand concerns and move the stakeholder toward support", "Remove the stakeholder from the distribution list", "Escalate the resistance to the CEO", "Record the gap and wait for it to resolve itself"],
+    "e": "The matrix shows current (C) versus desired (D) engagement levels: unaware, resistant, neutral, supportive and leading. Gaps drive engagement strategies such as one-on-one meetings to understand and address concerns.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "Which list correctly shows the engagement levels used in the stakeholder engagement assessment matrix?",
+    "o": ["Unaware, Resistant, Neutral, Supportive, Leading", "Low, Medium, High, Very high, Critical", "Inform, Consult, Involve, Collaborate, Empower", "Forming, Storming, Norming, Performing, Adjourning"],
+    "e": "The five classification levels are Unaware, Resistant, Neutral, Supportive and Leading.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "A project has 9 team members including the project manager. Two new members join. How many additional communication channels are created?",
+    "o": ["19", "55", "36", "2"],
+    "e": "Channels = n(n − 1)/2. With 9 people: 9 × 8 / 2 = 36. With 11 people: 11 × 10 / 2 = 55. Additional channels = 55 − 36 = 19.",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "The project manager posts project reports on an intranet site that stakeholders can access when they choose. Which communication method is this?",
+    "o": ["Pull communication", "Push communication", "Interactive communication", "Formal verbal communication"],
+    "e": "Pull communication places information in a location where recipients access it at their discretion (intranets, knowledge repositories). Push sends it to recipients (emails, memos). Interactive is multi-directional real-time exchange (meetings, calls).",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "A complex disagreement about requirements needs to be resolved quickly with several stakeholders. Which communication method is MOST effective?",
+    "o": ["Interactive communication, such as a meeting or video call", "Push communication, such as an email", "Pull communication, such as a shared document", "A formal written memo"],
+    "e": "Interactive communication allows real-time, multi-directional exchange and is most effective for resolving misunderstandings and reaching agreement.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "Which document defines what information will be communicated, to whom, when, how and by whom?",
+    "o": ["Communications management plan", "Stakeholder register", "Issue log", "Team charter"],
+    "e": "The communications management plan, produced by Plan Communications Management, describes how project communications will be planned, structured, implemented and monitored.",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "A stakeholder complains they never receive project updates, although they are listed in the communications management plan. What should the project manager do FIRST?",
+    "o": ["Review the communications plan and how it is being executed to find the gap", "Send the stakeholder all past reports immediately", "Remove the stakeholder from the plan", "Escalate the complaint to the sponsor"],
+    "e": "Monitor Communications evaluates whether communication is effective and per plan. Investigating the gap (distribution list, method, frequency) allows corrective action that prevents recurrence.",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "A project spans teams in Cairo, Copenhagen and Kuala Lumpur. Misunderstandings in meetings are increasing. Which consideration is MOST important to address?",
+    "o": ["Cultural differences, language and time zones in communication planning", "Increasing the number of status reports", "Reducing the number of stakeholders", "Switching to a predictive approach"],
+    "e": "Cultural awareness, language proficiency, communication styles and time zones strongly affect communication effectiveness in distributed and diverse teams; they should be considered in the communications approach.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "The sponsor asks for a single-page view of project health that executives can scan in under a minute. Which is MOST appropriate?",
+    "o": ["A dashboard with key indicators and RAG status", "The full project management plan", "The detailed issue log", "A transcript of team meetings"],
+    "e": "Dashboards and information radiators summarize key metrics at a glance, tailored to the audience. Executives typically need concise, visual summaries rather than detailed documents.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "An agile team displays a large task board and burndown chart on the wall of its team room. What are these called?",
+    "o": ["Information radiators", "Push communications", "Work performance data", "Stakeholder registers"],
+    "e": "Information radiators are highly visible displays that share project information with anyone passing by, promoting transparency without the need for formal reports.",
+    "eco": "People", "task": "I.8", "ap": "Agile"
+  },
+  {
+    "q": "A newly identified stakeholder from the regulatory authority appears during execution. What should the project manager do?",
+    "o": ["Add the stakeholder to the register, analyze their interests and influence, and update the engagement plan", "Ignore the stakeholder because identification was done at initiation", "Ask the sponsor to manage the stakeholder separately", "Send the stakeholder the latest status report and continue"],
+    "e": "Stakeholder identification is iterative. New stakeholders should be analyzed and incorporated into the stakeholder register and engagement and communications plans.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "Two senior stakeholders have conflicting expectations about the first release's features. What should the project manager do FIRST?",
+    "o": ["Facilitate a discussion to understand each stakeholder's needs and align on shared priorities", "Choose the expectations of the more senior stakeholder", "Include both sets of features in the release", "Ask the team to vote on whose features to build"],
+    "e": "Aligning stakeholder expectations requires understanding each party's underlying interests and facilitating a decision based on value and objectives, involving the product owner or sponsor as appropriate.",
+    "eco": "People", "task": "I.5", "ap": "Hybrid"
+  },
+  {
+    "q": "A stakeholder repeatedly requests status updates directly from team members, interrupting their work. What should the project manager do?",
+    "o": ["Meet with the stakeholder to understand their information needs and agree on a suitable channel", "Tell team members to ignore the stakeholder", "Report the stakeholder's behavior to their manager", "Provide the stakeholder with daily detailed reports"],
+    "e": "The behavior signals an unmet information need. Understanding it and agreeing on an appropriate channel (e.g., dashboard, review invitation) manages expectations and protects the team.",
+    "eco": "People", "task": "I.6", "ap": "Agile"
+  },
+  {
+    "q": "Which process focuses on communicating and working with stakeholders to meet their needs, address issues and foster appropriate involvement?",
+    "o": ["Manage Stakeholder Engagement", "Manage Communications", "Monitor Stakeholder Engagement", "Identify Stakeholders"],
+    "e": "Manage Stakeholder Engagement focuses on working with stakeholders. Manage Communications focuses on creating, distributing and storing information.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "What is the purpose of the salience model in stakeholder analysis?",
+    "o": ["To classify stakeholders by power, urgency and legitimacy", "To track the frequency of stakeholder meetings", "To determine stakeholders' communication preferences", "To rank stakeholders by seniority in the organization"],
+    "e": "The salience model classifies stakeholders based on their power (ability to impose will), urgency (need for immediate attention) and legitimacy (appropriateness of their involvement).",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "During an iteration review, a key business stakeholder repeatedly does not attend, and feedback arrives late. What should the project manager or product owner do?",
+    "o": ["Discuss the value of the reviews with the stakeholder and agree on a way to get timely feedback", "Proceed without the stakeholder's input permanently", "Cancel iteration reviews", "Ask the team to guess the stakeholder's preferences"],
+    "e": "Active stakeholder involvement is essential in adaptive approaches. The underlying reason should be understood and an engagement approach agreed (e.g., schedule change, delegate, short demos).",
+    "eco": "People", "task": "I.4", "ap": "Agile"
+  },
+  {
+    "q": "Which of the following is a key output of Identify Stakeholders?",
+    "o": ["Stakeholder register", "Stakeholder engagement plan", "Communications management plan", "Issue log"],
+    "e": "The stakeholder register contains identification, assessment and classification information about stakeholders. The engagement plan is created in Plan Stakeholder Engagement.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  }
+]

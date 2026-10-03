@@ -1,0 +1,140 @@
+[
+  {
+    "q": "A project manager is initiating a hybrid ERP implementation. The sponsor wants the team to start configuring the system next week. Which outcome should be achieved FIRST?",
+    "o": ["An approved charter that defines objectives, high-level scope, success criteria and the project manager's authority", "A complete product backlog of all configuration items", "A detailed bottom-up cost estimate", "Signed contracts with all vendors"],
+    "e": "Initiation establishes authorization and alignment through the charter. Detailed backlogs, estimates and contracts come later.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A team member who is an expert in a legacy system will retire in three months. The project depends on decommissioning that system. What should the project manager do?",
+    "o": ["Plan knowledge transfer sessions, pairing and documentation before the retirement date", "Ask the expert to postpone retirement", "Hope the documentation is sufficient", "Wait until the expert leaves and hire a consultant"],
+    "e": "Proactive knowledge transfer mitigates the risk of losing critical tacit knowledge.",
+    "eco": "People", "task": "I.7", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "During a quarterly planning event for a hybrid program, two teams discover they both plan to change the same database schema. What should be done?",
+    "o": ["Make the dependency visible, coordinate the sequence and assign an owner for the shared change", "Let the first team to start make the change", "Escalate to the CIO for a decision", "Cancel both changes"],
+    "e": "Cross-team dependencies are surfaced and coordinated during joint planning; ownership and sequencing avoid conflicts.",
+    "eco": "Process", "task": "II.8", "ap": "Hybrid", "dom": "Schedule"
+  },
+  {
+    "q": "A project manager is preparing a communication about a significant scope reduction approved by the sponsor. Several stakeholders will be disappointed. What is the BEST approach?",
+    "o": ["Communicate the decision, its rationale and its impacts personally to key stakeholders before broader announcements", "Send a general email to all stakeholders", "Wait for stakeholders to discover the change in the next report", "Ask the sponsor to communicate it without your involvement"],
+    "e": "Sensitive changes should be communicated proactively and personally to key stakeholders, explaining the rationale, to maintain trust.",
+    "eco": "People", "task": "I.6", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "An agile team keeps carrying over unfinished stories from sprint to sprint. What is the MOST likely improvement?",
+    "o": ["Split stories into smaller vertical slices and limit work started in the sprint", "Increase sprint length", "Assign more stories to each team member", "Stop using sprint goals"],
+    "e": "Smaller stories and limiting WIP improve the likelihood of finishing work within a sprint.",
+    "eco": "Process", "task": "II.2", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "The project manager discovers that the cost estimates for a work package did not include licensing fees. The omission is significant. What should the project manager do?",
+    "o": ["Assess the impact, update estimates and submit a change request to adjust the cost baseline if needed", "Hide the omission and try to absorb it", "Use management reserve without approval", "Cancel the work package"],
+    "e": "Errors in the baseline should be corrected transparently through analysis and change control.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "A stakeholder accuses the project manager of favoring one department in resource allocation. What should the project manager do?",
+    "o": ["Share the allocation criteria transparently and discuss the stakeholder's concerns", "Ignore the accusation", "Reallocate resources to the complaining stakeholder immediately", "Ask the sponsor to defend the decision"],
+    "e": "Transparency about decision criteria and open discussion build trust and address perceptions of unfairness.",
+    "eco": "People", "task": "I.2", "ap": "Predictive", "dom": "Stakeholders"
+  },
+  {
+    "q": "An agile team wants to improve how it estimates. Which practice would provide the MOST useful feedback?",
+    "o": ["Comparing estimates with actual outcomes during retrospectives and recalibrating reference stories", "Asking the project manager to estimate for the team", "Doubling all estimates", "Estimating in hours instead of points"],
+    "e": "Inspecting estimation accuracy and recalibrating helps the team improve its estimates over time.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "During project execution, the team discovers that a planned activity is unnecessary because of a design change. What should the project manager do?",
+    "o": ["Process the change through change control and update the plans and baselines", "Skip the activity without documentation", "Perform the activity anyway since it is in the plan", "Ask the team to use the time for other features"],
+    "e": "Changes to the approved plan, including removals, should go through change control so baselines remain accurate.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "A project's team members have different levels of experience with agile practices. Some are confused about roles and events. What should the project manager do?",
+    "o": ["Provide training and coaching on the agile framework and clarify roles and expectations", "Let the team learn by trial and error", "Assign experienced members to do all the work", "Switch to a predictive approach"],
+    "e": "Training and coaching build a shared understanding of practices and roles, enabling the team to perform effectively.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "The sponsor asks why the project manager wants to perform a make-or-buy analysis for a component the organization has never built. What is the BEST explanation?",
+    "o": ["To compare the costs, risks and capabilities of building internally versus buying, supporting an informed sourcing decision", "To delay the decision", "To justify hiring more staff", "To satisfy PMO documentation requirements only"],
+    "e": "Make-or-buy analysis supports an informed sourcing strategy considering cost, capability, risk and strategic factors.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "A hybrid project team is producing deliverables that meet specifications, but users say the product does not solve their problem. What should the project manager do?",
+    "o": ["Engage users to understand their needs and adjust the backlog and requirements to focus on outcomes", "Insist that the specifications were met", "Close the project since deliverables are complete", "Add more features to satisfy users"],
+    "e": "Delivering outputs is not enough; the team should validate outcomes with users and adapt to deliver value.",
+    "eco": "Process", "task": "II.3", "ap": "Hybrid", "dom": "Principles & Foundations"
+  },
+  {
+    "q": "The project manager is concerned that the team is spending too much time in meetings. What should the project manager do FIRST?",
+    "o": ["Review the meetings with the team to determine which add value and adjust accordingly", "Cancel all meetings", "Ask the sponsor to decide which meetings to keep", "Make all meetings optional"],
+    "e": "Collaboratively reviewing meeting value with the team supports efficient ways of working while preserving necessary communication.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager learns that a competitor is launching a similar product two months before the planned launch. What should the project manager do?",
+    "o": ["Inform the sponsor and product owner, analyze the impact and evaluate options such as an earlier minimum release", "Ignore the competitor", "Cancel the project", "Ask the team to work double shifts immediately"],
+    "e": "External market changes should be analyzed and communicated so the governance body and product owner can adapt strategy.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "During a sprint, a team member is pulled into another project for two days without notice. What should the agile project manager do?",
+    "o": ["Address the interruption with the person's manager and help the team adjust the sprint plan", "Ignore it", "Cancel the sprint", "Ask the team member to work weekends"],
+    "e": "The servant leader protects the team from disruptions, addresses root causes with management and helps the team adapt.",
+    "eco": "Business Environment", "task": "III.4", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "A team is planning quality activities for a new medical device. Which approach BEST reflects the principle of embedding quality?",
+    "o": ["Define quality requirements early, build in verification at each stage and use standards from the start", "Inspect the final device thoroughly before release", "Rely on customer complaints to identify defects", "Outsource all quality activities"],
+    "e": "Embedding quality means preventing defects through early requirements, built-in verification and standards rather than relying on final inspection.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive", "dom": "Principles & Foundations"
+  },
+  {
+    "q": "A project manager is assigned to a project with an aggressive deadline. The team estimates that the scope cannot be completed by the deadline. What should the project manager do?",
+    "o": ["Present the team's estimates and options (scope, resources, schedule) to the sponsor for a decision", "Commit to the deadline and push the team", "Reduce estimates to fit the deadline", "Ignore the team's estimates"],
+    "e": "The project manager should provide honest analysis and options so the sponsor can make an informed trade-off decision.",
+    "eco": "Process", "task": "II.8", "ap": "Hybrid", "dom": "Schedule"
+  },
+  {
+    "q": "The team uses a cumulative flow diagram (CFD). The band representing 'in progress' is widening over time. What does this indicate?",
+    "o": ["Work in progress is increasing, suggesting a bottleneck", "Throughput is increasing", "The team is finishing work faster", "Scope is decreasing"],
+    "e": "A widening WIP band on a CFD indicates work is entering faster than it leaves, signaling a bottleneck and increasing cycle time.",
+    "eco": "Process", "task": "II.9", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "A project manager is working with a team in a culture where hierarchy is highly respected. Team members hesitate to challenge senior members' ideas. What should the project manager do?",
+    "o": ["Use structured techniques like anonymous input and explicitly invite diverse views", "Insist that everyone challenge senior members openly", "Let senior members make all decisions", "Ignore the cultural difference"],
+    "e": "Adapting facilitation to cultural norms helps gather diverse input while respecting the culture.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A project manager needs to decide how to deliver a project that has well-defined requirements, a stable environment and a fixed contract. Which approach is MOST appropriate?",
+    "o": ["A predictive approach", "An adaptive approach with two-week sprints", "A Kanban flow approach", "No defined approach"],
+    "e": "Well-defined, stable requirements with fixed contracts suit a predictive approach.",
+    "eco": "Process", "task": "II.1", "ap": "Predictive", "dom": "Principles & Foundations"
+  },
+  {
+    "q": "A key stakeholder asks the project manager to change a status report to hide a delay from senior management. What should the project manager do?",
+    "o": ["Decline and report the status accurately, explaining the reasons and recovery plan", "Change the report as requested", "Delay the report until the delay is resolved", "Report the stakeholder to HR"],
+    "e": "Honesty in reporting is a PMI ethical requirement; accurate reporting enables proper governance decisions.",
+    "eco": "People", "task": "I.8", "ap": "Predictive", "dom": "Stakeholders"
+  },
+  {
+    "q": "A program's agile teams have very different definitions of 'ready' and 'done.' Integration is causing delays. What should the program-level leader do?",
+    "o": ["Facilitate agreement on shared minimum standards while allowing teams to add their own criteria", "Let each team decide independently", "Impose one team's definitions on all others", "Add a hardening phase at the end of the program"],
+    "e": "Shared minimum definitions across teams support integration while preserving team autonomy for additional criteria.",
+    "eco": "Process", "task": "II.7", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project team's engagement has dropped after the project's purpose changed. What should the project manager do?",
+    "o": ["Communicate the new purpose clearly, involve the team in re-planning and connect their work to the new goals", "Tell the team to focus on tasks", "Offer bonuses", "Replace disengaged team members"],
+    "e": "Re-establishing a shared vision and involving the team rebuilds engagement after a change in direction.",
+    "eco": "People", "task": "I.1", "ap": "Hybrid", "dom": "Resources"
+  }
+]

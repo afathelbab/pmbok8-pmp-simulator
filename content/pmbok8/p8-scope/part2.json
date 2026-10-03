@@ -1,0 +1,104 @@
+[
+  {
+    "q": "A product owner's backlog contains 300 items, many of them vague. The team spends long planning sessions clarifying items. Which practice would MOST help?",
+    "o": ["Regular backlog refinement to clarify, split and order upcoming items", "Freezing the backlog until the release is complete", "Asking the team to estimate all 300 items in detail now", "Converting the backlog into a WBS"],
+    "e": "Backlog refinement is an ongoing activity in which the product owner and team clarify, split, estimate and order items so the top of the backlog is 'ready' for planning.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "Stakeholders cannot articulate what they want for a new user portal, but they say they will 'know it when they see it.' Which elicitation technique is MOST effective?",
+    "o": ["Prototyping", "Questionnaires", "Document analysis", "Benchmarking"],
+    "e": "Prototypes give stakeholders something tangible to react to, enabling early feedback and progressive refinement of requirements when needs are unclear.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "Requirements from three departments conflict with each other. Which technique would BEST help reach agreement in a single session?",
+    "o": ["A facilitated workshop with the key stakeholders", "One-on-one interviews with each department head", "A survey of all end users", "Observation of the current process"],
+    "e": "Facilitated workshops bring cross-functional stakeholders together to define requirements and reconcile differences quickly, building trust and consensus.",
+    "eco": "People", "task": "I.5", "ap": "Hybrid"
+  },
+  {
+    "q": "The product owner needs to decide which features to include in the first release. Which technique classifies requirements into Must have, Should have, Could have and Won't have this time?",
+    "o": ["MoSCoW prioritization", "Kano analysis", "Pareto analysis", "Affinity diagram"],
+    "e": "MoSCoW is a prioritization technique that sorts requirements into must, should, could and won't (this time), helping focus delivery on the most important items.",
+    "eco": "Process", "task": "II.3", "ap": "Agile"
+  },
+  {
+    "q": "Which document defines how the scope will be defined, validated and controlled, and how the WBS will be created?",
+    "o": ["Scope management plan", "Requirements traceability matrix", "Project scope statement", "Quality management plan"],
+    "e": "The scope management plan is the output of Plan Scope Management. It describes how scope will be defined, developed, monitored, controlled and validated.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "Which document describes each WBS element in detail, including its description, responsible organization, milestones and acceptance criteria?",
+    "o": ["WBS dictionary", "Activity list", "Resource breakdown structure", "Scope management plan"],
+    "e": "The WBS dictionary provides detailed deliverable, activity and scheduling information about each component in the WBS.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "In a hybrid project, the infrastructure work is planned with a WBS while the software is developed in sprints. How should scope changes be managed?",
+    "o": ["Use change control for the baselined infrastructure scope and backlog reprioritization for software features", "Use the change control board for every backlog item", "Allow all changes freely because the project is partly agile", "Freeze all scope on both workstreams"],
+    "e": "In hybrid projects, change management is tailored to each component: formal change control for baselined predictive scope, and backlog management by the product owner for adaptive work, with integration at the governance level.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Hybrid"
+  },
+  {
+    "q": "A team is decomposing a large epic. Which outcome indicates they have decomposed it appropriately for an iteration?",
+    "o": ["Stories small enough to be completed within one iteration and that deliver value", "Stories that each represent a single technical layer, such as database only", "One large story covering the entire epic", "Tasks assigned to individual team members by the product owner"],
+    "e": "Stories should be vertically sliced to deliver user value and be small enough to finish within an iteration. Horizontal slicing by technical layer does not produce usable value on its own.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "Which technique is used to compare the planned scope baseline with actual results to determine whether corrective action is required?",
+    "o": ["Variance analysis", "Decomposition", "Brainstorming", "Make-or-buy analysis"],
+    "e": "Variance analysis compares baseline with actual performance to determine the cause and degree of difference. It is a key technique in Monitor and Control Scope.",
+    "eco": "Process", "task": "II.9", "ap": "Predictive"
+  },
+  {
+    "q": "A customer requests that the team include a feature that was not in the requirements but would significantly increase the product's value. The project is predictive. What should the project manager do FIRST?",
+    "o": ["Analyze the impact of the request on the project constraints", "Add the feature because it increases value", "Refuse the request because it is out of scope", "Ask the team to work overtime to include it"],
+    "e": "Before any decision, the impact on scope, schedule, cost, quality, resources and risk must be analyzed. The analysis then supports a change request to be evaluated by the appropriate authority.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive"
+  },
+  {
+    "q": "Which of the following is an example of a non-functional requirement?",
+    "o": ["The system shall respond to user searches within two seconds", "The system shall allow users to reset their password", "The system shall export reports in PDF format", "The system shall send a confirmation email after purchase"],
+    "e": "Non-functional requirements describe quality attributes such as performance, security, reliability and usability. The other options describe functions the system must perform.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive"
+  },
+  {
+    "q": "A product owner wants to maximize value delivered early. How should the product backlog be ordered?",
+    "o": ["By value, risk, dependencies and cost of delay", "Alphabetically by feature name", "By the order in which requests were received", "By which stakeholder is most senior"],
+    "e": "Backlog ordering considers business value, risk reduction, dependencies, effort and cost of delay, so that the highest-value and riskiest learning items are delivered early.",
+    "eco": "Process", "task": "II.3", "ap": "Agile"
+  },
+  {
+    "q": "At the end of a sprint, an item meets its acceptance criteria but not the definition of done because documentation is incomplete. What should happen?",
+    "o": ["The item is not considered done and returns to the backlog", "The item is accepted because the acceptance criteria are met", "The product owner marks it done and adds documentation later", "The sprint is extended until the documentation is finished"],
+    "e": "An item must meet both its acceptance criteria and the definition of done to be considered complete. Unfinished items go back to the product backlog for re-prioritization; sprints are not extended.",
+    "eco": "Process", "task": "II.7", "ap": "Agile"
+  },
+  {
+    "q": "Which of the following is the BEST use of a context diagram during requirements analysis?",
+    "o": ["To show the system's boundary and its interactions with users and other systems", "To display the critical path", "To show the organization's reporting structure", "To rank risks by probability"],
+    "e": "A context diagram visually depicts the product scope by showing the system and how people and other systems interact with it, helping identify interfaces and boundaries.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  },
+  {
+    "q": "The sponsor asks the project manager to confirm that every requirement in the RTM has been tested before release. Which quality-related activity is being requested?",
+    "o": ["Verification that deliverables meet requirements", "Benefits realization", "Stakeholder mapping", "Resource leveling"],
+    "e": "Verification checks that deliverables comply with requirements and specifications (internal check, typically before validation by the customer). The RTM supports it by linking each requirement to its test.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive"
+  },
+  {
+    "q": "An agile team keeps finding that stories brought into sprint planning are unclear and cannot be started. What should the team establish?",
+    "o": ["A definition of ready", "A longer sprint length", "A change control board", "A more detailed WBS dictionary"],
+    "e": "A definition of ready is a team agreement on the conditions a backlog item must meet (clear, estimated, testable, dependencies known) before it can be pulled into an iteration.",
+    "eco": "Process", "task": "II.2", "ap": "Agile"
+  },
+  {
+    "q": "In the Eighth Edition, which focus area does the Validate Scope process fall into?",
+    "o": ["Monitoring and Controlling", "Executing", "Closing", "Planning"],
+    "e": "Validate Scope, together with Monitor and Control Scope, belongs to the Monitoring and Controlling focus area of the Scope performance domain.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive"
+  }
+]

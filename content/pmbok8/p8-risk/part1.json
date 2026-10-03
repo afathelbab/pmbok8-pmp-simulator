@@ -1,0 +1,110 @@
+[
+  {
+    "q": "In the PMBOK Guide – Eighth Edition, qualitative and quantitative risk analysis are combined into which single process?",
+    "o": ["Perform Risk Analysis", "Assess Risk Exposure", "Evaluate Risks", "Prioritize Risks"],
+    "e": "The Risk domain's six processes are Plan Risk Management, Identify Risks, Perform Risk Analysis, Plan Risk Responses, Implement Risk Responses and Monitor Risks. Perform Risk Analysis covers both qualitative and quantitative techniques as appropriate.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following is a threat response strategy but NOT an opportunity response strategy?",
+    "o": ["Mitigate", "Escalate", "Accept", "Share"],
+    "e": "Threat strategies: escalate, avoid, transfer, mitigate, accept. Opportunity strategies: escalate, exploit, share, enhance, accept. Escalate and accept apply to both; share is for opportunities only.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A company buys insurance to cover potential damage to equipment during transport. Which risk response is this?",
+    "o": ["Transfer", "Mitigate", "Avoid", "Accept"],
+    "e": "Transferring shifts the impact and ownership of a threat to a third party (e.g., insurance, contracts, warranties), usually for a premium. It does not eliminate the risk.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "To eliminate a risk caused by an untested technology, the team changes the design to use a proven technology. Which strategy is this?",
+    "o": ["Avoid", "Mitigate", "Transfer", "Exploit"],
+    "e": "Avoidance eliminates the threat or protects the project from its impact, often by changing the plan, scope or approach.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A project identifies an opportunity to finish early if a highly skilled expert becomes available. The project manager assigns the organization's best expert to ensure the opportunity happens. Which strategy is this?",
+    "o": ["Exploit", "Enhance", "Share", "Accept"],
+    "e": "Exploit aims to ensure that the opportunity definitely occurs, for example by assigning the most talented resources. Enhance increases its probability or impact; share allocates ownership to a third party.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A risk is identified that is outside the scope of the project and the project manager does not have the authority to address it. What should the project manager do?",
+    "o": ["Escalate the risk to the appropriate owner at program, portfolio or organizational level", "Accept the risk and do nothing", "Transfer the risk to a vendor", "Remove it from the risk register"],
+    "e": "Escalation is used when the threat or opportunity is outside the project's scope or exceeds the project manager's authority. Once escalated and accepted by the owner, it is no longer monitored by the project team, though it may be recorded for information.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid"
+  },
+  {
+    "q": "What is the difference between risk appetite and risk threshold?",
+    "o": ["Appetite is the degree of uncertainty an organization is willing to accept; threshold is the measurable level beyond which a risk needs action", "Appetite applies to opportunities; threshold applies to threats", "Appetite is set by the team; threshold by the vendor", "They mean the same thing"],
+    "e": "Risk appetite is the degree of uncertainty an organization or individual is willing to accept in anticipation of a reward. Risk thresholds are measurable levels of exposure around objectives that trigger action or escalation.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid"
+  },
+  {
+    "q": "A risk has a 30% probability of occurring and would cost 50,000 if it occurs. What is its expected monetary value (EMV)?",
+    "o": ["−15,000", "−50,000", "−35,000", "−5,000"],
+    "e": "EMV = probability × impact = 0.30 × (−50,000) = −15,000. Threats are shown as negative values and opportunities as positive.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A project has two risks: a threat with 20% probability and 100,000 impact, and an opportunity with 40% probability and 30,000 benefit. What is the combined EMV?",
+    "o": ["−8,000", "+8,000", "−32,000", "−20,000"],
+    "e": "Threat EMV = 0.20 × −100,000 = −20,000. Opportunity EMV = 0.40 × 30,000 = +12,000. Combined = −8,000.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which tool prioritizes individual risks by combining probability and impact ratings?",
+    "o": ["Probability and impact matrix", "Tornado diagram", "Decision tree", "Risk breakdown structure"],
+    "e": "A probability and impact matrix maps the probability of each risk against its impact to determine priority (e.g., high, medium, low). It is a qualitative analysis tool.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A tornado diagram is used to:",
+    "o": ["Show which risks or variables have the greatest potential impact on project outcomes", "Display the critical path", "Show stakeholder influence", "Track defects over time"],
+    "e": "A tornado diagram is a sensitivity analysis chart that ranks variables by their impact on an outcome, with the largest effect at the top.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A project manager uses anonymous rounds of expert input, with feedback after each round, to reach consensus on key risks without dominant voices influencing others. Which technique is this?",
+    "o": ["Delphi technique", "Brainstorming", "Nominal group technique", "SWOT analysis"],
+    "e": "The Delphi technique gathers expert opinions anonymously in multiple rounds with a facilitator summarizing responses, reducing bias and the influence of individuals.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "A risk occurs, and the planned response does not work as expected. What should the project manager do?",
+    "o": ["Implement the fallback plan or a workaround, and update the risk register", "Do nothing because the risk was already accepted", "Close the risk in the register", "Request management reserve immediately without analysis"],
+    "e": "Fallback plans are used when the primary response proves ineffective. If no plan exists for the situation, a workaround is developed. The risk register and lessons learned are updated.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "After implementing a response to a threat, a smaller risk remains. What is it called?",
+    "o": ["Residual risk", "Secondary risk", "Trigger", "Workaround"],
+    "e": "Residual risk is the risk that remains after responses have been implemented. A secondary risk is a new risk that arises as a direct result of implementing a response.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "The team installs a backup generator to mitigate a power-outage risk. The generator itself introduces a fire hazard. What is the fire hazard?",
+    "o": ["A secondary risk", "A residual risk", "An issue", "A trigger condition"],
+    "e": "A secondary risk arises as a direct result of implementing a risk response. It should be identified, analyzed and responded to like other risks.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "Which process ensures that agreed-upon risk responses are actually executed as planned?",
+    "o": ["Implement Risk Responses", "Plan Risk Responses", "Monitor Risks", "Perform Risk Analysis"],
+    "e": "Implement Risk Responses (Executing focus area) makes sure that agreed actions are carried out by risk owners, so that exposure is managed effectively.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive"
+  },
+  {
+    "q": "In agile projects, which practice MOST directly helps reduce technical risk early?",
+    "o": ["Using spikes and prioritizing high-risk items early in the backlog", "Planning all risks in detail before the first iteration", "Deferring risky work to the final iteration", "Avoiding experimentation until requirements are fixed"],
+    "e": "Agile teams reduce uncertainty by running spikes (timeboxed research) and ordering risky items early, learning quickly through frequent delivery and feedback.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Agile"
+  },
+  {
+    "q": "A team adds risk-response activities as items in the product backlog and prioritizes them with features. What is this approach called?",
+    "o": ["A risk-adjusted backlog", "A risk breakdown structure", "Management reserve", "A risk audit"],
+    "e": "A risk-adjusted backlog includes risk-reduction work alongside features, prioritized by value and risk, making risk management part of normal delivery.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Agile"
+  }
+]

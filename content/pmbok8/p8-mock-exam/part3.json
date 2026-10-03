@@ -1,0 +1,140 @@
+[
+  {
+    "q": "A construction project is 40% complete. EV = 400,000, AC = 460,000, PV = 420,000, BAC = 1,000,000. The sponsor asks whether the project is on track. Which statement is MOST accurate?",
+    "o": ["The project is over budget and slightly behind schedule", "The project is under budget and ahead of schedule", "The project is on budget but behind schedule", "The project is over budget but ahead of schedule"],
+    "e": "CV = EV − AC = −60,000 (over budget; CPI ≈ 0.87). SV = EV − PV = −20,000 (behind schedule; SPI ≈ 0.95).",
+    "eco": "Process", "task": "II.9", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "Using EV = 400,000, AC = 460,000 and BAC = 1,000,000, and assuming the current cost performance continues, what is the estimate at completion (approximately)?",
+    "o": ["1,150,000", "1,060,000", "1,000,000", "870,000"],
+    "e": "CPI = 400,000 / 460,000 ≈ 0.87. EAC = BAC / CPI = 1,000,000 / 0.87 ≈ 1,150,000.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "A project manager is building the schedule for a predictive project. The team has identified activities and dependencies. What should be done NEXT to determine the critical path?",
+    "o": ["Estimate activity durations and perform a forward and backward pass", "Assign resources to all activities and baseline the schedule", "Fast-track the longest activities", "Create a milestone chart for executives"],
+    "e": "With activities and logic defined, durations are estimated and the critical path method (forward and backward pass) identifies the longest path and float.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive", "dom": "Schedule"
+  },
+  {
+    "q": "A project manager learns that a supplier is likely to go bankrupt within the next three months. The supplier provides a critical component. What should the project manager do FIRST?",
+    "o": ["Assess the risk and develop a response, such as identifying an alternative supplier", "Terminate the contract immediately", "Wait to see if the supplier actually goes bankrupt", "Ask the supplier to accelerate all deliveries without analysis"],
+    "e": "This is a risk (not yet an issue). It should be analyzed and an appropriate response planned, such as qualifying an alternate supplier or buffer stock.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  },
+  {
+    "q": "A team member tells the project manager that she feels excluded from technical decisions because she works remotely. What should the project manager do?",
+    "o": ["Review how decisions are made and ensure remote members are included through appropriate tools and practices", "Ask her to relocate to the main office", "Tell her that decisions must be made quickly in person", "Assign her non-technical tasks instead"],
+    "e": "Inclusive practices for remote team members—shared decision forums, documented decisions, collaboration tools—support engagement and team performance.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "The quality of deliverables from an agile team has declined, and technical debt is growing. What should the project manager encourage?",
+    "o": ["Strengthening the definition of done and allocating capacity to address technical debt", "Increasing velocity targets to deliver more features", "Skipping testing to meet sprint goals", "Postponing refactoring until after the release"],
+    "e": "Quality must be built into the work. A robust definition of done and dedicated capacity for refactoring keep technical debt under control.",
+    "eco": "Process", "task": "II.7", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager is leading a project in a highly regulated industry. An auditor requests evidence that all safety requirements have been tested. Which artifact BEST provides this evidence?",
+    "o": ["Requirements traceability matrix linked to test results", "Project charter", "Team charter", "Stakeholder engagement plan"],
+    "e": "The requirements traceability matrix links each requirement to design elements, tests and results, providing the evidence auditors need.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A stakeholder repeatedly tries to add requirements directly to the developers' work. The team is adaptive. What should the project manager do?",
+    "o": ["Explain the process for new requests and direct the stakeholder to the product owner", "Allow the developers to decide whether to add the requirements", "Ask the developers to report the stakeholder to management", "Freeze all requirements for the rest of the project"],
+    "e": "In adaptive approaches, new requests go through the product owner, who manages the backlog. Educating stakeholders on the process protects the team's focus.",
+    "eco": "People", "task": "I.6", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project has completed its final deliverable, and the customer has formally accepted it. The sponsor asks the project manager to reassign the team immediately to a new urgent project. What should the project manager do?",
+    "o": ["Complete closing activities such as lessons learned and archiving, then release the team in an orderly way", "Release the team immediately and skip closure", "Refuse to release the team until all documentation is perfect", "Ask the PMO to close the project"],
+    "e": "Closing activities should be completed, including capturing lessons learned and releasing resources in an orderly manner; they can be scheduled efficiently to meet the sponsor's needs.",
+    "eco": "Process", "task": "II.10", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "A project's product owner wants to release a feature to a small group of users first to measure adoption before a full launch. What does this approach BEST support?",
+    "o": ["Validated learning and value-based delivery", "Gold plating", "Fast tracking", "Resource leveling"],
+    "e": "Releasing incrementally to a subset of users allows the team to measure outcomes and learn before investing further, focusing on value.",
+    "eco": "Process", "task": "II.3", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "Two functional managers are arguing over who should provide resources for a shared project activity. The disagreement is delaying work. What should the project manager do FIRST?",
+    "o": ["Meet with both managers to understand their constraints and negotiate a solution", "Escalate the issue to the sponsor", "Assign the activity to an external contractor", "Wait for the managers to resolve it themselves"],
+    "e": "The project manager should first try to resolve the conflict by facilitating negotiation. Escalation is appropriate if the parties cannot agree.",
+    "eco": "People", "task": "I.2", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "A project manager learns that the project's business case assumed a market growth rate that has since fallen sharply. The project is on time and on budget. What should the project manager do?",
+    "o": ["Inform the sponsor and recommend reviewing the business case", "Continue since the project is on time and budget", "Speed up delivery to capture the remaining market", "Update the business case with the new growth rate and continue without telling anyone"],
+    "e": "Project success is ultimately about value. Changes affecting the business case should be raised to governance so they can decide whether to continue, change or stop.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A hybrid project uses sprints for software and a predictive plan for hardware. The steering committee asks for a single integrated progress view. What should the project manager provide?",
+    "o": ["An integrated dashboard showing milestones, burnup of features and key risks", "Separate reports for each team with no consolidation", "Only the hardware Gantt chart", "Only the software sprint burndown"],
+    "e": "Hybrid projects benefit from integrated reporting that combines predictive milestones and adaptive progress metrics with risks and issues.",
+    "eco": "Process", "task": "II.9", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A team member brings a creative idea to improve a deliverable during a team meeting, but another member dismisses it rudely. What should the project manager do?",
+    "o": ["Reinforce team norms about respectful communication and encourage discussion of the idea", "Ignore the behavior to avoid conflict", "Publicly reprimand the member who was rude", "Ask both members to leave the meeting"],
+    "e": "Upholding agreed norms of respect fosters psychological safety and innovation. Addressing behavior constructively helps maintain a healthy team culture.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "During a risk workshop, the team identifies a 50% chance that a new technology will reduce development time by four weeks. Which response would INCREASE the probability of this opportunity?",
+    "o": ["Enhance, by investing in training the team on the technology", "Exploit, by removing all uncertainty", "Share, by partnering with a competitor", "Accept, by taking no action"],
+    "e": "Enhance increases the probability and/or impact of an opportunity, for example by providing training or early prototyping.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Hybrid", "dom": "Risk"
+  },
+  {
+    "q": "A project manager is planning communications for a project with stakeholders from five countries. Several stakeholders have limited English proficiency. What should the project manager do?",
+    "o": ["Use clear, simple language, visual aids and translation where needed", "Communicate only in English to maintain consistency", "Exclude non-English speakers from key meetings", "Send detailed technical documents to all stakeholders"],
+    "e": "Effective communication considers language, culture and stakeholders' needs; plain language, visuals and translation help ensure understanding.",
+    "eco": "People", "task": "I.8", "ap": "Predictive", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager is defining the governance for a large program with several agile teams. Which practice BEST provides alignment without slowing down teams?",
+    "o": ["Regular cross-team planning and review events with clear decision rights", "Requiring sign-off from the PMO for every story", "Letting each team work fully independently without coordination", "A weekly status report from each developer"],
+    "e": "Scaled agile governance relies on cadence-based synchronization (e.g., joint planning and system demos) and clear decision rights, providing alignment while preserving team autonomy.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Agile", "dom": "Governance"
+  },
+  {
+    "q": "A project manager discovers that the original estimate for a work package was based on an incorrect assumption about the site conditions. The work will cost 15% more. The contingency reserve covers this risk. What should the project manager do?",
+    "o": ["Use the contingency reserve per the risk management plan and update the forecasts", "Request management reserve from the sponsor", "Re-baseline the project budget", "Ask the team to absorb the extra cost by working faster"],
+    "e": "If the event was an identified risk with contingency allocated, the project manager can use the contingency reserve per the plan, documenting and updating forecasts.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "An agile team is unsure about the needs of a new user group. The product owner suggests building a simple prototype for user testing. What does this approach BEST illustrate?",
+    "o": ["Using experiments to reduce uncertainty about requirements", "Gold plating the product", "Scope creep", "Fast tracking"],
+    "e": "Prototypes and experiments help teams learn about user needs before committing significant effort, reducing uncertainty.",
+    "eco": "Process", "task": "II.2", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager is asked to deliver a project with a team of contractors who have never worked together. The project starts in two weeks. What should the project manager prioritize?",
+    "o": ["Team building and establishing a team charter to align on goals, roles and norms", "Assigning detailed tasks without introductions", "Training the contractors on company history", "Hiring a facilitator to manage the team"],
+    "e": "New teams need to build trust and shared understanding quickly; team-building and creating a team charter accelerate progress through the early stages of team development.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "The project manager is asked to provide a forecast of when the release will be ready. The team's velocity has varied between 20 and 35 points per sprint, and 150 points remain. What is the BEST way to communicate the forecast?",
+    "o": ["Provide a range of approximately 5 to 8 sprints based on observed velocity", "Commit to 5 sprints using the highest velocity", "Commit to 8 sprints using the lowest velocity", "Refuse to forecast because velocity varies"],
+    "e": "150 / 35 ≈ 4.3 (about 5 sprints) and 150 / 20 = 7.5 (about 8 sprints). Communicating a range reflects uncertainty honestly and supports better decisions.",
+    "eco": "Process", "task": "II.8", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "An executive suggests skipping the organization's mandatory change approval because 'the change is obviously beneficial.' What should the project manager do?",
+    "o": ["Follow the change control process while expediting the review if needed", "Skip the process because the executive suggested it", "Implement the change and inform the CCB afterward", "Reject the change to avoid controversy"],
+    "e": "Governance and compliance must be maintained. The project manager can facilitate a fast review but should not bypass required controls.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "The project manager notices that a team member who recently joined is struggling to integrate and rarely speaks in meetings. What should the project manager do?",
+    "o": ["Check in privately, pair the member with an experienced colleague and support onboarding", "Wait for the member to adapt on their own", "Ask the member to present at the next meeting to build confidence", "Reassign the member to another project"],
+    "e": "Onboarding support, mentoring or pairing and a private conversation help new members integrate and contribute.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  }
+]

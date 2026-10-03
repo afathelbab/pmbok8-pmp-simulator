@@ -1,0 +1,140 @@
+[
+  {
+    "q": "You have just been assigned as project manager for a cross-functional digital transformation project. Team members come from four departments and each describes the project's goal differently. What should you do FIRST?",
+    "o": ["Facilitate a visioning workshop to create a shared understanding of the project's purpose and success criteria", "Distribute the project charter and ask everyone to read it", "Assign tasks so that each department focuses on its own goal", "Ask the sponsor to send a memo clarifying the goal"],
+    "e": "Developing a common vision is best achieved collaboratively. A facilitated workshop builds shared understanding and ownership; simply distributing documents rarely aligns perceptions.",
+    "eco": "People", "task": "I.1", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "An agile team's retrospectives have become repetitive, and the same problems are raised every sprint without improvement. What should the agile project manager do?",
+    "o": ["Change the retrospective format and ensure that a small number of improvement actions are owned and tracked", "Cancel retrospectives since they are not adding value", "Report the problems to senior management", "Ask the product owner to choose the improvement actions"],
+    "e": "Retrospectives drive continuous improvement only when actions are concrete, few, owned and followed up. Varying the format can also renew engagement.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Agile", "dom": "Governance"
+  },
+  {
+    "q": "During planning of a predictive infrastructure project, the sponsor asks how much the project will cost. The WBS has just been completed down to work packages. Which estimating approach will provide the MOST accurate estimate?",
+    "o": ["Bottom-up estimating of work packages", "Analogous estimating from a past project", "A rough order of magnitude estimate", "Expert judgment from the sponsor"],
+    "e": "With a complete WBS, bottom-up estimating of each work package rolled up to the project level gives the most accurate estimate.",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "Two developers on your agile team disagree about whether to refactor legacy code during the current sprint. The debate is delaying work. What should you do?",
+    "o": ["Facilitate a discussion focusing on the sprint goal and help the team reach a decision together", "Decide yourself to avoid further delay", "Ask the product owner to decide on the technical approach", "Let them continue debating until one gives in"],
+    "e": "In agile teams, the servant leader facilitates conflict resolution, helping the team reach a collaborative decision aligned with the sprint goal. Technical decisions belong to the team, not the product owner.",
+    "eco": "People", "task": "I.2", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "A project to upgrade a refinery's control system must comply with new safety standards issued after the project started. What should the project manager do FIRST?",
+    "o": ["Assess the impact of the new standards on the project's scope, schedule, cost and risk", "Continue as planned since the standards were issued after approval", "Immediately stop work until a new design is complete", "Ask the vendor to absorb the cost of compliance"],
+    "e": "Evaluating external business environment changes starts with impact assessment. The results drive change requests and plan updates.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "Midway through a hybrid project, a functional manager reassigns one of your key engineers to an urgent operations issue for three weeks. What should you do FIRST?",
+    "o": ["Analyze the impact on the project and discuss options with the functional manager", "Escalate immediately to the sponsor", "Ask the engineer to work on both assignments", "Remove the engineer's work from scope"],
+    "e": "The project manager should first understand the impact and negotiate with the functional manager (e.g., partial availability, a replacement, timing). Escalation follows if no acceptable solution is found.",
+    "eco": "Process", "task": "II.4", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A project manager receives a report that a deliverable has passed internal quality checks. What should happen NEXT before the deliverable is considered complete?",
+    "o": ["The customer or sponsor reviews it for formal acceptance", "The deliverable is archived", "The project is closed", "The team starts the next deliverable without review"],
+    "e": "Verified deliverables are presented to the customer or sponsor through Validate Scope to obtain formal acceptance.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "A key stakeholder from the finance department has been resistant and frequently delays approvals. What is the BEST approach?",
+    "o": ["Meet with the stakeholder to understand the reasons and address their concerns", "Escalate to the CFO immediately", "Bypass the stakeholder and seek approval elsewhere", "Document the delays in the issue log only"],
+    "e": "Resistance usually has underlying causes. Engaging the stakeholder directly to understand and address concerns is the most effective first step.",
+    "eco": "People", "task": "I.4", "ap": "Predictive", "dom": "Stakeholders"
+  },
+  {
+    "q": "An agile team has finished several sprints, but the product owner has not been able to demonstrate measurable business value. What should the project manager suggest?",
+    "o": ["Define outcome-based metrics with the product owner and prioritize the backlog to deliver measurable value earlier", "Increase the team's velocity target", "Extend sprints to four weeks", "Move to a predictive approach"],
+    "e": "Value-based delivery requires measurable outcomes. Agreeing on metrics and ordering the backlog to deliver valuable increments early lets value be demonstrated and validated.",
+    "eco": "Process", "task": "II.3", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager learns that the team in another country considers direct disagreement with a manager impolite, so problems are rarely raised in meetings. What should the project manager do?",
+    "o": ["Create alternative, safe channels for raising concerns, such as one-on-ones or anonymous input", "Insist that everyone speak up in meetings", "Assume that silence means there are no problems", "Ask the local manager to report problems instead"],
+    "e": "Cultural awareness is key to leading diverse teams. Providing safe and culturally appropriate channels encourages issues to surface.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "The project's CPI is 0.88 and SPI is 0.92. The sponsor asks for an updated forecast. Assuming both cost and schedule performance will influence remaining work, which EAC formula should be used?",
+    "o": ["EAC = AC + [(BAC − EV) / (CPI × SPI)]", "EAC = BAC / CPI", "EAC = AC + (BAC − EV)", "EAC = AC + bottom-up ETC"],
+    "e": "When both cost and schedule performance are expected to affect the remaining work (for example, schedule pressure increases cost), EAC = AC + (BAC − EV) / (CPI × SPI).",
+    "eco": "Process", "task": "II.6", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "A team member suggests using an AI tool to automatically generate test cases from user stories. What should the project manager do?",
+    "o": ["Pilot the tool on a few stories, evaluate the quality of results and agree on review practices", "Reject the idea because AI is not reliable", "Adopt the tool immediately for all stories", "Ask the vendor to guarantee 100% accuracy"],
+    "e": "Introducing new tools is part of continuous improvement. A pilot with evaluation and human review balances innovation with quality control.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Agile", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "During project closure, the project manager discovers that a vendor contract is still open with a disputed final invoice. What should the project manager do?",
+    "o": ["Resolve the dispute and complete procurement closure before closing the project", "Close the project and leave the contract open", "Pay the invoice in full to close quickly", "Transfer the dispute to the operations team"],
+    "e": "All contracts must be closed, including resolution of claims and final payments, before the project can be formally closed.",
+    "eco": "Process", "task": "II.10", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "A newly formed team of experts has been working together for two weeks. Members are polite but hesitant, waiting for direction. What should the project manager do?",
+    "o": ["Provide clear objectives and help the team agree on roles and working agreements", "Let the team figure things out without guidance", "Assign a team leader with full authority", "Start performance appraisals immediately"],
+    "e": "In the forming stage, teams need clarity about objectives, roles and norms. Facilitating a team charter helps the team progress.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "A steering committee has asked for a change control process on a hybrid project. Which approach BEST supports both governance and agility?",
+    "o": ["Formal change control for baselined milestones and budget, with backlog prioritization by the product owner for feature-level changes", "A single change control board that approves every story", "No change control, since part of the project is agile", "Freezing all features after the first sprint"],
+    "e": "Tailored governance applies formal control to elements that are baselined and to thresholds, while delegating feature-level decisions to the product owner within agreed boundaries.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A senior stakeholder insists that the project deliver a feature that the product owner has ranked low. The stakeholder is threatening to withdraw support. What should the project manager do?",
+    "o": ["Facilitate a conversation between the stakeholder and the product owner about value and priorities", "Instruct the team to build the feature immediately", "Tell the stakeholder that the product owner's decision is final", "Escalate to the CEO"],
+    "e": "The project manager should help align expectations by bringing the parties together to discuss value and trade-offs. The product owner remains accountable for backlog priority.",
+    "eco": "People", "task": "I.5", "ap": "Agile", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager is preparing to hand over a new IT system. Operations staff say they were not trained and do not have documentation. What should the project manager have done to prevent this?",
+    "o": ["Planned knowledge transfer and transition activities with operations early in the project", "Provided documentation only at project closure", "Asked the vendor to support operations indefinitely", "Delayed the release until operations requested training"],
+    "e": "Knowledge transfer and transition to operations should be planned early, with operations involved throughout, to ensure a smooth handover and sustained benefits.",
+    "eco": "People", "task": "I.7", "ap": "Predictive", "dom": "Governance"
+  },
+  {
+    "q": "The quality control team reports that 80% of defects come from two modules. Which tool helped identify this?",
+    "o": ["Pareto chart", "Control chart", "Scatter diagram", "Fishbone diagram"],
+    "e": "A Pareto chart ranks causes by frequency, highlighting the vital few causes that account for most of the problems.",
+    "eco": "Process", "task": "II.7", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "Your project has a fixed regulatory deadline. Halfway through, the team informs you that a critical-path activity will take two weeks longer than planned. What should you do FIRST?",
+    "o": ["Analyze schedule compression options such as fast tracking and crashing", "Request an extension from the regulator", "Inform the sponsor that the deadline will be missed", "Remove scope without consulting stakeholders"],
+    "e": "With a fixed deadline, the project manager first analyzes options to recover the schedule. Compression techniques are evaluated for cost and risk before escalating or changing scope.",
+    "eco": "Process", "task": "II.8", "ap": "Predictive", "dom": "Schedule"
+  },
+  {
+    "q": "An organization is moving from a functional structure to cross-functional product teams. Many employees are anxious about changes to their roles. What should the project manager do to support this change?",
+    "o": ["Communicate the reasons for the change, involve people early and provide training and support", "Implement the new structure quickly to reduce uncertainty", "Let HR handle all people-related aspects", "Limit communication to avoid spreading anxiety"],
+    "e": "Supporting organizational change requires understanding its impact on people and using communication, involvement, training and coaching to build readiness and adoption.",
+    "eco": "Business Environment", "task": "III.7", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "During a sprint review, stakeholders provide feedback that significantly changes the direction of the product. What should happen NEXT?",
+    "o": ["The product owner updates and reorders the product backlog based on the feedback", "The team immediately changes the current sprint's work", "The project manager submits a change request to the CCB", "The feedback is recorded for the final release only"],
+    "e": "Feedback from reviews is incorporated by the product owner into the product backlog, which guides future sprints. This is how agile teams adapt to change.",
+    "eco": "Process", "task": "II.2", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project manager discovers that a team member has been reporting tasks as complete when they are not. What should the project manager do FIRST?",
+    "o": ["Meet privately with the team member to understand why and clarify expectations", "Report the behavior to the functional manager", "Announce the issue at the next team meeting", "Remove the team member from the project"],
+    "e": "The project manager should first address the issue directly and privately, understand the cause (pressure, unclear definition of done, skills) and set clear expectations.",
+    "eco": "People", "task": "I.3", "ap": "Predictive", "dom": "Resources"
+  },
+  {
+    "q": "The project's risk register has not been updated in two months. A team member asks whether it is still needed. What should the project manager do?",
+    "o": ["Reinstate regular risk reviews and update the register with current risks", "Archive the register because no risks have occurred", "Ask the PMO to maintain the register", "Replace the register with the issue log"],
+    "e": "Risk management is iterative. Regular reviews keep risks, owners and responses current, and help identify new risks.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Predictive", "dom": "Risk"
+  }
+]

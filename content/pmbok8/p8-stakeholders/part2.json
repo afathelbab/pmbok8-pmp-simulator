@@ -1,0 +1,122 @@
+[
+  {
+    "q": "A local community group opposes a project that will build a facility near their neighborhood. What should the project manager do FIRST?",
+    "o": ["Engage the group to understand their concerns and explore ways to address them", "Proceed with construction since the permits are approved", "Ask the legal department to issue a warning", "Exclude the group from project communications"],
+    "e": "Even stakeholders outside the organization can significantly affect success. Early, respectful engagement helps understand and address concerns, reducing opposition and risk.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "The project manager is about to present a major schedule delay to the steering committee. Which approach is BEST?",
+    "o": ["Present the facts, root cause, impacts and recommended options transparently", "Delay the communication until a recovery plan succeeds", "Present only the good news and mention the delay briefly", "Ask the sponsor to deliver the news instead"],
+    "e": "Transparent, timely communication with facts and options builds trust and allows governance bodies to make informed decisions.",
+    "eco": "People", "task": "I.6", "ap": "Predictive"
+  },
+  {
+    "q": "In the communication model, the receiver nods during a meeting, but later it is clear they did not understand the message. Which step of the model failed?",
+    "o": ["Feedback and confirmation of understanding", "Encoding", "Transmission medium", "Noise reduction only"],
+    "e": "In the basic sender-receiver model, the receiver acknowledges receipt, but acknowledgement does not mean agreement or understanding. The sender should confirm understanding through feedback (e.g., asking the receiver to restate).",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "Which process evaluates whether communication activities are meeting stakeholders' information needs and leads to corrective actions?",
+    "o": ["Monitor Communications", "Manage Communications", "Plan Communications Management", "Monitor Stakeholder Engagement"],
+    "e": "Monitor Communications ensures that the information needs of the project and stakeholders are met. Monitor Stakeholder Engagement focuses on the relationships and engagement levels.",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "A project vision is unclear, and team members describe the project's purpose in very different ways. What should the project manager do?",
+    "o": ["Facilitate a session with key stakeholders and the team to create a shared vision", "Ask each team member to write their own version and keep them all", "Email the charter to everyone again", "Wait until the first release to clarify the vision"],
+    "e": "Developing a common vision involves collaborating with stakeholders and the team to create a clear, shared understanding of purpose, often using tools like a product vision statement, vision board or elevator pitch.",
+    "eco": "People", "task": "I.1", "ap": "Agile"
+  },
+  {
+    "q": "Which agile artifact helps align stakeholders and the team on the product's target customers, needs, key features and business goals?",
+    "o": ["Product vision board", "Iteration burndown chart", "Kanban board", "Team velocity chart"],
+    "e": "A product vision board (or vision statement) succinctly captures the target group, needs, product and business goals, providing a shared vision that guides decisions.",
+    "eco": "People", "task": "I.1", "ap": "Agile"
+  },
+  {
+    "q": "Midway through the project, the sponsor's priorities shift and she becomes less engaged. What should the project manager do?",
+    "o": ["Meet with the sponsor to re-confirm objectives, decision needs and the level of involvement required", "Continue without the sponsor's input", "Ask the PMO to assign a new sponsor", "Reduce communication to the sponsor to avoid burdening her"],
+    "e": "Sponsor engagement is critical for decisions, resources and removing obstacles. The project manager should proactively re-engage, clarifying what is needed and why.",
+    "eco": "People", "task": "I.4", "ap": "Hybrid"
+  },
+  {
+    "q": "A stakeholder expects the new system to automate a process that was explicitly excluded from scope. What is the BEST way to manage this expectation?",
+    "o": ["Refer to the agreed scope and exclusions, explain the rationale, and explain how to request a change", "Promise to add it in the current release", "Ignore the expectation as it is out of scope", "Ask the team to build it without telling the sponsor"],
+    "e": "Managing expectations means clarifying agreed scope transparently and directing new needs through the appropriate change or backlog process.",
+    "eco": "People", "task": "I.6", "ap": "Predictive"
+  },
+  {
+    "q": "The project manager realizes that stakeholders interpret status colors (red/amber/green) differently. What should be done?",
+    "o": ["Define clear criteria for each status color in the communications approach and share them", "Stop using status colors", "Use only green status to avoid confusion", "Let each stakeholder interpret the colors as they wish"],
+    "e": "Clear, agreed definitions of reporting thresholds ensure consistent interpretation and effective communication and governance.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "Which technique is BEST for understanding a stakeholder's concerns and interests early in the project?",
+    "o": ["One-on-one interviews", "Mass email surveys only", "Reviewing the WBS", "Earned value analysis"],
+    "e": "One-on-one interviews (and conversations) allow deep understanding of stakeholders' expectations, concerns and influence, and help build relationships.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "During execution, a supportive stakeholder suddenly becomes resistant after a reorganization. Which process helps detect this change?",
+    "o": ["Monitor Stakeholder Engagement", "Identify Risks", "Validate Scope", "Develop Schedule"],
+    "e": "Monitor Stakeholder Engagement tracks stakeholder relationships and engagement levels and tailors strategies when they change.",
+    "eco": "People", "task": "I.4", "ap": "Predictive"
+  },
+  {
+    "q": "A product owner is consistently unavailable to answer questions, and the team stalls. What should the project manager or agile coach do FIRST?",
+    "o": ["Discuss the impact with the product owner and agree on availability or a delegate", "Let the team make product decisions themselves", "Escalate to the CEO", "Replace the product owner immediately"],
+    "e": "The product owner's availability is critical. The first step is to discuss the impact openly and agree on a solution such as dedicated time or an empowered proxy. Escalation follows if this does not work.",
+    "eco": "People", "task": "I.6", "ap": "Agile"
+  },
+  {
+    "q": "The project manager wants to understand how the project is perceived by end users. Which technique is MOST appropriate?",
+    "o": ["Surveys and feedback sessions with end users", "Earned value analysis", "Reviewing the change log", "Critical path analysis"],
+    "e": "Gathering feedback through surveys, interviews and user sessions helps monitor engagement and satisfaction and supports value delivery.",
+    "eco": "People", "task": "I.4", "ap": "Hybrid"
+  },
+  {
+    "q": "A stakeholder sends a strongly worded email criticizing the team's work in front of a large distribution list. What is the BEST response?",
+    "o": ["Arrange a private conversation to understand the concerns and agree on next steps", "Reply to all defending the team", "Forward the email to HR", "Ignore the email"],
+    "e": "Sensitive or emotional issues are best handled privately and interactively, which allows the concerns to be understood and resolved without escalating the conflict publicly.",
+    "eco": "People", "task": "I.2", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following is an output of Manage Communications?",
+    "o": ["Project communications", "Communications management plan", "Stakeholder register", "Work performance data"],
+    "e": "Manage Communications creates, collects, distributes, stores and retrieves information, producing project communications (reports, presentations, notifications).",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "The project manager plans to use an AI tool to draft weekly stakeholder reports. What should the project manager do to communicate responsibly?",
+    "o": ["Review the AI-generated content for accuracy and sensitivity before distributing it", "Send the reports automatically without review to save time", "Avoid telling stakeholders that any tools are used", "Upload all confidential data to any free AI service"],
+    "e": "AI can increase efficiency, but the project manager remains accountable for the accuracy, confidentiality and appropriateness of communications. Outputs must be reviewed and data policies respected.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid"
+  },
+  {
+    "q": "A project manager is preparing a kickoff meeting. What is the PRIMARY purpose?",
+    "o": ["To align stakeholders and the team on objectives, roles, approach and expectations", "To approve the project budget", "To assign detailed tasks to each team member", "To select vendors for the project"],
+    "e": "The kickoff establishes a shared understanding of goals, roles and responsibilities, governance, the delivery approach and how the team will communicate, starting engagement on the right foot.",
+    "eco": "People", "task": "I.5", "ap": "Predictive"
+  },
+  {
+    "q": "A key stakeholder prefers verbal updates, while another prefers detailed written reports. What should the project manager do?",
+    "o": ["Tailor communication methods to each stakeholder's preferences as documented in the plan", "Use only written reports for consistency", "Use only verbal updates to save time", "Ask both stakeholders to agree on a single method"],
+    "e": "Effective communication is tailored to stakeholder needs and preferences. The communications management plan should capture them.",
+    "eco": "People", "task": "I.8", "ap": "Predictive"
+  },
+  {
+    "q": "After a release, a group of users reports that the new system is harder to use than the old one. Several managers ask to roll back. What should the project manager do FIRST?",
+    "o": ["Gather specific feedback, analyze the issues and agree on actions with stakeholders", "Roll back the system immediately", "Tell the users they will get used to it", "Close the project as planned"],
+    "e": "Managing stakeholder expectations starts with understanding the specific concerns. Analysis informs decisions such as training, quick fixes or backlog items, rather than reacting immediately.",
+    "eco": "People", "task": "I.6", "ap": "Hybrid"
+  },
+  {
+    "q": "Which statement BEST describes the Stakeholders domain processes in the Eighth Edition?",
+    "o": ["They cover identifying, planning engagement and communications, managing and monitoring both engagement and communications", "They only address communication with the sponsor", "They are performed once at initiation", "They are part of the Governance domain"],
+    "e": "The seven Stakeholders domain processes are Identify Stakeholders, Plan Stakeholder Engagement, Plan Communications Management, Manage Stakeholder Engagement, Manage Communications, Monitor Stakeholder Engagement and Monitor Communications. They are iterative across the life cycle.",
+    "eco": "People", "task": "I.4", "ap": "Hybrid"
+  }
+]

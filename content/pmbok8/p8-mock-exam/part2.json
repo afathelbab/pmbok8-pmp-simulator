@@ -1,0 +1,134 @@
+[
+  {
+    "q": "A Scrum team regularly fails to complete its sprint commitments because urgent production support requests interrupt work. What should the team do?",
+    "o": ["Make the interruptions visible, reserve capacity for support, and discuss the trade-off with the product owner", "Ignore support requests until the sprint ends", "Extend the sprint whenever support is needed", "Stop committing to sprint goals"],
+    "e": "Unplanned work should be made transparent and managed explicitly, for example by reserving capacity or using a rotating support role, while the product owner balances priorities.",
+    "eco": "Business Environment", "task": "III.4", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "A product owner is new to the role and struggles to write clear user stories and acceptance criteria. What should the agile project manager do?",
+    "o": ["Coach the product owner and facilitate backlog refinement sessions with the team", "Write all user stories on behalf of the product owner", "Ask the sponsor to replace the product owner", "Let the team guess the requirements"],
+    "e": "A servant leader supports others' growth. Coaching the product owner and facilitating refinement builds capability while keeping accountability with the correct role.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "A hybrid project has a hardware workstream with a fixed delivery date and a software workstream using two-week sprints. The software team is waiting on hardware specifications that keep changing. What should the project manager do?",
+    "o": ["Establish an integration cadence where both workstreams align on interfaces and dependencies regularly", "Ask the software team to stop until hardware specs are final", "Convert the hardware workstream to sprints", "Let each workstream manage its own dependencies independently"],
+    "e": "Integration across hybrid workstreams requires regular synchronization points, shared dependency tracking and agreed interface definitions.",
+    "eco": "Process", "task": "II.1", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A stakeholder requests weekly detailed reports, while the communications management plan specifies a monthly summary. What should the project manager do?",
+    "o": ["Understand the stakeholder's need and update the communications plan if appropriate", "Refuse because the plan says monthly", "Provide weekly reports without updating the plan", "Escalate the request to the sponsor"],
+    "e": "Communication plans should evolve with stakeholder needs. The project manager should understand the underlying need, then update the plan through the appropriate process.",
+    "eco": "People", "task": "I.8", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "During sprint planning, the team realizes it lacks the skills to complete a high-priority story involving a new cloud service. What is the BEST approach?",
+    "o": ["Plan a timeboxed spike to learn and reduce uncertainty, and discuss priority with the product owner", "Refuse the story", "Commit to the story and figure it out during the sprint", "Ask the project manager to outsource the story"],
+    "e": "A spike is a timeboxed activity to research or prototype, reducing uncertainty and enabling better estimates and decisions.",
+    "eco": "Business Environment", "task": "III.5", "ap": "Agile", "dom": "Risk"
+  },
+  {
+    "q": "A project's cost baseline is approved. A team member identifies a cheaper material that meets requirements and would save 10% of the materials budget. What should the project manager do?",
+    "o": ["Evaluate the proposal and process it through change control if it affects the baseline", "Implement the change immediately since it saves money", "Reject it because the baseline is approved", "Keep the savings as an additional reserve without telling anyone"],
+    "e": "Even beneficial changes that affect baselines, specifications or risk should be assessed and approved through change control.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive", "dom": "Finance"
+  },
+  {
+    "q": "Your agile team is distributed across three countries. Daily stand-ups happen at a time that is late at night for one location. What should you do?",
+    "o": ["Work with the team to find a fair solution, such as rotating meeting times or asynchronous updates", "Keep the current time because most members prefer it", "Exclude the remote location from stand-ups", "Hold separate stand-ups for each location with no integration"],
+    "e": "Fairness and inclusion help keep distributed teams engaged. The team should agree on solutions such as rotating times or async stand-ups with an overlap meeting.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "A sponsor asks the project manager to commit to a fixed date for delivering all features of a new product whose requirements are still emerging. What should the project manager do?",
+    "o": ["Explain the uncertainty and propose a date-driven release plan with prioritized scope, updated as the team learns", "Commit to the date and require overtime to meet it", "Refuse to provide any date until requirements are final", "Pad the estimate by 100% and commit"],
+    "e": "With emerging requirements, a fixed date can be paired with flexible scope: the most valuable features are prioritized and forecasts are updated with empirical data such as velocity.",
+    "eco": "People", "task": "I.6", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "A project manager is told that the organization's policy requires all suppliers to complete an anti-bribery certification. One preferred supplier has not completed it. What should the project manager do?",
+    "o": ["Require the supplier to complete the certification before awarding the contract", "Award the contract and ask for certification later", "Waive the requirement because the supplier is preferred", "Choose another supplier without informing procurement"],
+    "e": "Compliance requirements must be met before contract award. The project manager should follow organizational policy and work with procurement.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "During execution, the team discovers that a key requirement was misunderstood, and a completed deliverable must be partially reworked. What should the project manager do FIRST?",
+    "o": ["Analyze the impact and root cause, then determine corrective action", "Blame the business analyst for the misunderstanding", "Ask the customer to accept the deliverable as is", "Hide the issue until the rework is complete"],
+    "e": "Understanding the impact and root cause allows the right corrective action and helps prevent recurrence, for example by improving requirement validation practices.",
+    "eco": "Process", "task": "II.2", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "An agile team's velocity has dropped for three sprints. The product owner wants to pressure the team to work faster. What should the project manager do?",
+    "o": ["Facilitate a discussion with the team to understand the causes before taking action", "Ask the team to increase their estimates so velocity looks higher", "Agree with the product owner and set a velocity target", "Add more team members immediately"],
+    "e": "Velocity changes have causes such as technical debt, interruptions or team changes. Understanding the causes collaboratively is the first step; pressure and gaming metrics are counterproductive.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Schedule"
+  },
+  {
+    "q": "The project manager realizes that two teams are using different definitions of 'done' for components that must be integrated. What should the project manager do?",
+    "o": ["Bring the teams together to agree on a common definition of done for integrated work", "Let each team keep its own definition", "Impose the stricter definition without discussion", "Add an extra testing phase at the end of the project"],
+    "e": "A shared definition of done across teams working on an integrated product ensures consistent quality and reduces integration problems.",
+    "eco": "Process", "task": "II.7", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A team member suggests that the project could deliver additional value by also serving a second customer segment. The project is predictive and the scope is baselined. What should the project manager do?",
+    "o": ["Document the idea, assess its value and impact, and present it to the sponsor for a decision", "Implement it because it adds value", "Ignore it because it is outside scope", "Add it to the scope as an assumption"],
+    "e": "Opportunities that change scope must be evaluated and decided by the appropriate authority through change control.",
+    "eco": "Process", "task": "II.3", "ap": "Predictive", "dom": "Scope"
+  },
+  {
+    "q": "Your hybrid project's sponsor leaves the company. The new sponsor is unfamiliar with the project and has different priorities. What should you do FIRST?",
+    "o": ["Meet the new sponsor to review the business case, objectives, status and governance arrangements", "Continue as planned and update the sponsor at the next steering meeting", "Revise the project plan to match the new sponsor's priorities", "Ask the PMO to brief the new sponsor"],
+    "e": "A change of sponsor is a significant stakeholder change. The project manager should engage early to align on objectives and confirm or update the business case and governance.",
+    "eco": "People", "task": "I.5", "ap": "Hybrid", "dom": "Stakeholders"
+  },
+  {
+    "q": "A project manager notices that a vendor's invoices do not match the work performed. What should the project manager do?",
+    "o": ["Review the invoices against the contract and work performance, and raise the discrepancy with the vendor", "Pay the invoices to maintain the relationship", "Stop all payments and terminate the contract", "Ignore the discrepancy since amounts are small"],
+    "e": "Contract administration includes verifying invoices against the contract and work completed and resolving discrepancies per contract terms.",
+    "eco": "Process", "task": "II.5", "ap": "Predictive", "dom": "Appendices & Emerging Topics"
+  },
+  {
+    "q": "A team is debating whether to automate deployment, which will take two sprints but reduce release effort by 70%. The product owner prefers to deliver features instead. What should the project manager do?",
+    "o": ["Help the product owner understand the long-term value and include the automation work in backlog prioritization", "Let the team automate secretly in their spare time", "Postpone automation until the end of the project", "Decide on behalf of the product owner"],
+    "e": "Technical enablers can deliver significant value. The project manager can help quantify that value so the product owner can prioritize transparently.",
+    "eco": "Process", "task": "II.3", "ap": "Agile", "dom": "Scope"
+  },
+  {
+    "q": "A project team's morale is low after a failed release. What should the project manager do FIRST?",
+    "o": ["Hold a blameless review with the team to understand what happened and agree on improvements", "Identify who is responsible and take disciplinary action", "Organize a social event to improve morale", "Tell the team to move on and focus on the next release"],
+    "e": "A blameless retrospective supports psychological safety and learning, addressing the causes of failure and restoring confidence.",
+    "eco": "People", "task": "I.3", "ap": "Hybrid", "dom": "Resources"
+  },
+  {
+    "q": "Your organization is evaluating whether to continue a project whose market has shrunk. The project is 60% complete and has spent 3 million. Remaining cost is 2 million and expected benefits are now 1.5 million. What should you recommend?",
+    "o": ["Present the analysis showing that remaining costs exceed expected benefits and recommend governance review the project's continuation", "Continue because 60% of the work is done", "Continue because 3 million has already been spent", "Cancel the project without consulting the sponsor"],
+    "e": "Decisions should be based on future costs and benefits; sunk costs are irrelevant. Since remaining cost exceeds expected benefits, the governance body should decide on continuation.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid", "dom": "Finance"
+  },
+  {
+    "q": "During a daily stand-up, a developer starts describing a detailed technical problem, and the meeting runs over time. What should the agile project manager do?",
+    "o": ["Suggest taking the detailed discussion offline with the relevant people after the stand-up", "Let the discussion continue since it is important", "Cancel the stand-up", "Solve the technical problem for the developer"],
+    "e": "Daily stand-ups are timeboxed coordination meetings. Detailed problem-solving should follow afterward with the people who need to be involved.",
+    "eco": "People", "task": "I.3", "ap": "Agile", "dom": "Resources"
+  },
+  {
+    "q": "An IT project relies on a cloud service provider. The provider announces a 30% price increase effective next quarter. What should the project manager do?",
+    "o": ["Assess the impact on the budget and business case, and evaluate options such as renegotiation or alternatives", "Accept the price increase without analysis", "Switch providers immediately", "Ignore it until the next quarter"],
+    "e": "External changes affecting costs must be assessed promptly for impact, and options evaluated, before deciding and updating plans.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid", "dom": "Finance"
+  },
+  {
+    "q": "The project manager wants to ensure that lessons from the current project help future projects. What is the MOST effective approach?",
+    "o": ["Capture lessons continuously, share them in accessible formats, and contribute them to the organization's knowledge base", "Write a detailed report at the end and store it in the archive", "Share lessons only with the sponsor", "Rely on team members to remember the lessons"],
+    "e": "Effective knowledge transfer means capturing lessons throughout and making them accessible and usable across the organization.",
+    "eco": "People", "task": "I.7", "ap": "Hybrid", "dom": "Governance"
+  },
+  {
+    "q": "A team is using Kanban. Work is piling up in the 'testing' column, and developers keep starting new items. What should the team do?",
+    "o": ["Apply a WIP limit and have developers help with testing to restore flow", "Add more columns to the board", "Ask testers to work overtime", "Ignore the bottleneck as long as development is fast"],
+    "e": "WIP limits expose bottlenecks and encourage the team to swarm on blocked work, improving flow and reducing cycle time.",
+    "eco": "Process", "task": "II.8", "ap": "Agile", "dom": "Schedule"
+  }
+]

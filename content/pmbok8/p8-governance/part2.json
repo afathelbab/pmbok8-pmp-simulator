@@ -1,0 +1,122 @@
+[
+  {
+    "q": "All deliverables have been accepted by the customer. What should the project manager do NEXT?",
+    "o": ["Perform Close Project or Phase activities, including final report and archiving", "Release the team immediately to other projects", "Start Validate Scope", "Begin a new phase without formal closure"],
+    "e": "After acceptance of deliverables, the Close Project or Phase process finalizes all activities: confirming contract closure, transferring the product, finalizing lessons learned, preparing the final report and archiving project records, then releasing resources.",
+    "eco": "Process", "task": "II.10", "ap": "Predictive"
+  },
+  {
+    "q": "A project is cancelled halfway through because of a change in corporate strategy. What should the project manager do?",
+    "o": ["Follow the closure process: document the status, capture lessons learned, and archive records", "Stop all work and reassign the team the same day", "Continue the work until the sponsor formally objects", "Hand all documents to the PMO without further action"],
+    "e": "Projects terminated early still require formal closure: documenting what was completed, the reasons for termination, transferring partial deliverables if useful, closing contracts, capturing lessons learned and archiving.",
+    "eco": "Process", "task": "II.10", "ap": "Predictive"
+  },
+  {
+    "q": "During closing, the project manager confirms that operations staff have been trained and have accepted responsibility for supporting the new system. This activity is BEST described as:",
+    "o": ["Transition of the product to operations", "Validate Scope", "Manage Quality Assurance", "Benefits realization"],
+    "e": "Transition (handover) ensures that the deliverable is formally transferred to the receiving organization with the knowledge and support arrangements needed to sustain it. Benefits realization typically occurs later, often after the project closes.",
+    "eco": "Process", "task": "II.10", "ap": "Hybrid"
+  },
+  {
+    "q": "Which process is responsible for leading and performing the work defined in the project management plan and implementing approved changes?",
+    "o": ["Manage Project Execution", "Integrate and Align Project Plans", "Lead the Team", "Manage Stakeholder Engagement"],
+    "e": "Manage Project Execution (Governance, Executing focus area) directs the performance of the planned work, produces deliverables and implements approved changes, generating work performance data.",
+    "eco": "Process", "task": "II.1", "ap": "Predictive"
+  },
+  {
+    "q": "A new industry regulation will take effect during the project and will affect the product design. What should the project manager do FIRST?",
+    "o": ["Analyze the regulation's impact on the project and its deliverables", "Ignore it because the requirements were already approved", "Immediately redesign the product to comply", "Ask the legal department to request an exemption"],
+    "e": "Evaluating external business environment changes starts with impact analysis: understanding how the regulation affects scope, schedule, cost, risk and compliance. Based on the analysis, change requests and plan updates follow.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Predictive"
+  },
+  {
+    "q": "The organization requires all projects to comply with data-privacy regulations. What should the project manager do to plan for compliance?",
+    "o": ["Identify applicable compliance requirements, classify them, and build them into plans and acceptance criteria", "Wait for the internal audit team to identify gaps after delivery", "Add a generic 'comply with laws' statement in the charter", "Delegate compliance entirely to the legal department"],
+    "e": "Planning compliance means identifying the requirements, determining how they will be met and verified, assigning responsibility and integrating them into plans, quality criteria and the definition of done.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Hybrid"
+  },
+  {
+    "q": "An internal audit finds that the project is not following the organization's mandatory security review procedure. What should the project manager do?",
+    "o": ["Analyze the root cause, take corrective action, and confirm compliance going forward", "Challenge the audit findings with the auditors", "Document the finding and continue as planned", "Ask the sponsor to waive the procedure"],
+    "e": "Compliance gaps should be addressed: understand why the procedure was missed, correct it, and put controls in place to prevent recurrence. Seeking a waiver or ignoring the finding is not appropriate for mandatory requirements.",
+    "eco": "Business Environment", "task": "III.2", "ap": "Predictive"
+  },
+  {
+    "q": "A phase-gate review is coming up. What is the PRIMARY purpose of the gate?",
+    "o": ["To decide whether the project should continue, change or stop based on performance and business justification", "To celebrate the completion of the phase with stakeholders", "To reassign the project to a new project manager", "To freeze all scope for the remainder of the project"],
+    "e": "A phase gate (stage gate, kill point) is a governance checkpoint at which performance, deliverables and the business case are reviewed to decide whether to continue to the next phase, continue with modifications, or end the project.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Predictive"
+  },
+  {
+    "q": "A hybrid project has a monthly steering committee and two-week sprints. The steering committee wants more control and asks for a detailed Gantt chart of all features for the next year. What should the project manager do?",
+    "o": ["Explain the adaptive approach and offer a release roadmap with metrics such as burnup and value delivered", "Produce the detailed Gantt chart to satisfy the committee", "Stop the sprints and switch to a predictive approach", "Refuse the request because agile does not use plans"],
+    "e": "Governance should be tailored to the approach. Rather than forcing detailed predictive plans onto adaptive work, the project manager should educate the committee and provide appropriate transparency, such as a roadmap, release burnup and value metrics.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following is an output of Assess and Implement Changes?",
+    "o": ["Approved change requests", "Work performance data", "Project charter", "Verified deliverables"],
+    "e": "Assess and Implement Changes reviews change requests and produces decisions (approved, deferred or rejected change requests) and updates to the change log and affected plans.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive"
+  },
+  {
+    "q": "A project is consistently missing iteration goals. The team says impediments are raised daily but nobody acts on them. Which action is MOST appropriate for the project manager or servant leader?",
+    "o": ["Actively remove impediments and escalate those outside the team's control", "Increase the number of daily stand-ups", "Lower the team's iteration commitments permanently", "Ask the team to stop raising impediments in the stand-up"],
+    "e": "Removing impediments is a core servant-leadership responsibility. Issues the team cannot resolve should be tracked and escalated to the appropriate level quickly.",
+    "eco": "Business Environment", "task": "III.4", "ap": "Agile"
+  },
+  {
+    "q": "What is the difference between a risk and an issue?",
+    "o": ["A risk is an uncertain event that may occur; an issue is a current condition that needs resolution", "A risk is always negative; an issue is always positive", "A risk is managed by the sponsor; an issue by the team", "There is no difference; the terms are synonyms"],
+    "e": "A risk is uncertain and future-oriented; it may or may not happen. An issue is a condition or situation that already exists and must be addressed. Issues are recorded in the issue log; risks in the risk register.",
+    "eco": "Business Environment", "task": "III.4", "ap": "Hybrid"
+  },
+  {
+    "q": "A team member reports that a key testing environment has been unavailable for three days. What should the project manager do FIRST?",
+    "o": ["Record it in the issue log, assign an owner and work toward resolution", "Add it to the risk register as a threat", "Wait for the environment to come back online", "Report it at the next monthly steering meeting"],
+    "e": "The unavailable environment is a current problem, so it is an issue. It should be logged, assigned an owner and a target resolution date, and actively managed or escalated.",
+    "eco": "Business Environment", "task": "III.4", "ap": "Predictive"
+  },
+  {
+    "q": "After each release, a team holds a retrospective and implements two improvement actions in the next release. This is an example of:",
+    "o": ["Continuous improvement", "Scope creep", "Gold plating", "Crashing"],
+    "e": "Continuous improvement uses regular reflection (retrospectives, lessons learned, Kaizen, PDCA) to make incremental improvements to processes, products and team performance.",
+    "eco": "Business Environment", "task": "III.6", "ap": "Agile"
+  },
+  {
+    "q": "A project will introduce a new workflow system that changes how 400 employees do their jobs. Besides delivering the system, what should the project manager plan for to help ensure the expected benefits?",
+    "o": ["Organizational change management activities such as communication, training and adoption support", "A longer testing phase only", "Additional reserves for vendor costs", "A smaller pilot group to reduce the scope"],
+    "e": "Benefits depend on adoption. Supporting organizational change involves assessing the impact of the change on people, preparing them through communication, training and coaching, and reinforcing new behaviors.",
+    "eco": "Business Environment", "task": "III.7", "ap": "Hybrid"
+  },
+  {
+    "q": "The project manager must decide whether a deliverable should be reviewed by a formal steering committee or by the product owner alone. Where is this decision authority BEST defined?",
+    "o": ["In the project's governance framework and management plans", "In the work breakdown structure", "In the team's iteration backlog", "In the stakeholder register"],
+    "e": "Decision rights, escalation paths and review and approval authorities are part of the governance framework, documented in the charter and project management plan (e.g., change management and approval processes).",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "A new PMO wants all projects to report the same metrics. A small, low-risk internal project manager complains that the reporting effort is excessive. What is the BEST approach?",
+    "o": ["Agree with the PMO on tailored, proportionate reporting that still meets governance needs", "Ignore the PMO's request because the project is small", "Produce the full reporting package regardless of value", "Ask the sponsor to cancel the PMO standards"],
+    "e": "Governance and reporting should be proportionate to project size, complexity and risk. Tailoring with the PMO keeps oversight effective while avoiding waste.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Hybrid"
+  },
+  {
+    "q": "Which document is the PRIMARY input for determining whether a project should be initiated?",
+    "o": ["Business case", "Project management plan", "Work breakdown structure", "Risk register"],
+    "e": "The business case describes the business need, the analysis of options and the expected benefits used to justify the project. It is a key input to Initiate Project or Phase.",
+    "eco": "Business Environment", "task": "III.1", "ap": "Predictive"
+  },
+  {
+    "q": "Midway through a project, a market change means the expected benefits in the business case are no longer achievable. What should the project manager do?",
+    "o": ["Inform the sponsor and governance body so they can decide whether to continue, change or stop", "Continue the project because the charter is approved", "Reduce scope without telling the sponsor", "Update the business case with more optimistic numbers"],
+    "e": "The business case should be revisited throughout the project. When the justification changes materially, the governance body must be informed so it can decide on the project's future.",
+    "eco": "Business Environment", "task": "III.8", "ap": "Hybrid"
+  },
+  {
+    "q": "Which of the following BEST describes the purpose of a change log?",
+    "o": ["To record all change requests and their status throughout the project", "To list the risks that turned into issues", "To track each team member's change in performance", "To record approved changes only, after implementation"],
+    "e": "The change log is a comprehensive list of changes submitted during the project and their current status (approved, rejected, deferred, pending). It supports transparency and traceability.",
+    "eco": "Business Environment", "task": "III.3", "ap": "Predictive"
+  }
+]
