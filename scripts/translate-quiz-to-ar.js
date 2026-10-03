@@ -94,7 +94,8 @@ async function main() {
     const enPath = path.join(ROOT, "public", rel);
     const fname = path.basename(rel);
     const outPath = path.join(OUT_DIR, fname);
-    const selected = !ONLY || cat.id.startsWith(ONLY);
+    // PMBOK 8 categories have a hand translation (content/pmbok8-ar) built by split-data
+    const selected = (!ONLY || cat.id.startsWith(ONLY)) && !cat.id.startsWith("p8-");
     const prev = prevById[cat.id];
     if (!selected || (SKIP_EXISTING && prev && fs.existsSync(outPath))) {
       if (prev) arCategories.push({ ...cat, label: prev.label, file: prev.file });

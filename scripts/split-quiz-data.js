@@ -9,7 +9,7 @@
  */
 const fs = require("fs");
 const path = require("path");
-const { loadPmbok8 } = require("./lib/pmbok8");
+const { loadPmbok8, LABELS_AR } = require("./lib/pmbok8");
 
 const ROOT = path.join(__dirname, "..");
 const INPUT = path.join(ROOT, "src", "data", "quiz-data.json");
@@ -95,6 +95,28 @@ function main() {
     };
   });
   manifest.categories = [...p8Entries, ...manifest.categories];
+
+  // Arabic PMBOK 8 bank (hand translation in content/pmbok8-ar), merged into manifest-ar.json
+  const arDir = path.join(ROOT, "content", "pmbok8-ar");
+  if (fs.existsSync(arDir)) {
+    const AR_OUT = path.join(ROOT, "public", "data", "ar", "categories");
+    const AR_MANIFEST = path.join(ROOT, "public", "data", "manifest-ar.json");
+    fs.mkdirSync(AR_OUT, { recursive: true });
+    const arCats = loadPmbok8("ar").filter((c) => c.items.length);
+    const arManifest = fs.existsSync(AR_MANIFEST)
+      ? JSON.parse(fs.readFileSync(AR_MANIFEST, "utf8"))
+      : { version: 1, locale: "ar", categories: [] };
+    const others = arManifest.categories.filter((c) => !c.id.startsWith("p8-"));
+    const arEntries = arCats.map((cat) => {
+      const filename = `${cat.id}.json`;
+      fs.writeFileSync(path.join(AR_OUT, filename), JSON.stringify(cat.items));
+      const en = p8Entries.find((e) => e.id === cat.id) || {};
+      return { ...en, label: LABELS_AR[cat.id] || cat.label, file: `/data/ar/categories/${filename}` };
+    });
+    arManifest.categories = [...arEntries, ...others];
+    fs.writeFileSync(AR_MANIFEST, JSON.stringify(arManifest, null, 2));
+    console.log("Arabic PMBOK 8:", arEntries.length, "categories,", arCats.reduce((n, c) => n + c.items.length, 0), "questions");
+  }
 
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
 

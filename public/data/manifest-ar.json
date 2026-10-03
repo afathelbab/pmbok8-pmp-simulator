@@ -3,6 +3,130 @@
   "generated": "2026-05-02T10:32:39.357Z",
   "categories": [
     {
+      "id": "p8-principles",
+      "label": "PMBOK 8 · المبادئ والقيمة والتكييف",
+      "file": "/data/ar/categories/p8-principles.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Business Environment": 12,
+        "Process": 19,
+        "People": 4
+      }
+    },
+    {
+      "id": "p8-governance",
+      "label": "PMBOK 8 · الحوكمة",
+      "file": "/data/ar/categories/p8-governance.json",
+      "questionCount": 40,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Business Environment": 26,
+        "Process": 11,
+        "People": 3
+      }
+    },
+    {
+      "id": "p8-scope",
+      "label": "PMBOK 8 · النطاق",
+      "file": "/data/ar/categories/p8-scope.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 32,
+        "People": 1,
+        "Business Environment": 2
+      }
+    },
+    {
+      "id": "p8-schedule",
+      "label": "PMBOK 8 · الجدول الزمني",
+      "file": "/data/ar/categories/p8-schedule.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 33,
+        "People": 2
+      }
+    },
+    {
+      "id": "p8-finance",
+      "label": "PMBOK 8 · المالية",
+      "file": "/data/ar/categories/p8-finance.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 28,
+        "Business Environment": 7
+      }
+    },
+    {
+      "id": "p8-stakeholders",
+      "label": "PMBOK 8 · أصحاب المصلحة",
+      "file": "/data/ar/categories/p8-stakeholders.json",
+      "questionCount": 40,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "People": 40
+      }
+    },
+    {
+      "id": "p8-resources",
+      "label": "PMBOK 8 · الموارد",
+      "file": "/data/ar/categories/p8-resources.json",
+      "questionCount": 40,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 10,
+        "People": 29,
+        "Business Environment": 1
+      }
+    },
+    {
+      "id": "p8-risk",
+      "label": "PMBOK 8 · المخاطر",
+      "file": "/data/ar/categories/p8-risk.json",
+      "questionCount": 35,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Business Environment": 35
+      }
+    },
+    {
+      "id": "p8-emerging",
+      "label": "PMBOK 8 · الذكاء الاصطناعي والاستدامة ومكتب المشاريع والمشتريات",
+      "file": "/data/ar/categories/p8-emerging.json",
+      "questionCount": 30,
+      "group": "pmbok8",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "Process": 14,
+        "Business Environment": 14,
+        "People": 2
+      }
+    },
+    {
+      "id": "p8-mock-exam",
+      "label": "PMBOK 8 · امتحان تجريبي كامل (مخطط 2026)",
+      "file": "/data/ar/categories/p8-mock-exam.json",
+      "questionCount": 180,
+      "group": "pmbok8-mock",
+      "edition": "PMBOK 8",
+      "ecoCounts": {
+        "People": 58,
+        "Business Environment": 47,
+        "Process": 75
+      }
+    },
+    {
       "id": "agile",
       "label": "رشيق",
       "file": "/data/ar/categories/agile.json",

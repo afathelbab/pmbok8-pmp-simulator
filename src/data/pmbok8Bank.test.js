@@ -50,3 +50,15 @@ test("localized manifest falls back to English for untranslated categories", () 
   expect(merged.categories[0]).toEqual(en.categories[0]);
   expect(merged.categories[1]).toMatchObject({ label: "المخاطر", file: "/ar/risk.json", group: "classic" });
 });
+
+test("Arabic bank mirrors English answer keys", () => {
+  const ar = loadPmbok8("ar");
+  ar.forEach((c, ci) => {
+    expect(c.items).toHaveLength(cats[ci].items.length);
+    c.items.forEach((q, i) => {
+      expect(q["Right Answer"]).toBe(cats[ci].items[i]["Right Answer"]);
+      expect(q["ECO Domain"]).toBe(cats[ci].items[i]["ECO Domain"]);
+      expect(q.Question).toMatch(/[؀-ۿ]/);
+    });
+  });
+});

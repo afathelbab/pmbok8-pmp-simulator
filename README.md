@@ -37,7 +37,9 @@ This walks every question, choice, and explanation and can take a long time. Inc
 
 **Disclaimer:** Output is **machine-translated**. Verify critical wording for exam study; acronyms (e.g. “PM”) may be imperfect.
 
-If `manifest-ar.json` or Arabic files are missing, the app falls back to the English manifest and categories when Arabic is selected. Fallback is **per category**: the PMBOK 8 categories appear in English until they are translated. To translate only the new bank and keep existing Arabic files, run `npm run translate-quiz-ar-p8`.
+If `manifest-ar.json` or Arabic files are missing, the app falls back to the English manifest and categories when Arabic is selected. Fallback is **per category**.
+
+**PMBOK 8 bank in Arabic:** all 505 PMBOK 8 questions (practice + mock exam) have a reviewed, terminology-consistent Arabic translation in `content/pmbok8-ar/` (glossary: `content/pmbok8-ar/GLOSSARY.md`). `npm run split-data` builds them into `public/data/ar/categories/p8-*.json` with **exactly the same answer positions** as English and merges them into `manifest-ar.json`. Do not run the machine-translation script on the `p8-` categories; edit `content/pmbok8-ar/` instead.
 
 ## Run locally
 
@@ -89,7 +91,6 @@ Timed exam results compare your percentage to an **informal** practice threshold
 | `npm test`      | Tests                                            |
 | `npm run split-data` | Regenerate `public/data/*` from source JSON |
 | `npm run translate-quiz-ar` | Generate Arabic `public/data/ar/**` + `manifest-ar.json` (network) |
-| `npm run translate-quiz-ar-p8` | Translate only the PMBOK 8 categories, keeping existing Arabic files |
 | `npm run deploy`| Build + publish to `gh-pages` branch (manual alternative to the Actions workflow) |
 
 ## Tech stack

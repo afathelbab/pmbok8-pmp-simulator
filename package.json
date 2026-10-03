@@ -28,8 +28,7 @@
     "translate-quiz-ar": "node scripts/translate-quiz-to-ar.js",
     "prebuild": "npm run split-data",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "translate-quiz-ar-p8": "TRANSLATE_ONLY=p8- node scripts/translate-quiz-to-ar.js"
+    "deploy": "gh-pages -d build"
   },
   "homepage": "https://afathelbab.github.io/pmbok8-pmp-simulator",
   "repository": {

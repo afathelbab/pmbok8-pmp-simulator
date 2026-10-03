@@ -83,8 +83,8 @@ function validate(item, where) {
   if (errs.length) throw new Error(`${where}: ${errs.join("; ")}\n  -> ${String(item.q).slice(0, 90)}`);
 }
 
-function loadCategory(cat) {
-  const dir = path.join(CONTENT_DIR, cat.id);
+function loadCategory(cat, baseDir = CONTENT_DIR) {
+  const dir = path.join(baseDir, cat.id);
   if (!fs.existsSync(dir)) return [];
   const files = fs
     .readdirSync(dir)
@@ -94,7 +94,7 @@ function loadCategory(cat) {
   for (const f of files) {
     const arr = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     arr.forEach((item, i) => {
-      validate(item, `${cat.id}/${f}#${i + 1}`);
+      if (baseDir === CONTENT_DIR) validate(item, `${cat.id}/${f}#${i + 1}`);
       out.push(item);
     });
   }
@@ -116,22 +116,24 @@ function balancedKey(catId, n) {
   return key;
 }
 
-function toRaw(item, n, cat, correctPos) {
-  // distractors keep a stem-seeded order; the correct option goes to correctPos
+function toRaw(item, n, cat, correctPos, text) {
+  // distractors keep a stem-seeded order (seeded by the ENGLISH stem so that
+  // translations get identical option positions); the correct option goes to correctPos
+  const t = text || item;
   const distractors = shuffledOrder(item.q)
     .filter((k) => k !== 0)
-    .map((k) => item.o[k]);
+    .map((k) => t.o[k]);
   const choices = [...distractors];
-  choices.splice(correctPos, 0, item.o[0]);
+  choices.splice(correctPos, 0, t.o[0]);
   return {
     "#": n,
-    Question: item.q,
+    Question: t.q,
     "Choice 1": choices[0],
     "Choice 2": choices[1],
     "Choice 3": choices[2],
     "Choice 4": choices[3],
     "Right Answer": LETTERS[correctPos],
-    Explanation: item.e,
+    Explanation: t.e,
     Edition: "PMBOK 8",
     "PMBOK Domain": item.dom || cat.domain || "",
     "ECO Domain": item.eco,
@@ -143,7 +145,7 @@ function toRaw(item, n, cat, correctPos) {
 /**
  * @returns {Array<{ id: string, label: string, domain: string|null, mock?: boolean, items: object[] }>}
  */
-function loadPmbok8() {
+function loadPmbok8(locale) {
   const meta = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, "categories.json"), "utf8"));
   const seenStems = new Map();
   return meta.categories.map((cat) => {
@@ -156,8 +158,37 @@ function loadPmbok8() {
       seenStems.set(key, cat.id);
     }
     const key = balancedKey(cat.id, items.length);
-    return { ...cat, items: items.map((it, i) => toRaw(it, i + 1, cat, key[i])) };
+    let texts = null;
+    if (locale) {
+      texts = loadCategory(cat, path.join(ROOT, "content", `pmbok8-${locale}`));
+      if (texts.length !== items.length) {
+        throw new Error(`${locale}/${cat.id}: ${texts.length} translated vs ${items.length} source items`);
+      }
+      texts.forEach((t, i) => {
+        if (t.eco !== items[i].eco || t.task !== items[i].task || t.ap !== items[i].ap) {
+          throw new Error(`${locale}/${cat.id} item ${i + 1}: metadata differs from source`);
+        }
+      });
+    }
+    return {
+      ...cat,
+      items: items.map((it, i) => toRaw(it, i + 1, cat, key[i], texts && texts[i])),
+    };
   });
 }
 
-module.exports = { loadPmbok8, ECO_DOMAINS, APPROACHES };
+/** Hand-written Arabic category labels. */
+const LABELS_AR = {
+  "p8-principles": "PMBOK 8 · المبادئ والقيمة والتكييف",
+  "p8-governance": "PMBOK 8 · الحوكمة",
+  "p8-scope": "PMBOK 8 · النطاق",
+  "p8-schedule": "PMBOK 8 · الجدول الزمني",
+  "p8-finance": "PMBOK 8 · المالية",
+  "p8-stakeholders": "PMBOK 8 · أصحاب المصلحة",
+  "p8-resources": "PMBOK 8 · الموارد",
+  "p8-risk": "PMBOK 8 · المخاطر",
+  "p8-emerging": "PMBOK 8 · الذكاء الاصطناعي والاستدامة ومكتب المشاريع والمشتريات",
+  "p8-mock-exam": "PMBOK 8 · امتحان تجريبي كامل (مخطط 2026)",
+};
+
+module.exports = { loadPmbok8, LABELS_AR, ECO_DOMAINS, APPROACHES };

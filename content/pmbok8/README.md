@@ -51,3 +51,7 @@ Run `npm run split-data` (or `npm run build`) to regenerate `public/data/`. `npm
 - **People (I)**: 1 common vision · 2 conflicts · 3 lead the team · 4 engage stakeholders · 5 align expectations · 6 manage expectations · 7 knowledge transfer · 8 communication
 - **Process (II)**: 1 integrated plan & delivery · 2 scope · 3 value-based delivery · 4 resources · 5 procurement · 6 finance · 7 quality · 8 schedule · 9 evaluate status · 10 closure
 - **Business Environment (III)**: 1 governance · 2 compliance · 3 changes · 4 impediments & issues · 5 risk · 6 continuous improvement · 7 organizational change · 8 external environment
+
+## Arabic translation
+
+`content/pmbok8-ar/<category>/partN.json` mirrors every English file item-for-item (same order, options in the same order with the correct one first; `eco`/`task`/`ap`/`dom` unchanged in English). The build checks counts and metadata, and uses the English stem to place options, so Arabic and English share identical answer keys. When you edit or add an English question, make the same change in the Arabic file. Terminology: `content/pmbok8-ar/GLOSSARY.md`.

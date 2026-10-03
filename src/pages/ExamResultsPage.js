@@ -19,15 +19,16 @@ export default function ExamResultsPage() {
 
   const { correct, total, percent } = scoreAnswers(questions, answers || {});
   const passed = percent >= INFORMAL_PASS_PERCENT;
-  const byDomain = domainBreakdown(questions, answers || {}, (q) =>
-    q.pmbokDomain ? `PMBOK 8 · ${q.pmbokDomain}` : q.domainLabel
-  );
+  const tl = (group, key) => (key ? t(`labels.${group}.${key}`, { defaultValue: key }) : key);
+  const domainName = (q) =>
+    q.pmbokDomain ? `PMBOK 8 · ${tl("pmbokDomain", q.pmbokDomain)}` : q.domainLabel;
+  const byDomain = domainBreakdown(questions, answers || {}, domainName);
   const hasEco = questions.some((q) => q.eco);
   const byEco = hasEco
-    ? domainBreakdown(questions, answers || {}, (q) => q.eco || t("results.untagged"))
+    ? domainBreakdown(questions, answers || {}, (q) => (q.eco ? tl("eco", q.eco) : t("results.untagged")))
     : null;
   const byApproach = hasEco
-    ? domainBreakdown(questions, answers || {}, (q) => q.approach || t("results.untagged"))
+    ? domainBreakdown(questions, answers || {}, (q) => (q.approach ? tl("approach", q.approach) : t("results.untagged")))
     : null;
 
   const renderTable = (rows, firstCol, order) => (
@@ -92,22 +93,22 @@ export default function ExamResultsPage() {
         <section aria-labelledby="eco-heading">
           <h2 id="eco-heading">{t("results.byEco")}</h2>
           <p className="muted">{t("results.byEcoNote")}</p>
-          {renderTable(byEco, t("results.ecoDomain"), [
-            "People",
-            "Process",
-            "Business Environment",
-          ])}
+          {renderTable(
+            byEco,
+            t("results.ecoDomain"),
+            ["People", "Process", "Business Environment"].map((k) => tl("eco", k))
+          )}
         </section>
       ) : null}
 
       {byApproach ? (
         <section aria-labelledby="approach-heading">
           <h2 id="approach-heading">{t("results.byApproach")}</h2>
-          {renderTable(byApproach, t("results.approach"), [
-            "Predictive",
-            "Agile",
-            "Hybrid",
-          ])}
+          {renderTable(
+            byApproach,
+            t("results.approach"),
+            ["Predictive", "Agile", "Hybrid"].map((k) => tl("approach", k))
+          )}
         </section>
       ) : null}
 
@@ -141,13 +142,9 @@ export default function ExamResultsPage() {
                 <h3>{t("results.questionN", { n: i + 1 })}</h3>
                 {q.domainLabel ? (
                   <p className="domain-tag">
-                    {t("results.domainLine", {
-                      name: q.pmbokDomain
-                        ? `PMBOK 8 · ${q.pmbokDomain}`
-                        : q.domainLabel,
-                    })}
-                    {q.eco ? ` · ECO: ${q.eco} (${q.ecoTask})` : ""}
-                    {q.approach ? ` · ${q.approach}` : ""}
+                    {t("results.domainLine", { name: domainName(q) })}
+                    {q.eco ? ` · ECO: ${tl("eco", q.eco)} (${q.ecoTask})` : ""}
+                    {q.approach ? ` · ${tl("approach", q.approach)}` : ""}
                   </p>
                 ) : null}
                 <p>{q.question}</p>
